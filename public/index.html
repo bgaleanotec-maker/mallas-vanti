@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mallas · Vanti</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔶</text></svg>"/>
+
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+
+  <style>
+    /* ── Reset & base ───────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --orange:      #FF6B00;
+      --orange-dark: #CC5500;
+      --orange-glow: rgba(255,107,0,.35);
+      --amber:       #FFB300;
+      --bg:          #0A0A0F;
+      --surface:     #13131A;
+      --surface2:    #1C1C28;
+      --border:      rgba(255,107,0,.18);
+      --text:        #F0F0F8;
+      --muted:       #7A7A9A;
+      --radius:      16px;
+      --shadow:      0 24px 64px rgba(0,0,0,.6);
+    }
+
+    html, body {
+      height: 100%;
+      font-family: 'Inter', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      overflow-x: hidden;
+    }
+
+    /* ── Fondo animado ─────────────────────────────────────────── */
+    .bg-grid {
+      position: fixed; inset: 0; z-index: 0;
+      background-image:
+        linear-gradient(rgba(255,107,0,.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,107,0,.04) 1px, transparent 1px);
+      background-size: 60px 60px;
+      pointer-events: none;
+    }
+    .bg-glow {
+      position: fixed; top: -200px; left: 50%; transform: translateX(-50%);
+      width: 900px; height: 500px;
+      background: radial-gradient(ellipse, rgba(255,107,0,.12) 0%, transparent 70%);
+      pointer-events: none; z-index: 0;
+    }
+
+    /* ── Layout ────────────────────────────────────────────────── */
+    .app {
+      position: relative; z-index: 1;
+      min-height: 100vh;
+      display: flex; flex-direction: column;
+    }
+
+    /* ── Header ────────────────────────────────────────────────── */
+    header {
+      padding: 20px 40px;
+      display: flex; align-items: center; justify-content: space-between;
+      border-bottom: 1px solid var(--border);
+      backdrop-filter: blur(20px);
+      background: rgba(10,10,15,.7);
+      position: sticky; top: 0; z-index: 100;
+    }
+    .logo {
+      display: flex; align-items: center; gap: 14px;
+    }
+    .logo-mark {
+      width: 42px; height: 42px;
+      background: linear-gradient(135deg, var(--orange), var(--amber));
+      border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 20px; font-weight: 900; color: #fff;
+      box-shadow: 0 0 20px var(--orange-glow);
+      letter-spacing: -1px;
+    }
+    .logo-text h1 {
+      font-size: 18px; font-weight: 800;
+      background: linear-gradient(90deg, #fff 0%, var(--amber) 100%);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      line-height: 1.1;
+    }
+    .logo-text p {
+      font-size: 10px; font-weight: 400; color: var(--muted);
+      letter-spacing: .5px; text-transform: uppercase;
+    }
+    .badge {
+      font-size: 11px; font-weight: 600;
+      background: rgba(255,107,0,.12);
+      border: 1px solid var(--border);
+      color: var(--orange);
+      padding: 5px 12px; border-radius: 99px;
+      letter-spacing: .3px;
+    }
+
+    /* ── Hero / Buscador ───────────────────────────────────────── */
+    .hero {
+      padding: 60px 40px 40px;
+      text-align: center;
+    }
+    .hero-eyebrow {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(255,107,0,.08);
+      border: 1px solid var(--border);
+      border-radius: 99px; padding: 6px 16px;
+      font-size: 12px; font-weight: 600; color: var(--orange);
+      letter-spacing: 1px; text-transform: uppercase;
+      margin-bottom: 24px;
+    }
+    .hero-eyebrow::before { content: ''; width: 6px; height: 6px; background: var(--orange); border-radius: 50%; animation: pulse 2s infinite; }
+    @keyframes pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:.4;transform:scale(.8)} }
+
+    .hero h2 {
+      font-size: clamp(32px, 5vw, 54px);
+      font-weight: 900; line-height: 1.1;
+      letter-spacing: -1.5px;
+      margin-bottom: 14px;
+    }
+    .hero h2 span {
+      background: linear-gradient(90deg, var(--orange), var(--amber));
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+    .hero p {
+      color: var(--muted); font-size: 15px; max-width: 540px; margin: 0 auto 44px;
+    }
+
+    /* ── Panel de busqueda ─────────────────────────────────────── */
+    .search-panel {
+      max-width: 880px; margin: 0 auto;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 32px;
+      box-shadow: var(--shadow), 0 0 0 1px rgba(255,255,255,.03);
+    }
+
+    .selects-row {
+      display: grid; grid-template-columns: 1fr 1fr 1fr;
+      gap: 16px; margin-bottom: 20px;
+    }
+    @media(max-width:700px) { .selects-row { grid-template-columns: 1fr; } }
+
+    .field { display: flex; flex-direction: column; gap: 8px; }
+    .field label {
+      font-size: 11px; font-weight: 700; letter-spacing: 1px;
+      text-transform: uppercase; color: var(--muted);
+    }
+
+    .select-wrapper { position: relative; }
+    .select-wrapper::after {
+      content: '▾'; position: absolute; right: 16px; top: 50%;
+      transform: translateY(-50%); color: var(--orange);
+      pointer-events: none; font-size: 14px;
+    }
+
+    select {
+      width: 100%; appearance: none;
+      background: var(--surface2);
+      border: 1.5px solid var(--border);
+      border-radius: 12px; padding: 14px 42px 14px 16px;
+      font-family: inherit; font-size: 14px; font-weight: 500;
+      color: var(--text);
+      cursor: pointer;
+      transition: border-color .2s, box-shadow .2s;
+      outline: none;
+    }
+    select:focus { border-color: var(--orange); box-shadow: 0 0 0 3px var(--orange-glow); }
+    select option { background: #1C1C28; }
+    select:disabled { opacity: .4; cursor: not-allowed; }
+
+    .search-input-wrap {
+      position: relative; margin-bottom: 20px;
+    }
+    .search-input-wrap input {
+      width: 100%; background: var(--surface2);
+      border: 1.5px solid var(--border);
+      border-radius: 12px; padding: 14px 16px 14px 44px;
+      font-family: inherit; font-size: 14px; color: var(--text);
+      outline: none; transition: border-color .2s, box-shadow .2s;
+    }
+    .search-input-wrap input:focus { border-color: var(--orange); box-shadow: 0 0 0 3px var(--orange-glow); }
+    .search-input-wrap input::placeholder { color: var(--muted); }
+    .search-icon {
+      position: absolute; left: 14px; top: 50%; transform: translateY(-50%);
+      color: var(--muted); font-size: 16px; pointer-events: none;
+    }
+
+    .btn-buscar {
+      width: 100%; padding: 16px;
+      background: linear-gradient(135deg, var(--orange), var(--orange-dark));
+      border: none; border-radius: 12px;
+      font-family: inherit; font-size: 15px; font-weight: 700;
+      color: #fff; cursor: pointer; letter-spacing: .4px;
+      transition: transform .15s, box-shadow .15s, opacity .15s;
+      box-shadow: 0 8px 24px rgba(255,107,0,.4);
+      display: flex; align-items: center; justify-content: center; gap: 10px;
+    }
+    .btn-buscar:hover { transform: translateY(-2px); box-shadow: 0 12px 32px rgba(255,107,0,.55); }
+    .btn-buscar:active { transform: translateY(0); }
+    .btn-buscar:disabled { opacity: .5; cursor: not-allowed; transform: none; }
+    .btn-buscar .btn-icon { font-size: 18px; }
+
+    /* ── Hint malla ────────────────────────────────────────────── */
+    .malla-hint {
+      display: none; margin-top: 14px;
+      padding: 12px 18px; border-radius: 12px;
+      font-size: 13px; font-weight: 600; text-align: center;
+      border: 1px solid var(--border);
+    }
+    .malla-hint.show { display: block; }
+    .malla-hint.unique {
+      background: rgba(255,107,0,.08); color: var(--orange);
+    }
+    .malla-hint.multiple {
+      background: rgba(255,179,0,.06); color: var(--amber);
+    }
+
+    /* ── Resultado ─────────────────────────────────────────────── */
+    .result-section {
+      max-width: 880px; margin: 28px auto 0;
+      display: none;
+    }
+    .result-section.show { display: block; animation: fadeUp .4s ease; }
+    @keyframes fadeUp { from{opacity:0;transform:translateY(20px)} to{opacity:1;transform:translateY(0)} }
+
+    .result-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+    }
+
+    .result-top {
+      background: linear-gradient(135deg, rgba(255,107,0,.15), rgba(255,179,0,.08));
+      border-bottom: 1px solid var(--border);
+      padding: 28px 32px;
+      display: flex; align-items: center; justify-content: space-between; gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .result-info h3 {
+      font-size: 13px; font-weight: 600; color: var(--orange);
+      text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px;
+    }
+    .result-info .filial-name {
+      font-size: 12px; font-weight: 500; color: var(--muted);
+      margin-bottom: 4px;
+    }
+    .result-info .municipio-name {
+      font-size: clamp(22px, 4vw, 30px); font-weight: 900;
+      line-height: 1.1; margin-bottom: 4px;
+      background: linear-gradient(90deg, #fff 0%, #FFE4C0 100%);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+    .result-info .barrio-name {
+      font-size: 15px; font-weight: 500; color: var(--muted);
+    }
+    .result-info .barrio-name strong { color: var(--text); font-weight: 600; }
+
+    .malla-badge {
+      display: flex; flex-direction: column; align-items: center;
+      background: linear-gradient(135deg, var(--orange), var(--amber));
+      border-radius: 20px; padding: 20px 28px;
+      box-shadow: 0 8px 32px rgba(255,107,0,.45);
+      min-width: 140px; text-align: center;
+    }
+    .malla-badge .label {
+      font-size: 10px; font-weight: 700; letter-spacing: 1.5px;
+      text-transform: uppercase; color: rgba(255,255,255,.75);
+      margin-bottom: 4px;
+    }
+    .malla-badge .number {
+      font-size: clamp(36px, 6vw, 52px); font-weight: 900;
+      color: #fff; line-height: 1;
+      text-shadow: 0 2px 12px rgba(0,0,0,.25);
+    }
+    .malla-badge .suffix {
+      font-size: 11px; font-weight: 500; color: rgba(255,255,255,.65);
+      margin-top: 2px;
+    }
+
+    /* ── Mapa ──────────────────────────────────────────────────── */
+    .map-wrap {
+      position: relative;
+      height: 420px;
+    }
+    #map {
+      width: 100%; height: 100%;
+    }
+    .map-label {
+      position: absolute; top: 12px; left: 12px; z-index: 999;
+      background: rgba(10,10,15,.85); border: 1px solid var(--border);
+      backdrop-filter: blur(12px);
+      padding: 8px 14px; border-radius: 10px;
+      font-size: 12px; font-weight: 600; color: var(--muted);
+      display: flex; align-items: center; gap: 6px;
+    }
+    .map-dot { width: 8px; height: 8px; background: var(--orange); border-radius: 50%; animation: pulse 2s infinite; }
+
+    /* ── Stats bar ─────────────────────────────────────────────── */
+    .stats-bar {
+      max-width: 880px; margin: 20px auto 60px;
+      display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px;
+    }
+    @media(max-width:600px) { .stats-bar { grid-template-columns: repeat(2, 1fr); } }
+    .stat {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 14px; padding: 18px 20px;
+      text-align: center;
+    }
+    .stat .val {
+      font-size: 28px; font-weight: 900;
+      background: linear-gradient(90deg, var(--orange), var(--amber));
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+    .stat .key { font-size: 11px; font-weight: 500; color: var(--muted); margin-top: 4px; text-transform: uppercase; letter-spacing: .5px; }
+
+    /* ── Footer ────────────────────────────────────────────────── */
+    footer {
+      margin-top: auto;
+      border-top: 1px solid var(--border);
+      padding: 20px 40px;
+      display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;
+      font-size: 12px; color: var(--muted);
+    }
+    footer span { font-weight: 600; color: var(--text); }
+
+    /* ── No result ─────────────────────────────────────────────── */
+    .no-result {
+      padding: 40px; text-align: center; color: var(--muted);
+    }
+    .no-result .emoji { font-size: 40px; margin-bottom: 12px; }
+    .no-result p { font-size: 14px; }
+
+    /* ── Loader ────────────────────────────────────────────────── */
+    .loader {
+      display: none; justify-content: center; align-items: center; height: 60px;
+    }
+    .loader.show { display: flex; }
+    .spinner {
+      width: 32px; height: 32px;
+      border: 3px solid var(--border);
+      border-top-color: var(--orange);
+      border-radius: 50%;
+      animation: spin .7s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ── Multi-result ──────────────────────────────────────────── */
+    .multi-results {
+      padding: 0 32px 28px;
+    }
+    .multi-title {
+      font-size: 12px; font-weight: 700; color: var(--muted); letter-spacing: 1px;
+      text-transform: uppercase; margin-bottom: 14px; padding-top: 28px;
+      border-top: 1px solid var(--border);
+    }
+    .multi-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px;
+    }
+    .multi-item {
+      background: var(--surface2); border: 1px solid var(--border);
+      border-radius: 12px; padding: 14px 16px;
+      cursor: pointer; transition: border-color .2s, background .2s;
+      display: flex; justify-content: space-between; align-items: center;
+    }
+    .multi-item:hover { border-color: var(--orange); background: rgba(255,107,0,.06); }
+    .multi-item .bi { font-size: 13px; font-weight: 600; color: var(--text); }
+    .multi-item .mi { font-size: 20px; font-weight: 900; color: var(--orange); }
+
+    /* ── Error banner ──────────────────────────────────────────── */
+    .error-banner {
+      display: none; max-width: 880px; margin: 20px auto;
+      padding: 16px 24px; border-radius: 14px;
+      background: rgba(255,60,60,.08); border: 1px solid rgba(255,60,60,.25);
+      color: #ff6b6b; font-size: 14px; font-weight: 500; text-align: center;
+    }
+    .error-banner.show { display: block; }
+  </style>
+</head>
+<body>
+<div class="bg-grid"></div>
+<div class="bg-glow"></div>
+
+<div class="app">
+  <!-- ── Header ── -->
+  <header>
+    <div class="logo">
+      <div class="logo-mark">V</div>
+      <div class="logo-text">
+        <h1>Mallas · Vanti</h1>
+        <p>Consulta de Mallas de Distribucion</p>
+      </div>
+    </div>
+    <div class="badge">Planificacion &amp; Comercial 2026</div>
+  </header>
+
+  <!-- ── Hero ── -->
+  <section class="hero">
+    <div class="hero-eyebrow">Sistema de consulta en tiempo real</div>
+    <h2>Encuentra tu<br/><span>Malla de Gas</span></h2>
+    <p>Selecciona la filial, el municipio y el barrio para obtener de inmediato la malla de distribucion asignada.</p>
+
+    <!-- Panel de busqueda -->
+    <div class="search-panel">
+
+      <!-- Buscador de municipio -->
+      <div class="search-input-wrap" style="margin-bottom:10px;">
+        <span class="search-icon">&#128269;</span>
+        <input type="text" id="searchMunicipio" placeholder="Buscar municipio..." autocomplete="off" disabled/>
+      </div>
+
+      <div class="selects-row">
+        <div class="field">
+          <label>&#127970; Filial</label>
+          <div class="select-wrapper">
+            <select id="selFilial" aria-label="Seleccione la Filial">
+              <option value="">-- Seleccione la Filial --</option>
+            </select>
+          </div>
+        </div>
+        <div class="field">
+          <label>&#128205; Municipio</label>
+          <div class="select-wrapper">
+            <select id="selMunicipio" disabled aria-label="Seleccione el Municipio">
+              <option value="">-- Primero seleccione filial --</option>
+            </select>
+          </div>
+        </div>
+        <div class="field">
+          <label>&#127960;&#65039; Barrio</label>
+          <div class="select-wrapper">
+            <select id="selBarrio" disabled aria-label="Seleccione el Barrio">
+              <option value="">-- Primero seleccione municipio --</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hint de malla tras seleccionar municipio -->
+      <div class="malla-hint" id="mallaHint"></div>
+
+      <button class="btn-buscar" id="btnBuscar" disabled>
+        <span class="btn-icon">&#9889;</span> Consultar Malla
+      </button>
+    </div>
+  </section>
+
+  <!-- ── Error ── -->
+  <div class="error-banner" id="errorBanner">Error cargando datos. Intente recargar la pagina.</div>
+
+  <!-- ── Loader ── -->
+  <div class="loader" id="loader"><div class="spinner"></div></div>
+
+  <!-- ── Resultado ── -->
+  <section class="result-section" id="resultSection">
+    <div class="result-card">
+      <div class="result-top">
+        <div class="result-info">
+          <h3>Malla encontrada</h3>
+          <div class="filial-name" id="rFilial">--</div>
+          <div class="municipio-name" id="rMunicipio">--</div>
+          <div class="barrio-name">Barrio: <strong id="rBarrio">--</strong></div>
+        </div>
+        <div class="malla-badge">
+          <div class="label">Malla</div>
+          <div class="number" id="rMalla">--</div>
+          <div class="suffix">distribucion</div>
+        </div>
+      </div>
+
+      <!-- Multi-resultados (mismo barrio, varias mallas) -->
+      <div id="multiBlock" class="multi-results" style="display:none">
+        <div class="multi-title">Mallas asociadas a este barrio</div>
+        <div class="multi-grid" id="multiGrid"></div>
+      </div>
+
+      <!-- Mapa -->
+      <div class="map-wrap">
+        <div class="map-label"><div class="map-dot"></div><span id="mapLabel">Ubicacion</span></div>
+        <div id="map"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Stats ── -->
+  <div class="stats-bar">
+    <div class="stat">
+      <div class="val" id="statFiliales">--</div>
+      <div class="key">Filiales</div>
+    </div>
+    <div class="stat">
+      <div class="val" id="statMunicipios">--</div>
+      <div class="key">Municipios</div>
+    </div>
+    <div class="stat">
+      <div class="val" id="statBarrios">--</div>
+      <div class="key">Barrios</div>
+    </div>
+    <div class="stat">
+      <div class="val" id="statMallas">--</div>
+      <div class="key">Mallas unicas</div>
+    </div>
+  </div>
+
+  <!-- ── Footer ── -->
+  <footer>
+    <div>Elaborado por <span>Equipo Planificacion y Comercial 2026</span> · Unidad de Herramientas Complementarias</div>
+    <div>&copy; Vanti S.A. E.S.P · Datos internos</div>
+  </footer>
+</div>
+
+<script>
+/* ══════════════════════════════════════════════════════════════════════ */
+/*  LOGICA PRINCIPAL                                                      */
+/* ══════════════════════════════════════════════════════════════════════ */
+
+let DATA = {};
+let MAP_INSTANCE = null;
+let MAP_MARKER   = null;
+let MAP_CIRCLE   = null;
+let currentFilial    = '';
+let currentMunicipio = '';
+
+// ── Cargar datos desde el servidor ─────────────────────────────────────
+async function loadData() {
+  try {
+    const r = await fetch('/api/data');
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    DATA = await r.json();
+
+    const filiales = Object.keys(DATA);
+    const totalMunicipios = filiales.reduce((s, f) => s + Object.keys(DATA[f]).length, 0);
+    const totalBarrios = filiales.reduce((s, f) =>
+      s + Object.values(DATA[f]).reduce((s2, arr) => s2 + arr.length, 0), 0);
+    const totalMallas = new Set(
+      filiales.flatMap(f => Object.values(DATA[f]).flatMap(arr => arr.map(e => e.malla)))
+    ).size;
+
+    document.getElementById('statFiliales').textContent   = filiales.length;
+    document.getElementById('statMunicipios').textContent  = totalMunicipios;
+    document.getElementById('statBarrios').textContent     = totalBarrios;
+    document.getElementById('statMallas').textContent      = totalMallas;
+
+    populateFiliales(filiales);
+  } catch(e) {
+    console.error('Error cargando datos', e);
+    document.getElementById('errorBanner').classList.add('show');
+  }
+}
+
+// ── Poblar select de filiales ──────────────────────────────────────────
+function populateFiliales(lista) {
+  const sel = document.getElementById('selFilial');
+  lista.sort().forEach(f => {
+    const opt = document.createElement('option');
+    opt.value = f; opt.textContent = f;
+    sel.appendChild(opt);
+  });
+}
+
+// ── Poblar select de municipios ────────────────────────────────────────
+function populateMunicipios(lista) {
+  const sel = document.getElementById('selMunicipio');
+  lista.forEach(m => {
+    const opt = document.createElement('option');
+    opt.value = m; opt.textContent = capitalize(m);
+    sel.appendChild(opt);
+  });
+}
+
+// ── Capitalize ─────────────────────────────────────────────────────────
+function capitalize(str) {
+  return str.split(' ').map(w => w.charAt(0) + w.slice(1).toLowerCase()).join(' ');
+}
+
+// ── Al cambiar filial -> poblar municipios ─────────────────────────────
+document.getElementById('selFilial').addEventListener('change', function() {
+  const filial = this.value;
+  currentFilial = filial;
+
+  const selM = document.getElementById('selMunicipio');
+  const selB = document.getElementById('selBarrio');
+  const btn  = document.getElementById('btnBuscar');
+  const search = document.getElementById('searchMunicipio');
+  const hint = document.getElementById('mallaHint');
+
+  // Reset municipio, barrio, hint
+  selM.innerHTML = '';
+  selB.innerHTML = '<option value="">-- Primero seleccione municipio --</option>';
+  selM.disabled = true;
+  selB.disabled = true;
+  btn.disabled  = true;
+  search.value  = '';
+  search.disabled = true;
+  hint.classList.remove('show');
+
+  if (!filial) {
+    selM.innerHTML = '<option value="">-- Primero seleccione filial --</option>';
+    return;
+  }
+
+  const municipios = Object.keys(DATA[filial] || {}).sort();
+  selM.innerHTML = '<option value="">-- Seleccione el Municipio --</option>';
+  populateMunicipios(municipios);
+  selM.disabled = false;
+  search.disabled = false;
+});
+
+// ── Filtrar municipios con busqueda ────────────────────────────────────
+document.getElementById('searchMunicipio').addEventListener('input', function() {
+  if (!currentFilial) return;
+  const q = this.value.toUpperCase().trim();
+  const sel = document.getElementById('selMunicipio');
+  sel.innerHTML = '<option value="">-- Seleccione el Municipio --</option>';
+  const lista = Object.keys(DATA[currentFilial] || {}).filter(m => m.includes(q)).sort();
+  populateMunicipios(lista);
+  sel.dispatchEvent(new Event('change'));
+});
+
+// ── Al cambiar municipio -> poblar barrios ─────────────────────────────
+document.getElementById('selMunicipio').addEventListener('change', function() {
+  const mun = this.value;
+  currentMunicipio = mun;
+  const selB = document.getElementById('selBarrio');
+  const btn  = document.getElementById('btnBuscar');
+  const hint = document.getElementById('mallaHint');
+
+  selB.innerHTML = '';
+  selB.disabled = true;
+  btn.disabled  = true;
+  hint.classList.remove('show');
+
+  if (!mun || !currentFilial) {
+    selB.innerHTML = '<option value="">-- Primero seleccione municipio --</option>';
+    return;
+  }
+
+  const barrios = DATA[currentFilial][mun] || [];
+  const uniqueBarrios = [...new Set(barrios.map(b => b.barrio))].sort();
+
+  selB.innerHTML = '<option value="">-- Seleccione el Barrio --</option>';
+  uniqueBarrios.forEach(b => {
+    const opt = document.createElement('option');
+    opt.value = b; opt.textContent = capitalize(b);
+    selB.appendChild(opt);
+  });
+  selB.disabled = false;
+
+  // Hint: mostrar malla unica o aviso de multiples
+  const mallasUnicas = [...new Set(barrios.map(b => b.malla))];
+  if (mallasUnicas.length === 1) {
+    hint.textContent = 'Todos los barrios de este municipio pertenecen a la malla ' + mallasUnicas[0];
+    hint.className = 'malla-hint show unique';
+  } else {
+    hint.textContent = mallasUnicas.length + ' mallas en este municipio. Seleccione barrio para mayor precision.';
+    hint.className = 'malla-hint show multiple';
+  }
+});
+
+// ── Al cambiar barrio ──────────────────────────────────────────────────
+document.getElementById('selBarrio').addEventListener('change', function() {
+  document.getElementById('btnBuscar').disabled = !this.value;
+});
+
+// ── Buscar ─────────────────────────────────────────────────────────────
+document.getElementById('btnBuscar').addEventListener('click', buscar);
+
+async function buscar() {
+  const filial = currentFilial;
+  const mun    = document.getElementById('selMunicipio').value;
+  const barrio = document.getElementById('selBarrio').value;
+  if (!filial || !mun || !barrio) return;
+
+  const loader = document.getElementById('loader');
+  const section = document.getElementById('resultSection');
+  section.classList.remove('show');
+  loader.classList.add('show');
+
+  // Encontrar mallas
+  const entries = (DATA[filial][mun] || []).filter(e => e.barrio === barrio);
+  await new Promise(r => setTimeout(r, 400));
+
+  loader.classList.remove('show');
+
+  if (!entries.length) { section.classList.remove('show'); return; }
+
+  const mallas = [...new Set(entries.map(e => e.malla))];
+  const mainMalla = mallas[0];
+
+  // Mostrar resultado
+  document.getElementById('rFilial').textContent    = filial;
+  document.getElementById('rMunicipio').textContent  = capitalize(mun);
+  document.getElementById('rBarrio').textContent     = capitalize(barrio);
+  document.getElementById('rMalla').textContent      = mainMalla;
+  document.getElementById('mapLabel').textContent    = capitalize(barrio) + ', ' + capitalize(mun);
+
+  // Multi-malla
+  const multiBlock = document.getElementById('multiBlock');
+  if (mallas.length > 1) {
+    const grid = document.getElementById('multiGrid');
+    grid.innerHTML = '';
+    mallas.forEach(m => {
+      const div = document.createElement('div');
+      div.className = 'multi-item';
+      div.innerHTML = '<span class="bi">' + capitalize(barrio) + '</span><span class="mi">' + m + '</span>';
+      div.onclick = function() { document.getElementById('rMalla').textContent = m; };
+      grid.appendChild(div);
+    });
+    multiBlock.style.display = 'block';
+  } else {
+    multiBlock.style.display = 'none';
+  }
+
+  section.classList.add('show');
+
+  // Mapa
+  await renderMap(mun, barrio);
+}
+
+// ── Mapa con Leaflet + Nominatim + Radio ──────────────────────────────
+async function renderMap(municipio, barrio) {
+  if (!MAP_INSTANCE) {
+    MAP_INSTANCE = L.map('map', { zoomControl: true, scrollWheelZoom: false });
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+      attribution: '&copy; OpenStreetMap &copy; CartoDB',
+      maxZoom: 18, subdomains: 'abcd'
+    }).addTo(MAP_INSTANCE);
+  }
+
+  // Geocodificar con Nominatim
+  const query = encodeURIComponent(barrio + ', ' + municipio + ', Colombia');
+  let coords = null;
+  let radiusMeters = 1500; // radio barrio
+  let bbox = null;
+  try {
+    const r = await fetch('https://nominatim.openstreetmap.org/search?q=' + query + '&format=json&limit=1&countrycodes=co', {
+      headers: { 'User-Agent': 'MallasVanti/1.0', 'Accept-Language': 'es' }
+    });
+    const data = await r.json();
+    if (data.length) {
+      coords = { lat: parseFloat(data[0].lat), lng: parseFloat(data[0].lon) };
+      if (data[0].boundingbox) bbox = data[0].boundingbox;
+    }
+  } catch(e) {}
+
+  // Fallback: solo municipio
+  if (!coords) {
+    try {
+      const q2 = encodeURIComponent(municipio + ', Colombia');
+      const r2 = await fetch('https://nominatim.openstreetmap.org/search?q=' + q2 + '&format=json&limit=1&countrycodes=co', {
+        headers: { 'User-Agent': 'MallasVanti/1.0', 'Accept-Language': 'es' }
+      });
+      const d2 = await r2.json();
+      if (d2.length) {
+        coords = { lat: parseFloat(d2[0].lat), lng: parseFloat(d2[0].lon) };
+        if (d2[0].boundingbox) bbox = d2[0].boundingbox;
+        radiusMeters = 5000; // radio municipio (mas amplio)
+      }
+    } catch(e) {}
+  }
+
+  // Fallback extremo: Colombia centrada
+  if (!coords) { coords = { lat: 4.5709, lng: -74.2973 }; radiusMeters = 50000; }
+
+  // Calcular radio desde bounding box si disponible
+  if (bbox) {
+    var south = parseFloat(bbox[0]), north = parseFloat(bbox[1]);
+    var west = parseFloat(bbox[2]), east = parseFloat(bbox[3]);
+    var latDiff = Math.abs(north - south) * 111320;
+    var lngDiff = Math.abs(east - west) * 111320 * Math.cos(coords.lat * Math.PI / 180);
+    var bboxRadius = Math.max(latDiff, lngDiff) / 2;
+    if (bboxRadius > 100 && bboxRadius < 100000) radiusMeters = bboxRadius;
+  }
+
+  // Ajustar vista al area
+  if (bbox) {
+    MAP_INSTANCE.fitBounds([[parseFloat(bbox[0]), parseFloat(bbox[2])], [parseFloat(bbox[1]), parseFloat(bbox[3])]],
+      { padding: [30, 30], maxZoom: 16 });
+  } else {
+    MAP_INSTANCE.setView([coords.lat, coords.lng], 14);
+  }
+
+  // Limpiar marcador y circulo anteriores
+  if (MAP_MARKER) MAP_INSTANCE.removeLayer(MAP_MARKER);
+  if (MAP_CIRCLE) MAP_INSTANCE.removeLayer(MAP_CIRCLE);
+
+  // Circulo de cobertura
+  MAP_CIRCLE = L.circle([coords.lat, coords.lng], {
+    radius: radiusMeters,
+    color: '#FF6B00',
+    fillColor: '#FF6B00',
+    fillOpacity: 0.10,
+    weight: 2,
+    dashArray: '8, 6'
+  }).addTo(MAP_INSTANCE);
+
+  // Marcador
+  var icon = L.divIcon({
+    className: '',
+    html: '<div style="' +
+      'width:52px;height:52px;' +
+      'background:linear-gradient(135deg,#FF6B00,#FFB300);' +
+      'border-radius:50% 50% 50% 0;' +
+      'transform:rotate(-45deg);' +
+      'box-shadow:0 4px 24px rgba(255,107,0,.7);' +
+      'border:3px solid #fff;' +
+    '"><div style="' +
+      'position:absolute;top:50%;left:50%;' +
+      'transform:translate(-50%,-50%) rotate(45deg);' +
+      'font-size:13px;font-weight:900;color:#fff;' +
+    '">' + String.fromCodePoint(9889) + '</div></div>',
+    iconSize: [52,52], iconAnchor: [26,52]
+  });
+
+  MAP_MARKER = L.marker([coords.lat, coords.lng], { icon: icon })
+    .addTo(MAP_INSTANCE)
+    .bindPopup(
+      '<div style="font-family:Inter,sans-serif;padding:6px;">' +
+        '<strong style="font-size:14px;">' + capitalize(barrio) + '</strong><br/>' +
+        '<span style="color:#888;font-size:12px;">' + capitalize(municipio) + '</span><br/>' +
+        '<span style="font-size:22px;font-weight:900;color:#FF6B00;">' + document.getElementById('rMalla').textContent + '</span>' +
+        '<span style="font-size:11px;color:#888;"> malla</span>' +
+      '</div>',
+      { maxWidth: 200 }
+    )
+    .openPopup();
+
+  // Invalidar tamano del mapa (por si estaba oculto)
+  setTimeout(function() { MAP_INSTANCE.invalidateSize(); }, 100);
+}
+
+// ── Init ────────────────────────────────────────────────────────────────
+loadData();
+</script>
+</body>
+</html>

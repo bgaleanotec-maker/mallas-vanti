@@ -1,0 +1,9186 @@
+{
+  "Gas Natural Cundiboyacens": {
+    "ALBANIA": [
+      {
+        "barrio": "ALBANIA",
+        "malla": 29
+      }
+    ],
+    "BELEN": [
+      {
+        "barrio": "BELEN",
+        "malla": 51
+      },
+      {
+        "barrio": "UBATE",
+        "malla": 51
+      }
+    ],
+    "BOGOTA": [
+      {
+        "barrio": "ANTONIO JOSE SUCRE",
+        "malla": 164
+      },
+      {
+        "barrio": "CLARET",
+        "malla": 119
+      },
+      {
+        "barrio": "EL PARAISO",
+        "malla": 179
+      },
+      {
+        "barrio": "LAS CRUCES",
+        "malla": 130
+      },
+      {
+        "barrio": "LOS PIJAOS",
+        "malla": 125
+      },
+      {
+        "barrio": "MADELENA",
+        "malla": 194
+      },
+      {
+        "barrio": "MURILLO TORO",
+        "malla": 159
+      },
+      {
+        "barrio": "NUEVA GRANADA",
+        "malla": 155
+      }
+    ],
+    "BOJACA": [
+      {
+        "barrio": "BOJACA",
+        "malla": 82
+      },
+      {
+        "barrio": "BOJOCA",
+        "malla": 82
+      },
+      {
+        "barrio": "TABIO",
+        "malla": 82
+      }
+    ],
+    "BRICENO": [
+      {
+        "barrio": "BRICE?O",
+        "malla": 53
+      },
+      {
+        "barrio": "BRICENO",
+        "malla": 53
+      }
+    ],
+    "CAJICA": [
+      {
+        "barrio": "BAJACA",
+        "malla": 1
+      },
+      {
+        "barrio": "BAJACA",
+        "malla": 2
+      },
+      {
+        "barrio": "C47",
+        "malla": 2
+      },
+      {
+        "barrio": "CAJICA",
+        "malla": 2
+      },
+      {
+        "barrio": "CANELON",
+        "malla": 2
+      },
+      {
+        "barrio": "CANELON CENTRO",
+        "malla": 2
+      },
+      {
+        "barrio": "CAPELLANA",
+        "malla": 2
+      },
+      {
+        "barrio": "CAPELLANIA",
+        "malla": 2
+      },
+      {
+        "barrio": "CAPELLENIA",
+        "malla": 2
+      },
+      {
+        "barrio": "CHUNTAMAN",
+        "malla": 2
+      },
+      {
+        "barrio": "CHUNTAME",
+        "malla": 2
+      },
+      {
+        "barrio": "DELICIAS",
+        "malla": 2
+      },
+      {
+        "barrio": "EL BOHIO",
+        "malla": 2
+      },
+      {
+        "barrio": "EL PARDO",
+        "malla": 2
+      },
+      {
+        "barrio": "EL PRADO",
+        "malla": 2
+      },
+      {
+        "barrio": "EL PRODO",
+        "malla": 2
+      },
+      {
+        "barrio": "ELPRADO",
+        "malla": 2
+      },
+      {
+        "barrio": "GRANJITAS",
+        "malla": 2
+      },
+      {
+        "barrio": "LA ESTACION",
+        "malla": 2
+      },
+      {
+        "barrio": "LINDARAJA",
+        "malla": 2
+      },
+      {
+        "barrio": "RINC ON SANTO",
+        "malla": 2
+      },
+      {
+        "barrio": "RINCON SANTO",
+        "malla": 2
+      },
+      {
+        "barrio": "RIO FRIO",
+        "malla": 2
+      },
+      {
+        "barrio": "TIQUIZA",
+        "malla": 1
+      },
+      {
+        "barrio": "VDA RIO FRIO",
+        "malla": 2
+      },
+      {
+        "barrio": "ZONA INDUSTRIAL",
+        "malla": 2
+      }
+    ],
+    "CALDAS": [
+      {
+        "barrio": "CALDAS",
+        "malla": 54
+      }
+    ],
+    "CAPELLANIA": [
+      {
+        "barrio": "CAPELLANIA",
+        "malla": 15
+      }
+    ],
+    "CERINZA": [
+      {
+        "barrio": "CERINZA",
+        "malla": 55
+      }
+    ],
+    "CHIA": [
+      {
+        "barrio": "BAJACA",
+        "malla": 1
+      },
+      {
+        "barrio": "BAJCA",
+        "malla": 1
+      },
+      {
+        "barrio": "BOJACA",
+        "malla": 1
+      },
+      {
+        "barrio": "CARCA DE PIEDRA",
+        "malla": 1
+      },
+      {
+        "barrio": "CERCA DE PIEDRA",
+        "malla": 1
+      },
+      {
+        "barrio": "CHIA",
+        "malla": 1
+      },
+      {
+        "barrio": "DELICIAS",
+        "malla": 1
+      },
+      {
+        "barrio": "EL CACIQUE",
+        "malla": 1
+      },
+      {
+        "barrio": "EL CAIRO",
+        "malla": 1
+      },
+      {
+        "barrio": "EL LIBERTADOR",
+        "malla": 1
+      },
+      {
+        "barrio": "EL PARAIDO",
+        "malla": 1
+      },
+      {
+        "barrio": "EL PARAISO",
+        "malla": 1
+      },
+      {
+        "barrio": "EL PRADO",
+        "malla": 1
+      },
+      {
+        "barrio": "EL RANCHO",
+        "malla": 1
+      },
+      {
+        "barrio": "LA BALSA",
+        "malla": 1
+      },
+      {
+        "barrio": "LAS DELICIAS",
+        "malla": 1
+      },
+      {
+        "barrio": "LAS JUNTAS",
+        "malla": 1
+      },
+      {
+        "barrio": "MEXICO",
+        "malla": 1
+      },
+      {
+        "barrio": "PRADO DEL RIO",
+        "malla": 1
+      },
+      {
+        "barrio": "PRADOS DEL RIO",
+        "malla": 1
+      },
+      {
+        "barrio": "RINCON SANTO",
+        "malla": 1
+      },
+      {
+        "barrio": "RIO FRIO",
+        "malla": 1
+      },
+      {
+        "barrio": "SAMARA",
+        "malla": 1
+      },
+      {
+        "barrio": "SAMARI",
+        "malla": 1
+      },
+      {
+        "barrio": "SAMARIA",
+        "malla": 1
+      },
+      {
+        "barrio": "SANTA ANA CHIA",
+        "malla": 1
+      },
+      {
+        "barrio": "SANTA ANA DE CHIA",
+        "malla": 1
+      },
+      {
+        "barrio": "SANTA MARIA DEL LAGO",
+        "malla": 1
+      },
+      {
+        "barrio": "SANTA RITA",
+        "malla": 1
+      },
+      {
+        "barrio": "TENJO",
+        "malla": 84
+      },
+      {
+        "barrio": "TIQUEZA",
+        "malla": 1
+      },
+      {
+        "barrio": "TIQUIZA",
+        "malla": 1
+      },
+      {
+        "barrio": "TQUIZA",
+        "malla": 1
+      },
+      {
+        "barrio": "TUIQUIZA",
+        "malla": 1
+      }
+    ],
+    "CHIQUINQUIRA": [
+      {
+        "barrio": "BOYACA",
+        "malla": 56
+      },
+      {
+        "barrio": "BOYOCA",
+        "malla": 56
+      },
+      {
+        "barrio": "CENTRO",
+        "malla": 56
+      },
+      {
+        "barrio": "CHINQUIRA",
+        "malla": 56
+      },
+      {
+        "barrio": "CHIQUINQUIRA",
+        "malla": 56
+      },
+      {
+        "barrio": "CUCAITA",
+        "malla": 58
+      },
+      {
+        "barrio": "EL CENTRO",
+        "malla": 56
+      },
+      {
+        "barrio": "JARDIN DEL NORTE",
+        "malla": 56
+      },
+      {
+        "barrio": "JARDIN NORTE",
+        "malla": 56
+      },
+      {
+        "barrio": "LA ESPAÑOLA",
+        "malla": 56
+      },
+      {
+        "barrio": "PIEDRA DE HOREB",
+        "malla": 56
+      },
+      {
+        "barrio": "SUCRE",
+        "malla": 56
+      }
+    ],
+    "COGUA": [
+      {
+        "barrio": "COGUA",
+        "malla": 4
+      },
+      {
+        "barrio": "COGUA",
+        "malla": 12
+      },
+      {
+        "barrio": "SOGAMOSO",
+        "malla": 4
+      }
+    ],
+    "COMBITA": [
+      {
+        "barrio": "COMBITA",
+        "malla": 57
+      }
+    ],
+    "COTA": [
+      {
+        "barrio": "ARA",
+        "malla": 3
+      },
+      {
+        "barrio": "CEUCA",
+        "malla": 3
+      },
+      {
+        "barrio": "COGUA",
+        "malla": 3
+      },
+      {
+        "barrio": "COTA",
+        "malla": 3
+      },
+      {
+        "barrio": "FUNZA INTEXONA",
+        "malla": 3
+      },
+      {
+        "barrio": "NOGALES",
+        "malla": 3
+      },
+      {
+        "barrio": "UNIABÃ€STOS",
+        "malla": 3
+      },
+      {
+        "barrio": "UNIABASTOS",
+        "malla": 3
+      },
+      {
+        "barrio": "UNIBASTOS",
+        "malla": 3
+      },
+      {
+        "barrio": "UNIBATOS",
+        "malla": 3
+      },
+      {
+        "barrio": "VISCAYA",
+        "malla": 3
+      },
+      {
+        "barrio": "VIZACAYA",
+        "malla": 3
+      },
+      {
+        "barrio": "VIZCAYA",
+        "malla": 3
+      }
+    ],
+    "CUCAITA": [
+      {
+        "barrio": "CUCAITA",
+        "malla": 58
+      }
+    ],
+    "CUCUNUBA": [
+      {
+        "barrio": "CUCUNUBA",
+        "malla": 18
+      }
+    ],
+    "DUITAMA": [
+      {
+        "barrio": "AGUA TENDIDA",
+        "malla": 59
+      },
+      {
+        "barrio": "CENTRO",
+        "malla": 70
+      },
+      {
+        "barrio": "CENTRO",
+        "malla": 59
+      },
+      {
+        "barrio": "COTA",
+        "malla": 59
+      },
+      {
+        "barrio": "DAUITAMA",
+        "malla": 59
+      },
+      {
+        "barrio": "DUITAMA",
+        "malla": 59
+      },
+      {
+        "barrio": "EL LIBERTADOR",
+        "malla": 59
+      },
+      {
+        "barrio": "LAS LAJAS",
+        "malla": 59
+      },
+      {
+        "barrio": "LAS MILAGROSA",
+        "malla": 59
+      },
+      {
+        "barrio": "LAS MILAGROSAS",
+        "malla": 59
+      },
+      {
+        "barrio": "LAS MLAGROSAS",
+        "malla": 59
+      }
+    ],
+    "FACATATIVA": [
+      {
+        "barrio": "CH",
+        "malla": 19
+      },
+      {
+        "barrio": "CHAPINERO",
+        "malla": 19
+      },
+      {
+        "barrio": "CHAPINERO CENTRAL",
+        "malla": 19
+      },
+      {
+        "barrio": "CHAPINERO CENTRO",
+        "malla": 19
+      },
+      {
+        "barrio": "CHAPNERO CENTRO",
+        "malla": 19
+      },
+      {
+        "barrio": "CHIPINERO CENTRO",
+        "malla": 19
+      },
+      {
+        "barrio": "CHPAINERO CENTRO",
+        "malla": 19
+      },
+      {
+        "barrio": "CHPINERO CENTRO",
+        "malla": 19
+      },
+      {
+        "barrio": "EL CENTRO",
+        "malla": 19
+      },
+      {
+        "barrio": "EL JARDIN",
+        "malla": 19
+      },
+      {
+        "barrio": "FACATATIVA",
+        "malla": 19
+      },
+      {
+        "barrio": "JARDIN",
+        "malla": 19
+      },
+      {
+        "barrio": "LOS MOLINOS",
+        "malla": 19
+      },
+      {
+        "barrio": "PUEBLO VIEJO",
+        "malla": 19
+      },
+      {
+        "barrio": "SANTA RITA",
+        "malla": 19
+      },
+      {
+        "barrio": "SANTARITA",
+        "malla": 19
+      },
+      {
+        "barrio": "SERRANIAS I",
+        "malla": 19
+      }
+    ],
+    "FIRAVITOBA": [
+      {
+        "barrio": "FIRAVITOBA",
+        "malla": 81
+      }
+    ],
+    "FLORESTA": [
+      {
+        "barrio": "FLORESTA",
+        "malla": 60
+      }
+    ],
+    "FLORIAN": [
+      {
+        "barrio": "FLORIAN",
+        "malla": 30
+      }
+    ],
+    "FUNZA": [
+      {
+        "barrio": "CENTRO",
+        "malla": 20
+      },
+      {
+        "barrio": "CUNDINAMARCA",
+        "malla": 195
+      },
+      {
+        "barrio": "EL CENTRO",
+        "malla": 20
+      },
+      {
+        "barrio": "EL PORVENIR",
+        "malla": 20
+      },
+      {
+        "barrio": "ELÃ‰CENTRO",
+        "malla": 20
+      },
+      {
+        "barrio": "FUNZA",
+        "malla": 20
+      },
+      {
+        "barrio": "LA ESPA?OLA",
+        "malla": 20
+      },
+      {
+        "barrio": "MEXICO",
+        "malla": 20
+      },
+      {
+        "barrio": "SERREZUELA",
+        "malla": 20
+      },
+      {
+        "barrio": "SIMIJACA",
+        "malla": 20
+      },
+      {
+        "barrio": "UNIABÃ€STOS",
+        "malla": 20
+      }
+    ],
+    "FUQUENE": [
+      {
+        "barrio": "FUQUENE",
+        "malla": 5
+      }
+    ],
+    "GACHANCIPA": [
+      {
+        "barrio": "GACHANCIPA",
+        "malla": 13
+      }
+    ],
+    "GUATANCUY-RURAL": [
+      {
+        "barrio": "GUATANCUY",
+        "malla": 16
+      }
+    ],
+    "IBAGUE": [
+      {
+        "barrio": "IBAGUE",
+        "malla": 971
+      }
+    ],
+    "LA BELLEZA": [
+      {
+        "barrio": "LA BELLEZA",
+        "malla": 31
+      }
+    ],
+    "MADRID": [
+      {
+        "barrio": "AEROPUETO",
+        "malla": 21
+      },
+      {
+        "barrio": "ALHAMBRA",
+        "malla": 21
+      },
+      {
+        "barrio": "AREOPUERTO",
+        "malla": 21
+      },
+      {
+        "barrio": "EL CENTRO",
+        "malla": 21
+      },
+      {
+        "barrio": "LA ESPA;OLA",
+        "malla": 21
+      },
+      {
+        "barrio": "LA ESPA?OLA",
+        "malla": 21
+      },
+      {
+        "barrio": "LA ESPAÃ‘OLA",
+        "malla": 21
+      },
+      {
+        "barrio": "LA ESPANOLA",
+        "malla": 21
+      },
+      {
+        "barrio": "LA ESPAÑOLA",
+        "malla": 21
+      },
+      {
+        "barrio": "MADRID",
+        "malla": 21
+      },
+      {
+        "barrio": "MADRID",
+        "malla": 19
+      },
+      {
+        "barrio": "MEXICO",
+        "malla": 21
+      },
+      {
+        "barrio": "SAN ANTINIO",
+        "malla": 21
+      },
+      {
+        "barrio": "SAN ANTONIO",
+        "malla": 21
+      }
+    ],
+    "MONGUA": [
+      {
+        "barrio": "MONGUA",
+        "malla": 34
+      }
+    ],
+    "MONGUI": [
+      {
+        "barrio": "MONGUI",
+        "malla": 33
+      }
+    ],
+    "MOSQUERA": [
+      {
+        "barrio": "CENTRO",
+        "malla": 22
+      },
+      {
+        "barrio": "EDUARDO SANTOS",
+        "malla": 22
+      },
+      {
+        "barrio": "EL CENTRO",
+        "malla": 22
+      },
+      {
+        "barrio": "EL CENTRO",
+        "malla": 20
+      },
+      {
+        "barrio": "EL POR VENIR",
+        "malla": 22
+      },
+      {
+        "barrio": "EL PORCENIR",
+        "malla": 22
+      },
+      {
+        "barrio": "EL PORVENIR",
+        "malla": 22
+      },
+      {
+        "barrio": "EL PROVENIR",
+        "malla": 22
+      },
+      {
+        "barrio": "KENNEDY SUR",
+        "malla": 109
+      },
+      {
+        "barrio": "MEXICO",
+        "malla": 22
+      },
+      {
+        "barrio": "MEXICO",
+        "malla": 20
+      },
+      {
+        "barrio": "MOSQUERA",
+        "malla": 22
+      },
+      {
+        "barrio": "NUEVA GRANADA",
+        "malla": 155
+      },
+      {
+        "barrio": "SERREZUELA",
+        "malla": 22
+      },
+      {
+        "barrio": "SERREZUELITA",
+        "malla": 22
+      },
+      {
+        "barrio": "UBATE",
+        "malla": 11
+      },
+      {
+        "barrio": "ZERREZUELA",
+        "malla": 22
+      }
+    ],
+    "MOTAVITA": [
+      {
+        "barrio": "CHAPINERO CENTRO",
+        "malla": 61
+      },
+      {
+        "barrio": "MOTAVITA",
+        "malla": 61
+      }
+    ],
+    "NAZARETH": [
+      {
+        "barrio": "NAZARET",
+        "malla": 80
+      },
+      {
+        "barrio": "NAZARETH",
+        "malla": 80
+      },
+      {
+        "barrio": "NOBSA",
+        "malla": 80
+      }
+    ],
+    "NEMOCON": [
+      {
+        "barrio": "NEMECON",
+        "malla": 23
+      },
+      {
+        "barrio": "NEMOCON",
+        "malla": 23
+      }
+    ],
+    "NOBSA": [
+      {
+        "barrio": "NAZARETH",
+        "malla": 80
+      },
+      {
+        "barrio": "NOBSA",
+        "malla": 63
+      },
+      {
+        "barrio": "UNIVERSITARIO",
+        "malla": 63
+      }
+    ],
+    "OICATA": [
+      {
+        "barrio": "OICATA",
+        "malla": 64
+      },
+      {
+        "barrio": "TUTA",
+        "malla": 78
+      }
+    ],
+    "PAIPA": [
+      {
+        "barrio": "CABA?AS",
+        "malla": 65
+      },
+      {
+        "barrio": "CABAÑAS",
+        "malla": 65
+      },
+      {
+        "barrio": "CENTORO",
+        "malla": 65
+      },
+      {
+        "barrio": "CENTRO",
+        "malla": 65
+      },
+      {
+        "barrio": "EL CENTRO",
+        "malla": 65
+      },
+      {
+        "barrio": "LA QUINTAS",
+        "malla": 65
+      },
+      {
+        "barrio": "LAS QUINTAS",
+        "malla": 65
+      },
+      {
+        "barrio": "PAIPA",
+        "malla": 65
+      },
+      {
+        "barrio": "ZN  HOTELERA",
+        "malla": 65
+      },
+      {
+        "barrio": "ZONA HOTELERA",
+        "malla": 65
+      }
+    ],
+    "RAQUIRA": [
+      {
+        "barrio": "RAQUIRA",
+        "malla": 66
+      },
+      {
+        "barrio": "SACHICA",
+        "malla": 66
+      }
+    ],
+    "S. ROSA DE VITERBO": [
+      {
+        "barrio": "LAS LAJAS",
+        "malla": 72
+      },
+      {
+        "barrio": "S. ROSA DE VITERBO",
+        "malla": 72
+      },
+      {
+        "barrio": "SANTA ROSA DE VIETERBO",
+        "malla": 72
+      },
+      {
+        "barrio": "SANTA ROSA DE VITERBO",
+        "malla": 72
+      },
+      {
+        "barrio": "SANTA ROSA DE VITERVO",
+        "malla": 72
+      }
+    ],
+    "SACHICA": [
+      {
+        "barrio": "SACHICA",
+        "malla": 67
+      }
+    ],
+    "SAMACA": [
+      {
+        "barrio": "SAMACA",
+        "malla": 68
+      }
+    ],
+    "SANTA SOFIA": [
+      {
+        "barrio": "SANTA SOFI",
+        "malla": 69
+      },
+      {
+        "barrio": "SANTA SOFIA",
+        "malla": 69
+      },
+      {
+        "barrio": "TABIO",
+        "malla": 69
+      }
+    ],
+    "SESQUILE": [
+      {
+        "barrio": "SESQUILE",
+        "malla": 240
+      }
+    ],
+    "SIMIJACA": [
+      {
+        "barrio": "EL PRADO",
+        "malla": 7
+      },
+      {
+        "barrio": "SIMIJACA",
+        "malla": 7
+      },
+      {
+        "barrio": "SIMIJICA",
+        "malla": 7
+      }
+    ],
+    "SOACHA": [
+      {
+        "barrio": "SAMARIA",
+        "malla": 202
+      }
+    ],
+    "SOGAMOSO": [
+      {
+        "barrio": "BOYACA",
+        "malla": 56
+      },
+      {
+        "barrio": "CENTRO",
+        "malla": 70
+      },
+      {
+        "barrio": "CENTRO|",
+        "malla": 70
+      },
+      {
+        "barrio": "EL CACIQUE",
+        "malla": 1
+      },
+      {
+        "barrio": "EL CENTRO",
+        "malla": 70
+      },
+      {
+        "barrio": "EL LIBERTADOR",
+        "malla": 70
+      },
+      {
+        "barrio": "EL LILBERTADOR",
+        "malla": 70
+      },
+      {
+        "barrio": "FIRAVITOBA",
+        "malla": 70
+      },
+      {
+        "barrio": "LA CALERA",
+        "malla": 70
+      },
+      {
+        "barrio": "LA ESMERALDA",
+        "malla": 70
+      },
+      {
+        "barrio": "LAS ESMERALDA",
+        "malla": 70
+      },
+      {
+        "barrio": "MOTAVITA",
+        "malla": 70
+      },
+      {
+        "barrio": "SOGAMOSO",
+        "malla": 70
+      },
+      {
+        "barrio": "UNIVERSITARIO",
+        "malla": 12
+      },
+      {
+        "barrio": "UNIVERSITARIO",
+        "malla": 70
+      },
+      {
+        "barrio": "UNIVERSITARIOS",
+        "malla": 70
+      },
+      {
+        "barrio": "UNIVESITARIO",
+        "malla": 70
+      },
+      {
+        "barrio": "VANEGAS",
+        "malla": 70
+      }
+    ],
+    "SOPO": [
+      {
+        "barrio": "BRICENO",
+        "malla": 8
+      },
+      {
+        "barrio": "BRICEÑO",
+        "malla": 8
+      },
+      {
+        "barrio": "NEUSA",
+        "malla": 8
+      },
+      {
+        "barrio": "RENANIA",
+        "malla": 8
+      },
+      {
+        "barrio": "SOPO",
+        "malla": 8
+      }
+    ],
+    "SORA": [
+      {
+        "barrio": "SORA",
+        "malla": 71
+      }
+    ],
+    "SOTAQUIRA": [
+      {
+        "barrio": "VEREDA BOSIGA",
+        "malla": 970
+      }
+    ],
+    "SUBACHOQUE": [
+      {
+        "barrio": "SUBACHOQUE",
+        "malla": 89
+      },
+      {
+        "barrio": "SUBACHOQUE",
+        "malla": 91
+      },
+      {
+        "barrio": "SUBACHOQUE VEREDA",
+        "malla": 89
+      },
+      {
+        "barrio": "SUBACHOQUE VEREDA",
+        "malla": 91
+      },
+      {
+        "barrio": "SUBACHOQUE VEREDAL",
+        "malla": 91
+      },
+      {
+        "barrio": "SUBAHOQUE",
+        "malla": 91
+      }
+    ],
+    "SUSA": [
+      {
+        "barrio": "SUSA",
+        "malla": 9
+      }
+    ],
+    "SUTAMARCHAN": [
+      {
+        "barrio": "SUTAMARCHAN",
+        "malla": 73
+      }
+    ],
+    "SUTATAUSA": [
+      {
+        "barrio": "SATATAUSA",
+        "malla": 24
+      },
+      {
+        "barrio": "SUTATAUSA",
+        "malla": 24
+      }
+    ],
+    "TABIO": [
+      {
+        "barrio": "SOPO",
+        "malla": 83
+      },
+      {
+        "barrio": "TABIO",
+        "malla": 83
+      }
+    ],
+    "TAUSA": [
+      {
+        "barrio": "TAUSA",
+        "malla": 26
+      }
+    ],
+    "TENJO": [
+      {
+        "barrio": "BIMBO",
+        "malla": 86
+      },
+      {
+        "barrio": "EL OCAL",
+        "malla": 84
+      },
+      {
+        "barrio": "SANTA RITA",
+        "malla": 84
+      },
+      {
+        "barrio": "SERREZUELITA",
+        "malla": 84
+      },
+      {
+        "barrio": "TABIO",
+        "malla": 84
+      },
+      {
+        "barrio": "TENJO",
+        "malla": 84
+      }
+    ],
+    "TIBASOSA": [
+      {
+        "barrio": "TIBABOSA",
+        "malla": 74
+      },
+      {
+        "barrio": "TIBASOSA",
+        "malla": 74
+      }
+    ],
+    "TINJACA": [
+      {
+        "barrio": "TINJACA",
+        "malla": 75
+      }
+    ],
+    "TOCANCIPA": [
+      {
+        "barrio": "MEXICO",
+        "malla": 10
+      },
+      {
+        "barrio": "NEMOCON",
+        "malla": 10
+      },
+      {
+        "barrio": "RENANIA",
+        "malla": 10
+      },
+      {
+        "barrio": "SANTA RITA",
+        "malla": 10
+      },
+      {
+        "barrio": "TOCA",
+        "malla": 10
+      },
+      {
+        "barrio": "TOCANCIPA",
+        "malla": 10
+      },
+      {
+        "barrio": "TONCACIPA",
+        "malla": 10
+      }
+    ],
+    "TOPAGA": [
+      {
+        "barrio": "TOPAGA",
+        "malla": 32
+      }
+    ],
+    "TUNJA": [
+      {
+        "barrio": "ALTA MIRA",
+        "malla": 76
+      },
+      {
+        "barrio": "ALTOS DE CANAPRO",
+        "malla": 76
+      },
+      {
+        "barrio": "AMERICAS",
+        "malla": 76
+      },
+      {
+        "barrio": "BARBARA SANTA BARBARA",
+        "malla": 76
+      },
+      {
+        "barrio": "BARRIO EL CORTIJO",
+        "malla": 76
+      },
+      {
+        "barrio": "BARRIO SIERRA",
+        "malla": 76
+      },
+      {
+        "barrio": "BELLO HORIZONTE",
+        "malla": 76
+      },
+      {
+        "barrio": "BELLO ORIZONTE",
+        "malla": 76
+      },
+      {
+        "barrio": "CENTRO",
+        "malla": 76
+      },
+      {
+        "barrio": "EL BOSQUE",
+        "malla": 76
+      },
+      {
+        "barrio": "EL CARMEN",
+        "malla": 76
+      },
+      {
+        "barrio": "EL CURUBAL",
+        "malla": 76
+      },
+      {
+        "barrio": "FUTURO DESAROLLO",
+        "malla": 76
+      },
+      {
+        "barrio": "FUTURO DESARROLLO",
+        "malla": 76
+      },
+      {
+        "barrio": "LA FLORIDA",
+        "malla": 76
+      },
+      {
+        "barrio": "LAS PENITAS",
+        "malla": 76
+      },
+      {
+        "barrio": "LOS TIRGALES",
+        "malla": 76
+      },
+      {
+        "barrio": "LOS TRAGALES",
+        "malla": 76
+      },
+      {
+        "barrio": "LOS TRIGALES",
+        "malla": 76
+      },
+      {
+        "barrio": "MESOPOTAMIA",
+        "malla": 76
+      },
+      {
+        "barrio": "MESOPOTANIA",
+        "malla": 76
+      },
+      {
+        "barrio": "SAM ANTONIO",
+        "malla": 76
+      },
+      {
+        "barrio": "SAN ANTONIO",
+        "malla": 76
+      },
+      {
+        "barrio": "SAN JOSE",
+        "malla": 76
+      },
+      {
+        "barrio": "TUNJA",
+        "malla": 76
+      },
+      {
+        "barrio": "URB MESOPOTAMIA",
+        "malla": 76
+      },
+      {
+        "barrio": "URB. FUENTE HIGUERAS",
+        "malla": 76
+      },
+      {
+        "barrio": "URB. LA GRANJA SUR",
+        "malla": 76
+      },
+      {
+        "barrio": "URB. MANANTIAL DEL NORTE",
+        "malla": 76
+      },
+      {
+        "barrio": "URB. VILLA MARIA",
+        "malla": 76
+      },
+      {
+        "barrio": "URB.LA FUENTE IV V",
+        "malla": 76
+      },
+      {
+        "barrio": "VEINTE DE JULIO",
+        "malla": 76
+      },
+      {
+        "barrio": "VILLA OLIMPICA",
+        "malla": 76
+      }
+    ],
+    "TUNUNGUA": [
+      {
+        "barrio": "TUNUNGUA",
+        "malla": 77
+      }
+    ],
+    "TUTA": [
+      {
+        "barrio": "SAMACA",
+        "malla": 78
+      },
+      {
+        "barrio": "TUTA",
+        "malla": 78
+      }
+    ],
+    "UBATE": [
+      {
+        "barrio": "EL PRADO",
+        "malla": 11
+      },
+      {
+        "barrio": "PALO GORDO",
+        "malla": 11
+      },
+      {
+        "barrio": "SAN ANTONIO",
+        "malla": 11
+      },
+      {
+        "barrio": "SIMON BOLIVAR",
+        "malla": 11
+      },
+      {
+        "barrio": "UBATE",
+        "malla": 11
+      },
+      {
+        "barrio": "UBATE",
+        "malla": 1
+      }
+    ],
+    "VILLA DE LEYVA": [
+      {
+        "barrio": "VILA DE LEYVA",
+        "malla": 79
+      },
+      {
+        "barrio": "VILLA DE LEIVA",
+        "malla": 79
+      },
+      {
+        "barrio": "VILLA DE LEYVA",
+        "malla": 79
+      },
+      {
+        "barrio": "VILLA DE LEYVA 2",
+        "malla": 79
+      },
+      {
+        "barrio": "VILLA LEYVA",
+        "malla": 79
+      }
+    ],
+    "ZIPACON": [
+      {
+        "barrio": "ZIPACON",
+        "malla": 85
+      }
+    ],
+    "ZIPAQUIRA": [
+      {
+        "barrio": "ALGARRA",
+        "malla": 12
+      },
+      {
+        "barrio": "ALGARRA III",
+        "malla": 12
+      },
+      {
+        "barrio": "BOLIVAR 83",
+        "malla": 12
+      },
+      {
+        "barrio": "CENTRO",
+        "malla": 12
+      },
+      {
+        "barrio": "EL CENTRO",
+        "malla": 12
+      },
+      {
+        "barrio": "EL LIBERTADOR",
+        "malla": 12
+      },
+      {
+        "barrio": "EL PRADO",
+        "malla": 12
+      },
+      {
+        "barrio": "LA ESMERALDA",
+        "malla": 12
+      },
+      {
+        "barrio": "LA FLORESTA",
+        "malla": 12
+      },
+      {
+        "barrio": "LA FLORIDA",
+        "malla": 12
+      },
+      {
+        "barrio": "LA FRAGUITA",
+        "malla": 12
+      },
+      {
+        "barrio": "LA PAZ",
+        "malla": 12
+      },
+      {
+        "barrio": "POTOSI 1",
+        "malla": 12
+      },
+      {
+        "barrio": "RENANIA",
+        "malla": 10
+      },
+      {
+        "barrio": "RENANIA",
+        "malla": 12
+      },
+      {
+        "barrio": "SAN JUAN",
+        "malla": 12
+      },
+      {
+        "barrio": "SAN JUANITO",
+        "malla": 12
+      },
+      {
+        "barrio": "SAN PABLO",
+        "malla": 12
+      },
+      {
+        "barrio": "SAN RAFAEL",
+        "malla": 12
+      },
+      {
+        "barrio": "SANTA ISABEL II",
+        "malla": 12
+      },
+      {
+        "barrio": "URBANIZACION COLOMBIA",
+        "malla": 12
+      },
+      {
+        "barrio": "URBANIZACION VILLA ONE",
+        "malla": 12
+      },
+      {
+        "barrio": "ZIPAQUIRA",
+        "malla": 66
+      },
+      {
+        "barrio": "ZIPAQUIRA",
+        "malla": 12
+      },
+      {
+        "barrio": "ZONA INDUSTRIAL",
+        "malla": 2
+      }
+    ]
+  },
+  "Gas Natural Servicios S.A": {
+    "BOGOTA": [
+      {
+        "barrio": "COLOMBIA",
+        "malla": 143
+      }
+    ],
+    "PUERTO SALGAR": [
+      {
+        "barrio": "PUERO SALGAR",
+        "malla": 967
+      }
+    ]
+  },
+  "Gas Natural del Cesar S.A": {
+    "AGUACHICA": [
+      {
+        "barrio": "AGUACHICA",
+        "malla": 401
+      },
+      {
+        "barrio": "AGUACHICO",
+        "malla": 401
+      },
+      {
+        "barrio": "LA MATA",
+        "malla": 412
+      },
+      {
+        "barrio": "VILLA DE SAN ANDRES",
+        "malla": 401
+      }
+    ],
+    "AGUSTIN CODAZZI": [
+      {
+        "barrio": "AGUSTIN CODAZZI",
+        "malla": 402
+      }
+    ],
+    "AYACUCHO": [
+      {
+        "barrio": "RURAL AYACUCHO",
+        "malla": 425
+      }
+    ],
+    "BECERRIL": [
+      {
+        "barrio": "BECARRIL",
+        "malla": 404
+      },
+      {
+        "barrio": "BECERRIL",
+        "malla": 404
+      }
+    ],
+    "BOGOTA": [
+      {
+        "barrio": "NUEVA GRANADA",
+        "malla": 155
+      }
+    ],
+    "CASACARA": [
+      {
+        "barrio": "AGUSTIN CODAZZI",
+        "malla": 403
+      },
+      {
+        "barrio": "AGUSTIN CODAZZI",
+        "malla": 402
+      },
+      {
+        "barrio": "CASACARA",
+        "malla": 403
+      }
+    ],
+    "CHIRIGUANA": [
+      {
+        "barrio": "CHIRIGUANA",
+        "malla": 405
+      }
+    ],
+    "CURUMANI": [
+      {
+        "barrio": "CURUMANI",
+        "malla": 407
+      }
+    ],
+    "EL BANCO": [
+      {
+        "barrio": "EL BANCO",
+        "malla": 422
+      }
+    ],
+    "EL BURRO": [
+      {
+        "barrio": "EL BURRO",
+        "malla": 416
+      },
+      {
+        "barrio": "PALESTINA",
+        "malla": 416
+      }
+    ],
+    "GAMARRA": [
+      {
+        "barrio": "GAMARRA",
+        "malla": 410
+      }
+    ],
+    "LA GLORIA": [
+      {
+        "barrio": "LA GLORIA",
+        "malla": 411
+      },
+      {
+        "barrio": "SAN RAFAEL",
+        "malla": 411
+      }
+    ],
+    "LA JAGUA DE IBIRIC": [
+      {
+        "barrio": "LA",
+        "malla": 413
+      },
+      {
+        "barrio": "LA JAGUA DE IBIRIC",
+        "malla": 413
+      },
+      {
+        "barrio": "LA JAGUA DE IBIRICO",
+        "malla": 413
+      }
+    ],
+    "LA MATA": [
+      {
+        "barrio": "LA MATA",
+        "malla": 412
+      },
+      {
+        "barrio": "RURAL LA MATA",
+        "malla": 412
+      }
+    ],
+    "LAS PALMITAS": [
+      {
+        "barrio": "LAS PALMITAS",
+        "malla": 414
+      }
+    ],
+    "MEDIA LUNA": [
+      {
+        "barrio": "EL RINCON",
+        "malla": 423
+      },
+      {
+        "barrio": "MEDIA LUNA",
+        "malla": 423
+      }
+    ],
+    "PAILITAS": [
+      {
+        "barrio": "PAILITAS",
+        "malla": 415
+      }
+    ],
+    "PELAYA": [
+      {
+        "barrio": "PELAYA",
+        "malla": 417
+      },
+      {
+        "barrio": "PELYA",
+        "malla": 417
+      }
+    ],
+    "RINCON HONDO": [
+      {
+        "barrio": "RINCON HONDO",
+        "malla": 406
+      }
+    ],
+    "SABANAGRANDE": [
+      {
+        "barrio": "SABANAGRANDE",
+        "malla": 408
+      }
+    ],
+    "SAN ALBERTO": [
+      {
+        "barrio": "SAN ALBERTO",
+        "malla": 418
+      }
+    ],
+    "SAN DIEGO": [
+      {
+        "barrio": "SAN DIEGO",
+        "malla": 419
+      }
+    ],
+    "SAN MARTIN": [
+      {
+        "barrio": "AGUACHICA",
+        "malla": 401
+      },
+      {
+        "barrio": "SAN MARTIN",
+        "malla": 420
+      }
+    ],
+    "SAN ROQUE": [
+      {
+        "barrio": "CURUMANI",
+        "malla": 407
+      },
+      {
+        "barrio": "SAN ROQUE",
+        "malla": 409
+      }
+    ],
+    "SIMANA": [
+      {
+        "barrio": "SIMA?A",
+        "malla": 424
+      },
+      {
+        "barrio": "SIMAÑA",
+        "malla": 424
+      }
+    ],
+    "TAMALAMEQUE": [
+      {
+        "barrio": "TAMALAMEQUE",
+        "malla": 421
+      }
+    ]
+  },
+  "Gas Natural del Oriente S": {
+    "B-MANGA VEREDAL": [
+      {
+        "barrio": "BOSCONIA",
+        "malla": 352
+      },
+      {
+        "barrio": "GUALILO BAJO",
+        "malla": 353
+      },
+      {
+        "barrio": "NORORIENTAL",
+        "malla": 302
+      },
+      {
+        "barrio": "NORTE",
+        "malla": 301
+      },
+      {
+        "barrio": "SANTA BARBARA",
+        "malla": 353
+      },
+      {
+        "barrio": "VDA SANTA BARBARA",
+        "malla": 353
+      },
+      {
+        "barrio": "VEREDAL",
+        "malla": 350
+      },
+      {
+        "barrio": "VEREDAL",
+        "malla": 352
+      },
+      {
+        "barrio": "VEREDAL",
+        "malla": 351
+      }
+    ],
+    "BARRANCABERMEJA": [
+      {
+        "barrio": "BARRANCABERMEJA",
+        "malla": 330
+      },
+      {
+        "barrio": "BARRANCABERMEJA",
+        "malla": 332
+      },
+      {
+        "barrio": "BUCARAMANGA",
+        "malla": 309
+      },
+      {
+        "barrio": "COLOMBIA",
+        "malla": 330
+      },
+      {
+        "barrio": "EL BOSQUE",
+        "malla": 332
+      },
+      {
+        "barrio": "NORORIENTAL",
+        "malla": 314
+      },
+      {
+        "barrio": "NORORIENTAL",
+        "malla": 332
+      },
+      {
+        "barrio": "NORORIENTAL",
+        "malla": 330
+      },
+      {
+        "barrio": "NORORIENTAL",
+        "malla": 331
+      },
+      {
+        "barrio": "NORTE",
+        "malla": 314
+      },
+      {
+        "barrio": "NORTE",
+        "malla": 332
+      },
+      {
+        "barrio": "NORTE",
+        "malla": 331
+      },
+      {
+        "barrio": "NORTE",
+        "malla": 330
+      },
+      {
+        "barrio": "OCCIDENTAL",
+        "malla": 330
+      },
+      {
+        "barrio": "OCCIDENTL",
+        "malla": 330
+      },
+      {
+        "barrio": "OCCIDENTL",
+        "malla": 332
+      },
+      {
+        "barrio": "SUR",
+        "malla": 331
+      },
+      {
+        "barrio": "SUR",
+        "malla": 332
+      },
+      {
+        "barrio": "SUR",
+        "malla": 314
+      }
+    ],
+    "BOGOTA": [
+      {
+        "barrio": "CUNDINAMARCA",
+        "malla": 195
+      },
+      {
+        "barrio": "EL PROGRESO",
+        "malla": 124
+      },
+      {
+        "barrio": "NUEVA GRANADA",
+        "malla": 155
+      }
+    ],
+    "BUCARAMANGA": [
+      {
+        "barrio": "ANTONIA SANTOS CENTR",
+        "malla": 303
+      },
+      {
+        "barrio": "BOLIVAR",
+        "malla": 303
+      },
+      {
+        "barrio": "BUCARAMANGA",
+        "malla": 308
+      },
+      {
+        "barrio": "BUCARAMANGA",
+        "malla": 302
+      },
+      {
+        "barrio": "BUCARAMANGA",
+        "malla": 305
+      },
+      {
+        "barrio": "BUCARAMANGA",
+        "malla": 301
+      },
+      {
+        "barrio": "BUCARAMANGA",
+        "malla": 350
+      },
+      {
+        "barrio": "BUCARAMANGA",
+        "malla": 309
+      },
+      {
+        "barrio": "CAMPO HERMOSO",
+        "malla": 304
+      },
+      {
+        "barrio": "CENTRO",
+        "malla": 303
+      },
+      {
+        "barrio": "CENTRO",
+        "malla": 301
+      },
+      {
+        "barrio": "CENTRO",
+        "malla": 304
+      },
+      {
+        "barrio": "CENTRO",
+        "malla": 305
+      },
+      {
+        "barrio": "CENTRO",
+        "malla": 307
+      },
+      {
+        "barrio": "CENTRO",
+        "malla": 306
+      },
+      {
+        "barrio": "CHORRERAS DON JUAN",
+        "malla": 304
+      },
+      {
+        "barrio": "CIUDADELA",
+        "malla": 305
+      },
+      {
+        "barrio": "COLORADOS",
+        "malla": 301
+      },
+      {
+        "barrio": "COMUNEROS",
+        "malla": 301
+      },
+      {
+        "barrio": "CRISTAL ALTO",
+        "malla": 308
+      },
+      {
+        "barrio": "EL ROSAL",
+        "malla": 301
+      },
+      {
+        "barrio": "GARCIA ROVIRA",
+        "malla": 304
+      },
+      {
+        "barrio": "GIRARDOT",
+        "malla": 304
+      },
+      {
+        "barrio": "GIRON",
+        "malla": 307
+      },
+      {
+        "barrio": "GIRON",
+        "malla": 304
+      },
+      {
+        "barrio": "GIRON",
+        "malla": 301
+      },
+      {
+        "barrio": "GIRON",
+        "malla": 305
+      },
+      {
+        "barrio": "GIRON",
+        "malla": 308
+      },
+      {
+        "barrio": "GIRON",
+        "malla": 309
+      },
+      {
+        "barrio": "GIRON",
+        "malla": 303
+      },
+      {
+        "barrio": "GIRON",
+        "malla": 302
+      },
+      {
+        "barrio": "GRANADA",
+        "malla": 304
+      },
+      {
+        "barrio": "GRANJAS DE PROVENZA",
+        "malla": 308
+      },
+      {
+        "barrio": "LA AURORA",
+        "malla": 302
+      },
+      {
+        "barrio": "LA CONCORDIA",
+        "malla": 303
+      },
+      {
+        "barrio": "MARIA PAZ",
+        "malla": 301
+      },
+      {
+        "barrio": "NORORIENTAL",
+        "malla": 302
+      },
+      {
+        "barrio": "NORORIENTAL",
+        "malla": 301
+      },
+      {
+        "barrio": "NORORIENTAL",
+        "malla": 304
+      },
+      {
+        "barrio": "NORORIENTAL",
+        "malla": 331
+      },
+      {
+        "barrio": "NORTE",
+        "malla": 301
+      },
+      {
+        "barrio": "NORTE",
+        "malla": 306
+      },
+      {
+        "barrio": "NORTE",
+        "malla": 304
+      },
+      {
+        "barrio": "NORTE",
+        "malla": 303
+      },
+      {
+        "barrio": "NORTE",
+        "malla": 308
+      },
+      {
+        "barrio": "OCCIDENTAL",
+        "malla": 301
+      },
+      {
+        "barrio": "OCCIDENTAL",
+        "malla": 307
+      },
+      {
+        "barrio": "OCCIDENTAL",
+        "malla": 305
+      },
+      {
+        "barrio": "OCCIDENTAL",
+        "malla": 304
+      },
+      {
+        "barrio": "OCCIDENTL",
+        "malla": 308
+      },
+      {
+        "barrio": "OCCIDENTL",
+        "malla": 330
+      },
+      {
+        "barrio": "ORIENTAL",
+        "malla": 306
+      },
+      {
+        "barrio": "RICAURTE",
+        "malla": 305
+      },
+      {
+        "barrio": "SABANA DE TORRES",
+        "malla": 305
+      },
+      {
+        "barrio": "SABANA DE TORRES",
+        "malla": 320
+      },
+      {
+        "barrio": "SAN FRANCISCO",
+        "malla": 303
+      },
+      {
+        "barrio": "SANTA BARBARA",
+        "malla": 353
+      },
+      {
+        "barrio": "SOTOMAYOR",
+        "malla": 306
+      },
+      {
+        "barrio": "SUROCCIDENTAL",
+        "malla": 308
+      },
+      {
+        "barrio": "SUROCCIDENTAL",
+        "malla": 301
+      },
+      {
+        "barrio": "SUROCCIDENTAL",
+        "malla": 305
+      },
+      {
+        "barrio": "SUROCCIDENTAL",
+        "malla": 304
+      },
+      {
+        "barrio": "SURORIENTAL",
+        "malla": 308
+      },
+      {
+        "barrio": "SURORIENTAL",
+        "malla": 307
+      },
+      {
+        "barrio": "VEREDAL",
+        "malla": 350
+      },
+      {
+        "barrio": "VEREDAL",
+        "malla": 302
+      },
+      {
+        "barrio": "VEREDAL",
+        "malla": 352
+      },
+      {
+        "barrio": "VILLA LUZ",
+        "malla": 350
+      },
+      {
+        "barrio": "VILLA MARIA",
+        "malla": 301
+      },
+      {
+        "barrio": "VILLA MERCEDES",
+        "malla": 301
+      },
+      {
+        "barrio": "ZONA ESCARPA",
+        "malla": 301
+      }
+    ],
+    "CANTAGALLO": [
+      {
+        "barrio": "CANTAGALLO",
+        "malla": 324
+      },
+      {
+        "barrio": "PUERTO WILCHES",
+        "malla": 324
+      }
+    ],
+    "EL LLANITO": [
+      {
+        "barrio": "EL LLANITO",
+        "malla": 317
+      }
+    ],
+    "EL PEDRAL": [
+      {
+        "barrio": "EL PEDRAL",
+        "malla": 319
+      }
+    ],
+    "FLORIDABLANCA": [
+      {
+        "barrio": "ASD1",
+        "malla": 310
+      },
+      {
+        "barrio": "BUCARAMANGA",
+        "malla": 309
+      },
+      {
+        "barrio": "FLORIDABLANCA",
+        "malla": 310
+      },
+      {
+        "barrio": "GIRON",
+        "malla": 310
+      },
+      {
+        "barrio": "MEJORAS PUBLICAS",
+        "malla": 310
+      },
+      {
+        "barrio": "MENZULY",
+        "malla": 310
+      },
+      {
+        "barrio": "OCCIDENTL",
+        "malla": 330
+      },
+      {
+        "barrio": "SUROCCIDENTAL",
+        "malla": 310
+      }
+    ],
+    "GIRON": [
+      {
+        "barrio": "ALDEA ALTA",
+        "malla": 309
+      },
+      {
+        "barrio": "BELLAVISTA",
+        "malla": 309
+      },
+      {
+        "barrio": "BUCARAMANGA",
+        "malla": 309
+      },
+      {
+        "barrio": "CENTRO",
+        "malla": 309
+      },
+      {
+        "barrio": "CIUDADELA",
+        "malla": 309
+      },
+      {
+        "barrio": "GIRON",
+        "malla": 309
+      },
+      {
+        "barrio": "NORORIENTAL",
+        "malla": 309
+      },
+      {
+        "barrio": "NORTE",
+        "malla": 309
+      },
+      {
+        "barrio": "NORTE",
+        "malla": 301
+      },
+      {
+        "barrio": "OCCIDENTAL",
+        "malla": 309
+      },
+      {
+        "barrio": "OCCIDENTL",
+        "malla": 330
+      },
+      {
+        "barrio": "PIEDECUESTA",
+        "malla": 309
+      },
+      {
+        "barrio": "SUROCCIDENTAL",
+        "malla": 308
+      },
+      {
+        "barrio": "SUROCCIDENTAL",
+        "malla": 309
+      },
+      {
+        "barrio": "VILLAS DE SAN JUAN",
+        "malla": 309
+      },
+      {
+        "barrio": "ZONA ESCARPA",
+        "malla": 309
+      }
+    ],
+    "LEBRIJA": [
+      {
+        "barrio": "LEBRIJA",
+        "malla": 321
+      },
+      {
+        "barrio": "OCCIDENTL",
+        "malla": 330
+      }
+    ],
+    "PIEDECUESTA": [
+      {
+        "barrio": "FLORIDABLANCA",
+        "malla": 312
+      },
+      {
+        "barrio": "GIRON",
+        "malla": 312
+      },
+      {
+        "barrio": "MENZULY",
+        "malla": 312
+      },
+      {
+        "barrio": "PIE DE CUESTA",
+        "malla": 312
+      },
+      {
+        "barrio": "PIEDECUESTA",
+        "malla": 312
+      },
+      {
+        "barrio": "PUERTO WILCHES",
+        "malla": 322
+      }
+    ],
+    "PTE.SOGAMOSO": [
+      {
+        "barrio": "OCCIDENTL",
+        "malla": 330
+      },
+      {
+        "barrio": "PUENTE SOGAMOSO",
+        "malla": 318
+      },
+      {
+        "barrio": "SABANA DE TORRES",
+        "malla": 320
+      }
+    ],
+    "PUERTO WILCHES": [
+      {
+        "barrio": "KILOMETRO 8",
+        "malla": 322
+      },
+      {
+        "barrio": "PUENTE SOGAMOSO",
+        "malla": 318
+      },
+      {
+        "barrio": "PUERTO WILCHES",
+        "malla": 322
+      },
+      {
+        "barrio": "YARIMA",
+        "malla": 322
+      }
+    ],
+    "S DE TORRES": [
+      {
+        "barrio": "LEBRIJA",
+        "malla": 320
+      },
+      {
+        "barrio": "OCCIDENTL",
+        "malla": 330
+      },
+      {
+        "barrio": "PIEDECUESTA",
+        "malla": 312
+      },
+      {
+        "barrio": "SABANA DE TORRES",
+        "malla": 320
+      },
+      {
+        "barrio": "SIMONICA",
+        "malla": 320
+      },
+      {
+        "barrio": "SUROCCIDENTAL",
+        "malla": 320
+      }
+    ],
+    "SAN PABLO": [
+      {
+        "barrio": "PIEDECUESTA",
+        "malla": 323
+      },
+      {
+        "barrio": "SAN PABLO",
+        "malla": 323
+      }
+    ],
+    "SANTA ROSA DEL SUR": [
+      {
+        "barrio": "SANTA ROSA",
+        "malla": 355
+      }
+    ],
+    "TENJO": [
+      {
+        "barrio": "TENJO",
+        "malla": 84
+      }
+    ],
+    "YONDO": [
+      {
+        "barrio": "YONDO",
+        "malla": 316
+      }
+    ]
+  },
+  "Vanti S.A. E.S.P": {
+    "ACACIAS": [
+      {
+        "barrio": "ACACIAS",
+        "malla": 960
+      }
+    ],
+    "AGUACHICA": [
+      {
+        "barrio": "AGUACHICA",
+        "malla": 401
+      }
+    ],
+    "ANAPOIMA": [
+      {
+        "barrio": "ANAPOIMA",
+        "malla": 231
+      },
+      {
+        "barrio": "SAN ANTONIO",
+        "malla": 231
+      }
+    ],
+    "ARMENIA": [
+      {
+        "barrio": "ARMENIA",
+        "malla": 971
+      }
+    ],
+    "BARRANCABERMEJA": [
+      {
+        "barrio": "PALMIRA",
+        "malla": 330
+      }
+    ],
+    "BARRANQUILLA": [
+      {
+        "barrio": "BARRANQUILLA",
+        "malla": 962
+      }
+    ],
+    "BOGOTA": [
+      {
+        "barrio": "ACACIA",
+        "malla": 120
+      },
+      {
+        "barrio": "ACACIA",
+        "malla": 113
+      },
+      {
+        "barrio": "ACACIA",
+        "malla": 143
+      },
+      {
+        "barrio": "ACEVEDO",
+        "malla": 173
+      },
+      {
+        "barrio": "ACEVEDO",
+        "malla": 140
+      },
+      {
+        "barrio": "AGUAS CLARAS",
+        "malla": 129
+      },
+      {
+        "barrio": "ALCAZARES",
+        "malla": 143
+      },
+      {
+        "barrio": "ALCAZARES NORTE",
+        "malla": 143
+      },
+      {
+        "barrio": "ALFONSO LOPEZ",
+        "malla": 119
+      },
+      {
+        "barrio": "ALFONSO LOPEZ",
+        "malla": 148
+      },
+      {
+        "barrio": "ALFONSO LOPEZ",
+        "malla": 164
+      },
+      {
+        "barrio": "ALFONSO LOPEZ",
+        "malla": 136
+      },
+      {
+        "barrio": "ALFONSO LOPEZ",
+        "malla": 131
+      },
+      {
+        "barrio": "ALFONZO LOPEZ",
+        "malla": 136
+      },
+      {
+        "barrio": "ALFONZO LOPEZ",
+        "malla": 164
+      },
+      {
+        "barrio": "ALHAMBRA",
+        "malla": 150
+      },
+      {
+        "barrio": "ALHAMBRA",
+        "malla": 149
+      },
+      {
+        "barrio": "ALMIRANTE COLON",
+        "malla": 148
+      },
+      {
+        "barrio": "ALMIRANTE PADILLA",
+        "malla": 164
+      },
+      {
+        "barrio": "ALMIRANTE PADILLA",
+        "malla": 123
+      },
+      {
+        "barrio": "ALMIRANTE PADILLA",
+        "malla": 166
+      },
+      {
+        "barrio": "ALMIRANTE PADILLA",
+        "malla": 163
+      },
+      {
+        "barrio": "ALMIRANTE PADILLA",
+        "malla": 127
+      },
+      {
+        "barrio": "ALQUERIA",
+        "malla": 115
+      },
+      {
+        "barrio": "ALQUERIA LA FRAGUA",
+        "malla": 111
+      },
+      {
+        "barrio": "ALQUERIA LA FRAGUA N",
+        "malla": 111
+      },
+      {
+        "barrio": "ALTAMIRA",
+        "malla": 123
+      },
+      {
+        "barrio": "ALTOS DE SOLVENTO",
+        "malla": 178
+      },
+      {
+        "barrio": "ALTOS DE SOTAVENTA",
+        "malla": 178
+      },
+      {
+        "barrio": "ALTOS DE SOTAVENTO",
+        "malla": 159
+      },
+      {
+        "barrio": "ALTOS DE SOTAVENTO",
+        "malla": 178
+      },
+      {
+        "barrio": "ALTOS DE SOTAVENTO",
+        "malla": 177
+      },
+      {
+        "barrio": "ALTOS DE SOTAVENTO",
+        "malla": 163
+      },
+      {
+        "barrio": "ALTOS DE SOTAVETO",
+        "malla": 178
+      },
+      {
+        "barrio": "ALTOS DE SUBA",
+        "malla": 189
+      },
+      {
+        "barrio": "ALTOS DE SUBA",
+        "malla": 130
+      },
+      {
+        "barrio": "ALTOS DE SUBA",
+        "malla": 153
+      },
+      {
+        "barrio": "ALTOS DE SUBA",
+        "malla": 149
+      },
+      {
+        "barrio": "ANDES NORTE",
+        "malla": 197
+      },
+      {
+        "barrio": "ANTONIO JOSE",
+        "malla": 164
+      },
+      {
+        "barrio": "ANTONIO JOSE  SUCRE",
+        "malla": 164
+      },
+      {
+        "barrio": "ANTONIO JOSE DE SUCRE",
+        "malla": 164
+      },
+      {
+        "barrio": "ANTONIO JOSE SUCRE",
+        "malla": 163
+      },
+      {
+        "barrio": "ANTONIO JOSE SUCRE",
+        "malla": 164
+      },
+      {
+        "barrio": "ANTONO JOSE SUCRE",
+        "malla": 164
+      },
+      {
+        "barrio": "APOGEO",
+        "malla": 106
+      },
+      {
+        "barrio": "ARABIA",
+        "malla": 178
+      },
+      {
+        "barrio": "ARBOLEDA SUR",
+        "malla": 158
+      },
+      {
+        "barrio": "ARBONIZADORA ALTA",
+        "malla": 157
+      },
+      {
+        "barrio": "ARBORIZADORA",
+        "malla": 161
+      },
+      {
+        "barrio": "ARBORIZADORA",
+        "malla": 157
+      },
+      {
+        "barrio": "ARBORIZADORA ALTA",
+        "malla": 157
+      },
+      {
+        "barrio": "ARBORIZADORA ALTA",
+        "malla": 164
+      },
+      {
+        "barrio": "ARBORIZADORA BAJA",
+        "malla": 113
+      },
+      {
+        "barrio": "ARGELIA",
+        "malla": 106
+      },
+      {
+        "barrio": "ARRAYANES",
+        "malla": 187
+      },
+      {
+        "barrio": "ARRAYANES V",
+        "malla": 121
+      },
+      {
+        "barrio": "ARRAYANES V",
+        "malla": 127
+      },
+      {
+        "barrio": "ARTILLERIA",
+        "malla": 121
+      },
+      {
+        "barrio": "ASD",
+        "malla": 148
+      },
+      {
+        "barrio": "ASD",
+        "malla": 147
+      },
+      {
+        "barrio": "AURES",
+        "malla": 148
+      },
+      {
+        "barrio": "AURES",
+        "malla": 167
+      },
+      {
+        "barrio": "AURES",
+        "malla": 177
+      },
+      {
+        "barrio": "AURORA",
+        "malla": 163
+      },
+      {
+        "barrio": "AURORA",
+        "malla": 158
+      },
+      {
+        "barrio": "AURORA",
+        "malla": 164
+      },
+      {
+        "barrio": "AUTODROMO",
+        "malla": 165
+      },
+      {
+        "barrio": "AV COLON",
+        "malla": 128
+      },
+      {
+        "barrio": "BACHUE",
+        "malla": 146
+      },
+      {
+        "barrio": "BACHUE 1",
+        "malla": 146
+      },
+      {
+        "barrio": "BACHUE I",
+        "malla": 148
+      },
+      {
+        "barrio": "BACHUE I",
+        "malla": 188
+      },
+      {
+        "barrio": "BACHUE I",
+        "malla": 147
+      },
+      {
+        "barrio": "BACHUE I",
+        "malla": 189
+      },
+      {
+        "barrio": "BACHUE I",
+        "malla": 122
+      },
+      {
+        "barrio": "BACHUE I",
+        "malla": 129
+      },
+      {
+        "barrio": "BACHUE I",
+        "malla": 146
+      },
+      {
+        "barrio": "BAQUERO",
+        "malla": 143
+      },
+      {
+        "barrio": "BARCELONA SUR",
+        "malla": 125
+      },
+      {
+        "barrio": "BARLOVENTO",
+        "malla": 107
+      },
+      {
+        "barrio": "BARRANCAS",
+        "malla": 170
+      },
+      {
+        "barrio": "BARRANCAS",
+        "malla": 152
+      },
+      {
+        "barrio": "BARRIO ALASKA",
+        "malla": 189
+      },
+      {
+        "barrio": "BARRIO HORIZONTE",
+        "malla": 166
+      },
+      {
+        "barrio": "BARRIO HORIZONTE",
+        "malla": 177
+      },
+      {
+        "barrio": "BAVARIA",
+        "malla": 174
+      },
+      {
+        "barrio": "BAVARIA",
+        "malla": 104
+      },
+      {
+        "barrio": "BELALCAZAR",
+        "malla": 136
+      },
+      {
+        "barrio": "BELALCAZAR",
+        "malla": 140
+      },
+      {
+        "barrio": "BELEN",
+        "malla": 130
+      },
+      {
+        "barrio": "BELEN",
+        "malla": 129
+      },
+      {
+        "barrio": "BELEN",
+        "malla": 178
+      },
+      {
+        "barrio": "BELEN",
+        "malla": 162
+      },
+      {
+        "barrio": "BELEN FONTIBON",
+        "malla": 102
+      },
+      {
+        "barrio": "BELLA FLOR",
+        "malla": 179
+      },
+      {
+        "barrio": "BELLA FLOR SUR",
+        "malla": 179
+      },
+      {
+        "barrio": "BELLA SUIZA",
+        "malla": 151
+      },
+      {
+        "barrio": "BELLA VISTA",
+        "malla": 164
+      },
+      {
+        "barrio": "BELLA VISTA",
+        "malla": 142
+      },
+      {
+        "barrio": "BELLA VISTA",
+        "malla": 137
+      },
+      {
+        "barrio": "BELLA VISTA OCCIDENTAL",
+        "malla": 137
+      },
+      {
+        "barrio": "BELLAVISTA",
+        "malla": 163
+      },
+      {
+        "barrio": "BELLAVISTA",
+        "malla": 127
+      },
+      {
+        "barrio": "BELLAVISTA",
+        "malla": 126
+      },
+      {
+        "barrio": "BELLAVISTA",
+        "malla": 177
+      },
+      {
+        "barrio": "BELLAVISTA",
+        "malla": 137
+      },
+      {
+        "barrio": "BELLAVISTA",
+        "malla": 164
+      },
+      {
+        "barrio": "BELLO HORIZONTE",
+        "malla": 126
+      },
+      {
+        "barrio": "BELMIRA",
+        "malla": 169
+      },
+      {
+        "barrio": "BETANIA",
+        "malla": 171
+      },
+      {
+        "barrio": "BILBAO",
+        "malla": 177
+      },
+      {
+        "barrio": "BOCHICA",
+        "malla": 146
+      },
+      {
+        "barrio": "BOCHICA",
+        "malla": 147
+      },
+      {
+        "barrio": "BOCHICA",
+        "malla": 117
+      },
+      {
+        "barrio": "BODEGA DE COLSUBSIDIO",
+        "malla": 193
+      },
+      {
+        "barrio": "BOGOTA",
+        "malla": 117
+      },
+      {
+        "barrio": "BOGOTA",
+        "malla": 121
+      },
+      {
+        "barrio": "BOGOTA",
+        "malla": 170
+      },
+      {
+        "barrio": "BOGOTA",
+        "malla": 129
+      },
+      {
+        "barrio": "BOGOTA",
+        "malla": 102
+      },
+      {
+        "barrio": "BOGOTA",
+        "malla": 124
+      },
+      {
+        "barrio": "BOLIVIA",
+        "malla": 167
+      },
+      {
+        "barrio": "BOLIVIA",
+        "malla": 147
+      },
+      {
+        "barrio": "BOLONIA",
+        "malla": 127
+      },
+      {
+        "barrio": "BOLONIA",
+        "malla": 148
+      },
+      {
+        "barrio": "BONANZA",
+        "malla": 102
+      },
+      {
+        "barrio": "BONANZA",
+        "malla": 141
+      },
+      {
+        "barrio": "BOSA",
+        "malla": 106
+      },
+      {
+        "barrio": "BOSA NOVA",
+        "malla": 181
+      },
+      {
+        "barrio": "BOSA NOVA EL PORVENIR",
+        "malla": 181
+      },
+      {
+        "barrio": "BOSQUE DE PINOS",
+        "malla": 169
+      },
+      {
+        "barrio": "BOSQUE DE PINOS",
+        "malla": 170
+      },
+      {
+        "barrio": "BOSQUE IZQUIERDO",
+        "malla": 132
+      },
+      {
+        "barrio": "BOSQUE POPULAR",
+        "malla": 137
+      },
+      {
+        "barrio": "BOYACA",
+        "malla": 138
+      },
+      {
+        "barrio": "BRASIL",
+        "malla": 185
+      },
+      {
+        "barrio": "BRASIL",
+        "malla": 171
+      },
+      {
+        "barrio": "BRASIL",
+        "malla": 181
+      },
+      {
+        "barrio": "BRASIL",
+        "malla": 179
+      },
+      {
+        "barrio": "BRASILIA",
+        "malla": 171
+      },
+      {
+        "barrio": "BRASILIA",
+        "malla": 181
+      },
+      {
+        "barrio": "BRISAS ALDEA",
+        "malla": 101
+      },
+      {
+        "barrio": "BRITALIA",
+        "malla": 161
+      },
+      {
+        "barrio": "BRITALIA",
+        "malla": 153
+      },
+      {
+        "barrio": "BRITALIA",
+        "malla": 158
+      },
+      {
+        "barrio": "BRITALIA",
+        "malla": 164
+      },
+      {
+        "barrio": "BRITALIA",
+        "malla": 167
+      },
+      {
+        "barrio": "BRITALIA",
+        "malla": 105
+      },
+      {
+        "barrio": "BUENOS AIRES",
+        "malla": 107
+      },
+      {
+        "barrio": "BUENOS AIRES",
+        "malla": 120
+      },
+      {
+        "barrio": "BUENOS AIRES",
+        "malla": 178
+      },
+      {
+        "barrio": "BUENOS AIRES",
+        "malla": 179
+      },
+      {
+        "barrio": "CALVO SUR",
+        "malla": 130
+      },
+      {
+        "barrio": "CAMELIA",
+        "malla": 116
+      },
+      {
+        "barrio": "CAMELIA",
+        "malla": 148
+      },
+      {
+        "barrio": "CAMELIA",
+        "malla": 163
+      },
+      {
+        "barrio": "CAMPIN",
+        "malla": 136
+      },
+      {
+        "barrio": "CAMPIN OCCIDENTAL",
+        "malla": 135
+      },
+      {
+        "barrio": "CANADA GUIRA",
+        "malla": 123
+      },
+      {
+        "barrio": "CANADA GUIRA",
+        "malla": 155
+      },
+      {
+        "barrio": "CANADA GUIRA",
+        "malla": 126
+      },
+      {
+        "barrio": "CANADA O GUIRA",
+        "malla": 123
+      },
+      {
+        "barrio": "CANAIMA",
+        "malla": 198
+      },
+      {
+        "barrio": "CANAVERALEJO",
+        "malla": 185
+      },
+      {
+        "barrio": "CANDELARIA",
+        "malla": 157
+      },
+      {
+        "barrio": "CANDELARIA",
+        "malla": 153
+      },
+      {
+        "barrio": "CANDELARIA",
+        "malla": 179
+      },
+      {
+        "barrio": "CANDELARIA",
+        "malla": 113
+      },
+      {
+        "barrio": "CAOBOS SALAZAR",
+        "malla": 169
+      },
+      {
+        "barrio": "CAPELLANIA",
+        "malla": 188
+      },
+      {
+        "barrio": "CAPELLANIA",
+        "malla": 147
+      },
+      {
+        "barrio": "CARABELAS",
+        "malla": 117
+      },
+      {
+        "barrio": "CARABELAS",
+        "malla": 164
+      },
+      {
+        "barrio": "CARABELAS",
+        "malla": 116
+      },
+      {
+        "barrio": "CARACOLI",
+        "malla": 157
+      },
+      {
+        "barrio": "CARBONEL",
+        "malla": 160
+      },
+      {
+        "barrio": "CARBONELL",
+        "malla": 160
+      },
+      {
+        "barrio": "CARBONELL",
+        "malla": 106
+      },
+      {
+        "barrio": "CARCEL MODELO",
+        "malla": 133
+      },
+      {
+        "barrio": "CARET",
+        "malla": 119
+      },
+      {
+        "barrio": "CARIMAGUA",
+        "malla": 137
+      },
+      {
+        "barrio": "CARIMAGUA",
+        "malla": 110
+      },
+      {
+        "barrio": "CARIMAGUA",
+        "malla": 109
+      },
+      {
+        "barrio": "CARIMAGUA",
+        "malla": 192
+      },
+      {
+        "barrio": "CARIMAGUA",
+        "malla": 111
+      },
+      {
+        "barrio": "CARIMAGUA",
+        "malla": 134
+      },
+      {
+        "barrio": "CARIMAGUA",
+        "malla": 174
+      },
+      {
+        "barrio": "CARLOS LLERA",
+        "malla": 190
+      },
+      {
+        "barrio": "CARLOS LLERAS",
+        "malla": 137
+      },
+      {
+        "barrio": "CARLOS LLERAS",
+        "malla": 190
+      },
+      {
+        "barrio": "CARVAJAL",
+        "malla": 179
+      },
+      {
+        "barrio": "CARVAJAL",
+        "malla": 111
+      },
+      {
+        "barrio": "CARVAJAL",
+        "malla": 190
+      },
+      {
+        "barrio": "CARVAJAL",
+        "malla": 115
+      },
+      {
+        "barrio": "CASA DE TEJA",
+        "malla": 178
+      },
+      {
+        "barrio": "CASABLANCA",
+        "malla": 153
+      },
+      {
+        "barrio": "CASABLANCA",
+        "malla": 189
+      },
+      {
+        "barrio": "CASTILLA",
+        "malla": 182
+      },
+      {
+        "barrio": "CEDRITOS",
+        "malla": 152
+      },
+      {
+        "barrio": "CEDRITOS",
+        "malla": 169
+      },
+      {
+        "barrio": "CEDRITOS DEL SUR",
+        "malla": 178
+      },
+      {
+        "barrio": "CEDRO GOLF",
+        "malla": 169
+      },
+      {
+        "barrio": "CEDRO GOLG",
+        "malla": 169
+      },
+      {
+        "barrio": "CENTENARIO",
+        "malla": 118
+      },
+      {
+        "barrio": "CENTRO DE FONTIBON",
+        "malla": 102
+      },
+      {
+        "barrio": "CENTRO ENGATIVA II",
+        "malla": 176
+      },
+      {
+        "barrio": "CENTRO FONTIBON",
+        "malla": 102
+      },
+      {
+        "barrio": "CENTRO INDUSTRIAL",
+        "malla": 133
+      },
+      {
+        "barrio": "CENTRO NARINO",
+        "malla": 173
+      },
+      {
+        "barrio": "CENTRO NARIÑO",
+        "malla": 173
+      },
+      {
+        "barrio": "CERAGUAS",
+        "malla": 124
+      },
+      {
+        "barrio": "CERROS DE OCCIDENTE",
+        "malla": 158
+      },
+      {
+        "barrio": "CERROS DE ORIENTE",
+        "malla": 121
+      },
+      {
+        "barrio": "CERROS DE ORIENTE",
+        "malla": 158
+      },
+      {
+        "barrio": "CERROS DEL NORTE",
+        "malla": 170
+      },
+      {
+        "barrio": "CERROS DEL NORTE",
+        "malla": 191
+      },
+      {
+        "barrio": "CERROS DEL ORIENTE",
+        "malla": 158
+      },
+      {
+        "barrio": "CERRROS DEL ORIENTE",
+        "malla": 170
+      },
+      {
+        "barrio": "CHAPINERITO",
+        "malla": 164
+      },
+      {
+        "barrio": "CHAPINERO",
+        "malla": 170
+      },
+      {
+        "barrio": "CHAPINERO",
+        "malla": 144
+      },
+      {
+        "barrio": "CHAPINERO",
+        "malla": 155
+      },
+      {
+        "barrio": "CHAPINERO",
+        "malla": 121
+      },
+      {
+        "barrio": "CHAPINERO NOR",
+        "malla": 155
+      },
+      {
+        "barrio": "CHARCO",
+        "malla": 184
+      },
+      {
+        "barrio": "CHEVERRY",
+        "malla": 181
+      },
+      {
+        "barrio": "CHICALA",
+        "malla": 171
+      },
+      {
+        "barrio": "CHICO ALTO",
+        "malla": 144
+      },
+      {
+        "barrio": "CHICO NOR",
+        "malla": 144
+      },
+      {
+        "barrio": "CHICO NOR  II SC",
+        "malla": 144
+      },
+      {
+        "barrio": "CHICO NOR  III SC",
+        "malla": 144
+      },
+      {
+        "barrio": "CHICO NORTE",
+        "malla": 168
+      },
+      {
+        "barrio": "CHICO NORTE",
+        "malla": 144
+      },
+      {
+        "barrio": "CHICO RESERVADO",
+        "malla": 144
+      },
+      {
+        "barrio": "CHICO RESERVADO",
+        "malla": 151
+      },
+      {
+        "barrio": "CHICO RESEVADO",
+        "malla": 144
+      },
+      {
+        "barrio": "CHICO SUR",
+        "malla": 181
+      },
+      {
+        "barrio": "CHIGUAZA URBANO",
+        "malla": 123
+      },
+      {
+        "barrio": "CHIRCALES",
+        "malla": 105
+      },
+      {
+        "barrio": "CHIRCALES",
+        "malla": 122
+      },
+      {
+        "barrio": "CHIRCALES",
+        "malla": 158
+      },
+      {
+        "barrio": "CHUCUA",
+        "malla": 111
+      },
+      {
+        "barrio": "CHUCUA",
+        "malla": 176
+      },
+      {
+        "barrio": "CHUCUA",
+        "malla": 110
+      },
+      {
+        "barrio": "CHUCUA DE LA VACA 1",
+        "malla": 161
+      },
+      {
+        "barrio": "CHUCUA DE LA VACA I",
+        "malla": 161
+      },
+      {
+        "barrio": "CIUDAD BERNA",
+        "malla": 130
+      },
+      {
+        "barrio": "CIUDAD BOLIVAR RURAL 1",
+        "malla": 179
+      },
+      {
+        "barrio": "CIUDAD BOLIVAR RURAL I",
+        "malla": 179
+      },
+      {
+        "barrio": "CIUDAD HAYUELOS",
+        "malla": 188
+      },
+      {
+        "barrio": "CIUDAD HUNZA",
+        "malla": 148
+      },
+      {
+        "barrio": "CIUDAD JARDIN",
+        "malla": 125
+      },
+      {
+        "barrio": "CIUDAD JARDIN",
+        "malla": 132
+      },
+      {
+        "barrio": "CIUDAD JARDIN NORTE",
+        "malla": 149
+      },
+      {
+        "barrio": "CIUDAD KENEDY SUR",
+        "malla": 109
+      },
+      {
+        "barrio": "CIUDAD KENNDY SUR",
+        "malla": 109
+      },
+      {
+        "barrio": "CIUDAD LONDRES",
+        "malla": 127
+      },
+      {
+        "barrio": "CIUDAD LONDRES I",
+        "malla": 127
+      },
+      {
+        "barrio": "CIUDAD MONTES",
+        "malla": 117
+      },
+      {
+        "barrio": "CIUDAD TECHO II",
+        "malla": 174
+      },
+      {
+        "barrio": "CIUDAD TUNAL",
+        "malla": 119
+      },
+      {
+        "barrio": "CIUDAD VERDE",
+        "malla": 173
+      },
+      {
+        "barrio": "CLARET",
+        "malla": 119
+      },
+      {
+        "barrio": "CLASS",
+        "malla": 106
+      },
+      {
+        "barrio": "CLASS",
+        "malla": 105
+      },
+      {
+        "barrio": "CLUB",
+        "malla": 168
+      },
+      {
+        "barrio": "CLUB HIPICO",
+        "malla": 187
+      },
+      {
+        "barrio": "COFRADIA",
+        "malla": 102
+      },
+      {
+        "barrio": "COLINA CAMPESTRE",
+        "malla": 149
+      },
+      {
+        "barrio": "COLINA CAMPESTRE",
+        "malla": 150
+      },
+      {
+        "barrio": "COLOMBIA",
+        "malla": 143
+      },
+      {
+        "barrio": "COLOMBIA",
+        "malla": 178
+      },
+      {
+        "barrio": "COLOMBIA",
+        "malla": 144
+      },
+      {
+        "barrio": "COLSUBSIDIO",
+        "malla": 147
+      },
+      {
+        "barrio": "COMPARTIR DE SUBA",
+        "malla": 177
+      },
+      {
+        "barrio": "COMPENSAR",
+        "malla": 103
+      },
+      {
+        "barrio": "COMPENSAR",
+        "malla": 137
+      },
+      {
+        "barrio": "COMPOSTELA",
+        "malla": 163
+      },
+      {
+        "barrio": "COMPOSTELA",
+        "malla": 127
+      },
+      {
+        "barrio": "COMPOSTELA",
+        "malla": 149
+      },
+      {
+        "barrio": "COMPOSTELA",
+        "malla": 164
+      },
+      {
+        "barrio": "COMUNEROS",
+        "malla": 128
+      },
+      {
+        "barrio": "COMUNEROS",
+        "malla": 117
+      },
+      {
+        "barrio": "CONDADO DE CASTILLA",
+        "malla": 174
+      },
+      {
+        "barrio": "CONTADOR",
+        "malla": 169
+      },
+      {
+        "barrio": "CONTADOR",
+        "malla": 152
+      },
+      {
+        "barrio": "CONTADOR",
+        "malla": 143
+      },
+      {
+        "barrio": "CORABASTOS",
+        "malla": 109
+      },
+      {
+        "barrio": "CORABASTOS",
+        "malla": 102
+      },
+      {
+        "barrio": "CORABASTOS",
+        "malla": 189
+      },
+      {
+        "barrio": "CORABASTOS",
+        "malla": 161
+      },
+      {
+        "barrio": "CORDOBA",
+        "malla": 149
+      },
+      {
+        "barrio": "CORDOBA",
+        "malla": 111
+      },
+      {
+        "barrio": "CORDOBA",
+        "malla": 126
+      },
+      {
+        "barrio": "CORDOBA",
+        "malla": 122
+      },
+      {
+        "barrio": "CORDOBA",
+        "malla": 129
+      },
+      {
+        "barrio": "CORINTO",
+        "malla": 129
+      },
+      {
+        "barrio": "CORTIJO",
+        "malla": 163
+      },
+      {
+        "barrio": "CORUNA",
+        "malla": 113
+      },
+      {
+        "barrio": "CORUNA",
+        "malla": 156
+      },
+      {
+        "barrio": "COUNTRY CLUB",
+        "malla": 168
+      },
+      {
+        "barrio": "CUIDAD BACHUE I ETAPA",
+        "malla": 146
+      },
+      {
+        "barrio": "CUIDAD JARDIN SUR",
+        "malla": 125
+      },
+      {
+        "barrio": "CUIDAD LONDRES I",
+        "malla": 127
+      },
+      {
+        "barrio": "CUNDINAMARCA",
+        "malla": 195
+      },
+      {
+        "barrio": "CURTIEMBRES",
+        "malla": 156
+      },
+      {
+        "barrio": "CURTIEMBRES",
+        "malla": 107
+      },
+      {
+        "barrio": "DANUBIO",
+        "malla": 121
+      },
+      {
+        "barrio": "DANUBIO II",
+        "malla": 121
+      },
+      {
+        "barrio": "DELICIAS",
+        "malla": 111
+      },
+      {
+        "barrio": "DELICIAS",
+        "malla": 110
+      },
+      {
+        "barrio": "DELICIAS",
+        "malla": 126
+      },
+      {
+        "barrio": "DIANA TURBAI ARRAYANES",
+        "malla": 121
+      },
+      {
+        "barrio": "DIANA TURBAY",
+        "malla": 158
+      },
+      {
+        "barrio": "DIANA TURBAY",
+        "malla": 121
+      },
+      {
+        "barrio": "DOCE DE OCTUBRE",
+        "malla": 113
+      },
+      {
+        "barrio": "DOCE DE OCTUBRE",
+        "malla": 142
+      },
+      {
+        "barrio": "DOCE DE OCTUBRE",
+        "malla": 156
+      },
+      {
+        "barrio": "DONA LILIANA",
+        "malla": 127
+      },
+      {
+        "barrio": "ECHEVERRY",
+        "malla": 181
+      },
+      {
+        "barrio": "ECHEVERRY",
+        "malla": 121
+      },
+      {
+        "barrio": "EDUARDO SANTOS",
+        "malla": 124
+      },
+      {
+        "barrio": "EL  MADRIGAL",
+        "malla": 167
+      },
+      {
+        "barrio": "EL ALOE",
+        "malla": 189
+      },
+      {
+        "barrio": "EL CAMPIN",
+        "malla": 136
+      },
+      {
+        "barrio": "EL CARMEN",
+        "malla": 114
+      },
+      {
+        "barrio": "EL CARMEN FONTIBON",
+        "malla": 102
+      },
+      {
+        "barrio": "EL CASTILLO",
+        "malla": 174
+      },
+      {
+        "barrio": "EL CHANCO I",
+        "malla": 184
+      },
+      {
+        "barrio": "EL CHANCO RURAL III",
+        "malla": 184
+      },
+      {
+        "barrio": "EL CHICO",
+        "malla": 144
+      },
+      {
+        "barrio": "EL CHICO",
+        "malla": 131
+      },
+      {
+        "barrio": "EL CONTADOR",
+        "malla": 152
+      },
+      {
+        "barrio": "EL CORSO",
+        "malla": 181
+      },
+      {
+        "barrio": "EL CORSO",
+        "malla": 185
+      },
+      {
+        "barrio": "EL CORTIJO",
+        "malla": 127
+      },
+      {
+        "barrio": "EL CORTIJO",
+        "malla": 163
+      },
+      {
+        "barrio": "EL CORTIJO",
+        "malla": 144
+      },
+      {
+        "barrio": "EL CORTIJO",
+        "malla": 147
+      },
+      {
+        "barrio": "EL CORTIJO",
+        "malla": 169
+      },
+      {
+        "barrio": "EL CORTIJO",
+        "malla": 178
+      },
+      {
+        "barrio": "EL DANUBIO AZUL",
+        "malla": 181
+      },
+      {
+        "barrio": "EL DESCANSO",
+        "malla": 181
+      },
+      {
+        "barrio": "EL DORADO",
+        "malla": 130
+      },
+      {
+        "barrio": "EL EJIDO",
+        "malla": 195
+      },
+      {
+        "barrio": "EL ENSUENO",
+        "malla": 107
+      },
+      {
+        "barrio": "EL ESPINO",
+        "malla": 107
+      },
+      {
+        "barrio": "EL JARDIN",
+        "malla": 180
+      },
+      {
+        "barrio": "EL JAZMIN",
+        "malla": 183
+      },
+      {
+        "barrio": "EL MADRIGAL",
+        "malla": 167
+      },
+      {
+        "barrio": "EL MIRADOR",
+        "malla": 179
+      },
+      {
+        "barrio": "EL MOCHUELO",
+        "malla": 178
+      },
+      {
+        "barrio": "EL MOCHUELO II URBAN",
+        "malla": 163
+      },
+      {
+        "barrio": "EL MOCHUELO II URBANO",
+        "malla": 178
+      },
+      {
+        "barrio": "EL MOCHUELO III",
+        "malla": 178
+      },
+      {
+        "barrio": "EL MUELLE",
+        "malla": 167
+      },
+      {
+        "barrio": "EL NEVADO",
+        "malla": 163
+      },
+      {
+        "barrio": "EL NEVADO",
+        "malla": 155
+      },
+      {
+        "barrio": "EL NOGAL",
+        "malla": 144
+      },
+      {
+        "barrio": "EL NUEVO PORTAL",
+        "malla": 164
+      },
+      {
+        "barrio": "EL PALOMAR",
+        "malla": 155
+      },
+      {
+        "barrio": "EL PALOMAR",
+        "malla": 121
+      },
+      {
+        "barrio": "EL PALOMAR",
+        "malla": 144
+      },
+      {
+        "barrio": "EL PARAIDO",
+        "malla": 179
+      },
+      {
+        "barrio": "EL PARAISO",
+        "malla": 179
+      },
+      {
+        "barrio": "EL PARAISO",
+        "malla": 157
+      },
+      {
+        "barrio": "EL PARAISO QUIBA",
+        "malla": 179
+      },
+      {
+        "barrio": "EL PARQUE DE LA ROCA",
+        "malla": 129
+      },
+      {
+        "barrio": "EL PENON DEL CORTIJO",
+        "malla": 107
+      },
+      {
+        "barrio": "EL PINAR",
+        "malla": 121
+      },
+      {
+        "barrio": "EL PINAR",
+        "malla": 123
+      },
+      {
+        "barrio": "EL PLAN",
+        "malla": 153
+      },
+      {
+        "barrio": "EL POA",
+        "malla": 189
+      },
+      {
+        "barrio": "EL POA",
+        "malla": 148
+      },
+      {
+        "barrio": "EL POA",
+        "malla": 154
+      },
+      {
+        "barrio": "EL PORTAL DEL DIVINO",
+        "malla": 164
+      },
+      {
+        "barrio": "EL PORVENIR",
+        "malla": 185
+      },
+      {
+        "barrio": "EL PORVENIR BODA",
+        "malla": 181
+      },
+      {
+        "barrio": "EL PORVENIR BOSA",
+        "malla": 181
+      },
+      {
+        "barrio": "EL PORVENIR BOSA",
+        "malla": 107
+      },
+      {
+        "barrio": "EL PORVENIR BOSA",
+        "malla": 161
+      },
+      {
+        "barrio": "EL PORVENIR BOSA",
+        "malla": 177
+      },
+      {
+        "barrio": "EL PORVENIR BOSA",
+        "malla": 141
+      },
+      {
+        "barrio": "EL PORVENIR BOSA",
+        "malla": 109
+      },
+      {
+        "barrio": "EL PORVENIR BOSA",
+        "malla": 180
+      },
+      {
+        "barrio": "EL PORVENIR SUBA",
+        "malla": 181
+      },
+      {
+        "barrio": "EL PROGRESO",
+        "malla": 160
+      },
+      {
+        "barrio": "EL PROGRESO",
+        "malla": 124
+      },
+      {
+        "barrio": "EL PROGRESO",
+        "malla": 180
+      },
+      {
+        "barrio": "EL PROGRESO",
+        "malla": 186
+      },
+      {
+        "barrio": "EL RECREO",
+        "malla": 186
+      },
+      {
+        "barrio": "EL RECREO",
+        "malla": 181
+      },
+      {
+        "barrio": "EL RECREO",
+        "malla": 167
+      },
+      {
+        "barrio": "EL RECREO",
+        "malla": 102
+      },
+      {
+        "barrio": "EL REDIL",
+        "malla": 166
+      },
+      {
+        "barrio": "EL REFUGIO",
+        "malla": 144
+      },
+      {
+        "barrio": "EL RETIRO",
+        "malla": 144
+      },
+      {
+        "barrio": "EL RINCON",
+        "malla": 148
+      },
+      {
+        "barrio": "EL RINCON ALTAMAR",
+        "malla": 148
+      },
+      {
+        "barrio": "EL RINCON DE ALTAMAR",
+        "malla": 148
+      },
+      {
+        "barrio": "EL RINCON NORTE",
+        "malla": 148
+      },
+      {
+        "barrio": "EL ROCIO",
+        "malla": 130
+      },
+      {
+        "barrio": "EL ROSAL",
+        "malla": 107
+      },
+      {
+        "barrio": "EL SALITRE",
+        "malla": 137
+      },
+      {
+        "barrio": "EL SALITRE",
+        "malla": 135
+      },
+      {
+        "barrio": "EL SOL",
+        "malla": 117
+      },
+      {
+        "barrio": "EL TECHO",
+        "malla": 110
+      },
+      {
+        "barrio": "EL TEJAR",
+        "malla": 115
+      },
+      {
+        "barrio": "EL TEJAR",
+        "malla": 122
+      },
+      {
+        "barrio": "EL TESORITO",
+        "malla": 178
+      },
+      {
+        "barrio": "EL TESORITO",
+        "malla": 179
+      },
+      {
+        "barrio": "EL TINTAL",
+        "malla": 105
+      },
+      {
+        "barrio": "EL TINTAL",
+        "malla": 127
+      },
+      {
+        "barrio": "EL TINTAL",
+        "malla": 174
+      },
+      {
+        "barrio": "EL TOBERIN",
+        "malla": 152
+      },
+      {
+        "barrio": "EL TRIANGULO",
+        "malla": 101
+      },
+      {
+        "barrio": "EL TUNO",
+        "malla": 162
+      },
+      {
+        "barrio": "EL VERGEL",
+        "malla": 174
+      },
+      {
+        "barrio": "EL VERGEL",
+        "malla": 124
+      },
+      {
+        "barrio": "EL VERGEL ORIENTAL",
+        "malla": 174
+      },
+      {
+        "barrio": "EL VERVENAL",
+        "malla": 166
+      },
+      {
+        "barrio": "EL VIRREY",
+        "malla": 164
+      },
+      {
+        "barrio": "ELTESORITO",
+        "malla": 178
+      },
+      {
+        "barrio": "ELTINTAL",
+        "malla": 174
+      },
+      {
+        "barrio": "ELVERGEL",
+        "malla": 124
+      },
+      {
+        "barrio": "ENCANTO",
+        "malla": 157
+      },
+      {
+        "barrio": "ENCANTO",
+        "malla": 138
+      },
+      {
+        "barrio": "ENGATIVA",
+        "malla": 123
+      },
+      {
+        "barrio": "ENGATIVA",
+        "malla": 176
+      },
+      {
+        "barrio": "EÑ TUNO",
+        "malla": 162
+      },
+      {
+        "barrio": "ERL GUAVIO",
+        "malla": 130
+      },
+      {
+        "barrio": "ESCOCIA",
+        "malla": 181
+      },
+      {
+        "barrio": "ESCUELA MILITAR",
+        "malla": 142
+      },
+      {
+        "barrio": "ESPINO",
+        "malla": 107
+      },
+      {
+        "barrio": "ESPINO I",
+        "malla": 107
+      },
+      {
+        "barrio": "ESTANCIA",
+        "malla": 107
+      },
+      {
+        "barrio": "ESTANCIA",
+        "malla": 157
+      },
+      {
+        "barrio": "ESTORIL",
+        "malla": 197
+      },
+      {
+        "barrio": "ESTRELLA DEL NORTE",
+        "malla": 152
+      },
+      {
+        "barrio": "FATIMA",
+        "malla": 114
+      },
+      {
+        "barrio": "FATIMA",
+        "malla": 113
+      },
+      {
+        "barrio": "FATIMA",
+        "malla": 115
+      },
+      {
+        "barrio": "FERIAS OCCIDENTAL",
+        "malla": 141
+      },
+      {
+        "barrio": "FLORENCIA",
+        "malla": 139
+      },
+      {
+        "barrio": "FLORENCIA",
+        "malla": 184
+      },
+      {
+        "barrio": "FONTANAR DEL RIO",
+        "malla": 177
+      },
+      {
+        "barrio": "FONTANER DEL RIO",
+        "malla": 177
+      },
+      {
+        "barrio": "FRANCISCO MIRANDA",
+        "malla": 115
+      },
+      {
+        "barrio": "FRANCISCO MIRANDA",
+        "malla": 151
+      },
+      {
+        "barrio": "GAITAN",
+        "malla": 142
+      },
+      {
+        "barrio": "GALAN",
+        "malla": 116
+      },
+      {
+        "barrio": "GALAN",
+        "malla": 183
+      },
+      {
+        "barrio": "GARCES NAVAS",
+        "malla": 121
+      },
+      {
+        "barrio": "GARCES NAVAS",
+        "malla": 139
+      },
+      {
+        "barrio": "GARCES NAVAS",
+        "malla": 137
+      },
+      {
+        "barrio": "GARCES NAVAS",
+        "malla": 167
+      },
+      {
+        "barrio": "GARCES NAVAS",
+        "malla": 147
+      },
+      {
+        "barrio": "GARCES NAVAS SUR",
+        "malla": 167
+      },
+      {
+        "barrio": "GILMAR",
+        "malla": 153
+      },
+      {
+        "barrio": "GIRARDOT",
+        "malla": 130
+      },
+      {
+        "barrio": "GIRARDOT",
+        "malla": 162
+      },
+      {
+        "barrio": "GRAN BRITALIA",
+        "malla": 105
+      },
+      {
+        "barrio": "GRAN BRITALIA",
+        "malla": 171
+      },
+      {
+        "barrio": "GRAN BRITALIA I",
+        "malla": 105
+      },
+      {
+        "barrio": "GRAN COLOMBIANO",
+        "malla": 180
+      },
+      {
+        "barrio": "GRANADA SUR",
+        "malla": 129
+      },
+      {
+        "barrio": "GRANJAS DE SAN PABLO",
+        "malla": 122
+      },
+      {
+        "barrio": "GRANJAS SAN PABLO",
+        "malla": 122
+      },
+      {
+        "barrio": "GRIBALTA SUR",
+        "malla": 120
+      },
+      {
+        "barrio": "GUACA",
+        "malla": 115
+      },
+      {
+        "barrio": "GUACA",
+        "malla": 159
+      },
+      {
+        "barrio": "GUACAMAYAS",
+        "malla": 139
+      },
+      {
+        "barrio": "GUACAMAYAS",
+        "malla": 126
+      },
+      {
+        "barrio": "GUACAMAYAS",
+        "malla": 137
+      },
+      {
+        "barrio": "GUACAMAYAS",
+        "malla": 123
+      },
+      {
+        "barrio": "GUACAMAYAS III",
+        "malla": 126
+      },
+      {
+        "barrio": "GUACAMAYAS IV",
+        "malla": 126
+      },
+      {
+        "barrio": "GUAYMARAL",
+        "malla": 187
+      },
+      {
+        "barrio": "GUSTAVO RESTREPO",
+        "malla": 122
+      },
+      {
+        "barrio": "GUSTAVO RESTREPO",
+        "malla": 125
+      },
+      {
+        "barrio": "HDA ARRAYANES",
+        "malla": 187
+      },
+      {
+        "barrio": "HIPOTECHO",
+        "malla": 111
+      },
+      {
+        "barrio": "HIPOTECHO SUR",
+        "malla": 193
+      },
+      {
+        "barrio": "HORIZONTE",
+        "malla": 166
+      },
+      {
+        "barrio": "HORIZONTE NORTE",
+        "malla": 166
+      },
+      {
+        "barrio": "HUMBERTO VALENCIA",
+        "malla": 180
+      },
+      {
+        "barrio": "HUMBERTO VALENCIA",
+        "malla": 160
+      },
+      {
+        "barrio": "IGUALDAD",
+        "malla": 174
+      },
+      {
+        "barrio": "IGUALDAD",
+        "malla": 111
+      },
+      {
+        "barrio": "IGUALDAD",
+        "malla": 109
+      },
+      {
+        "barrio": "INGEMAR",
+        "malla": 155
+      },
+      {
+        "barrio": "INGLES",
+        "malla": 119
+      },
+      {
+        "barrio": "INGLES",
+        "malla": 107
+      },
+      {
+        "barrio": "INGLES",
+        "malla": 159
+      },
+      {
+        "barrio": "ISLA DEL SOL",
+        "malla": 112
+      },
+      {
+        "barrio": "ISLANDIA",
+        "malla": 180
+      },
+      {
+        "barrio": "ISMAEL PERDOMO",
+        "malla": 107
+      },
+      {
+        "barrio": "ISMAEL PERDOMO",
+        "malla": 106
+      },
+      {
+        "barrio": "J.J RENDON",
+        "malla": 113
+      },
+      {
+        "barrio": "J.J VARGAS",
+        "malla": 142
+      },
+      {
+        "barrio": "J.J. RENDON",
+        "malla": 157
+      },
+      {
+        "barrio": "J.J. RENDON",
+        "malla": 113
+      },
+      {
+        "barrio": "J.J. VARGAS",
+        "malla": 142
+      },
+      {
+        "barrio": "JARDIN BOTANICO",
+        "malla": 137
+      },
+      {
+        "barrio": "JARDIN NORTE",
+        "malla": 150
+      },
+      {
+        "barrio": "JARDIN NORTE",
+        "malla": 149
+      },
+      {
+        "barrio": "JARDINES DE PAZ",
+        "malla": 198
+      },
+      {
+        "barrio": "JARDINES DEL RECUERDO",
+        "malla": 187
+      },
+      {
+        "barrio": "JERICO",
+        "malla": 184
+      },
+      {
+        "barrio": "JERUSALEN",
+        "malla": 157
+      },
+      {
+        "barrio": "JORGE ELIECER GAITAN",
+        "malla": 142
+      },
+      {
+        "barrio": "JORGE GAITAN CORTES",
+        "malla": 117
+      },
+      {
+        "barrio": "JOSE A. GALAN",
+        "malla": 106
+      },
+      {
+        "barrio": "JOSE A.GALAN",
+        "malla": 106
+      },
+      {
+        "barrio": "JOSE JOAQUIN VARGAS",
+        "malla": 142
+      },
+      {
+        "barrio": "JUAN JOSE RONDON I",
+        "malla": 127
+      },
+      {
+        "barrio": "JUAN PABLO II",
+        "malla": 120
+      },
+      {
+        "barrio": "JUAN REY",
+        "malla": 155
+      },
+      {
+        "barrio": "JUAN REY",
+        "malla": 127
+      },
+      {
+        "barrio": "JUAN REY",
+        "malla": 163
+      },
+      {
+        "barrio": "JUAN REY SUR",
+        "malla": 127
+      },
+      {
+        "barrio": "KENNEDY CENTRAL",
+        "malla": 110
+      },
+      {
+        "barrio": "KENNEDY CENTRAL",
+        "malla": 109
+      },
+      {
+        "barrio": "KENNEDY NORTE",
+        "malla": 118
+      },
+      {
+        "barrio": "KENNEDY NORTE",
+        "malla": 188
+      },
+      {
+        "barrio": "KENNEDY NORTE",
+        "malla": 109
+      },
+      {
+        "barrio": "KENNEDY NORTE",
+        "malla": 161
+      },
+      {
+        "barrio": "KENNEDY NORTE",
+        "malla": 119
+      },
+      {
+        "barrio": "KENNEDY ORIENTAL",
+        "malla": 110
+      },
+      {
+        "barrio": "KENNEDY ORIENTAL",
+        "malla": 109
+      },
+      {
+        "barrio": "KENNEDY SUR",
+        "malla": 109
+      },
+      {
+        "barrio": "KENNEDY SUR",
+        "malla": 130
+      },
+      {
+        "barrio": "KENNEDY SUR",
+        "malla": 115
+      },
+      {
+        "barrio": "KENNNEDY NORTE",
+        "malla": 109
+      },
+      {
+        "barrio": "LA ALAMEDA",
+        "malla": 132
+      },
+      {
+        "barrio": "LA ANDREA",
+        "malla": 163
+      },
+      {
+        "barrio": "LA ASUNCION",
+        "malla": 117
+      },
+      {
+        "barrio": "LA AURORA",
+        "malla": 163
+      },
+      {
+        "barrio": "LA CABANA FONTIBON",
+        "malla": 102
+      },
+      {
+        "barrio": "LA CALERA",
+        "malla": 92
+      },
+      {
+        "barrio": "LA CALLEJA",
+        "malla": 168
+      },
+      {
+        "barrio": "LA CALLEJA",
+        "malla": 150
+      },
+      {
+        "barrio": "LA CALLEJA",
+        "malla": 152
+      },
+      {
+        "barrio": "LA CAMPINA",
+        "malla": 110
+      },
+      {
+        "barrio": "LA CAMPIÑA",
+        "malla": 110
+      },
+      {
+        "barrio": "LA CAROLINA",
+        "malla": 168
+      },
+      {
+        "barrio": "LA CASTELLANA",
+        "malla": 145
+      },
+      {
+        "barrio": "LA CATEDRAL",
+        "malla": 132
+      },
+      {
+        "barrio": "LA CATEDRAL",
+        "malla": 162
+      },
+      {
+        "barrio": "LA CATEDRAL",
+        "malla": 121
+      },
+      {
+        "barrio": "LA CATEDRAL",
+        "malla": 130
+      },
+      {
+        "barrio": "LA CITA",
+        "malla": 170
+      },
+      {
+        "barrio": "LA COMUNA",
+        "malla": 164
+      },
+      {
+        "barrio": "LA CONEJERA",
+        "malla": 154
+      },
+      {
+        "barrio": "LA CONEJERA",
+        "malla": 165
+      },
+      {
+        "barrio": "LA CUMBRE",
+        "malla": 178
+      },
+      {
+        "barrio": "LA CUMBRE",
+        "malla": 120
+      },
+      {
+        "barrio": "LA CUMBRE",
+        "malla": 180
+      },
+      {
+        "barrio": "LA DESPENSA",
+        "malla": 192
+      },
+      {
+        "barrio": "LA DESPENSA",
+        "malla": 106
+      },
+      {
+        "barrio": "LA ESMERALDA",
+        "malla": 135
+      },
+      {
+        "barrio": "LA ESPANOLA",
+        "malla": 146
+      },
+      {
+        "barrio": "LA ESPANOLA",
+        "malla": 148
+      },
+      {
+        "barrio": "LA ESPAÑOLA",
+        "malla": 146
+      },
+      {
+        "barrio": "LA ESPERANZA",
+        "malla": 188
+      },
+      {
+        "barrio": "LA ESPERANZA DE USME",
+        "malla": 164
+      },
+      {
+        "barrio": "LA ESPERANZA NORTE",
+        "malla": 191
+      },
+      {
+        "barrio": "LA ESPERANZA SUR",
+        "malla": 164
+      },
+      {
+        "barrio": "LA ESTANCIA",
+        "malla": 107
+      },
+      {
+        "barrio": "LA ESTANZUELA",
+        "malla": 124
+      },
+      {
+        "barrio": "LA ESTRADA",
+        "malla": 137
+      },
+      {
+        "barrio": "LA ESTRELLA",
+        "malla": 120
+      },
+      {
+        "barrio": "LA ESTRELLA",
+        "malla": 178
+      },
+      {
+        "barrio": "LA ESTRELLA",
+        "malla": 179
+      },
+      {
+        "barrio": "LA EUROPA",
+        "malla": 137
+      },
+      {
+        "barrio": "LA EUROPA",
+        "malla": 138
+      },
+      {
+        "barrio": "LA FAENA",
+        "malla": 176
+      },
+      {
+        "barrio": "LA FAVORITA",
+        "malla": 131
+      },
+      {
+        "barrio": "LA FELICIDAD",
+        "malla": 174
+      },
+      {
+        "barrio": "LA FELICIDAD",
+        "malla": 188
+      },
+      {
+        "barrio": "LA FISCALA",
+        "malla": 155
+      },
+      {
+        "barrio": "LA FISCALA",
+        "malla": 121
+      },
+      {
+        "barrio": "LA FISCALA",
+        "malla": 164
+      },
+      {
+        "barrio": "LA FISCALA",
+        "malla": 127
+      },
+      {
+        "barrio": "LA FISCALIA",
+        "malla": 127
+      },
+      {
+        "barrio": "LA FLORESTA",
+        "malla": 197
+      },
+      {
+        "barrio": "LA GLORIA",
+        "malla": 123
+      },
+      {
+        "barrio": "LA GLORIA OCCIDENTAL",
+        "malla": 123
+      },
+      {
+        "barrio": "LA GLORIA ORIENTAL",
+        "malla": 123
+      },
+      {
+        "barrio": "LA LAGUNA",
+        "malla": 102
+      },
+      {
+        "barrio": "LA LIBERIA",
+        "malla": 170
+      },
+      {
+        "barrio": "LA LIBERTAD",
+        "malla": 181
+      },
+      {
+        "barrio": "LA LOMITA",
+        "malla": 187
+      },
+      {
+        "barrio": "LA MAGADALENA",
+        "malla": 140
+      },
+      {
+        "barrio": "LA MAGDALENA",
+        "malla": 124
+      },
+      {
+        "barrio": "LA MAGDALENA",
+        "malla": 140
+      },
+      {
+        "barrio": "LA MAGDALENA",
+        "malla": 134
+      },
+      {
+        "barrio": "LA MERCED NORTE",
+        "malla": 143
+      },
+      {
+        "barrio": "LA ORQUIDEA DE USME",
+        "malla": 164
+      },
+      {
+        "barrio": "LA PAZ",
+        "malla": 127
+      },
+      {
+        "barrio": "LA PAZ",
+        "malla": 143
+      },
+      {
+        "barrio": "LA PAZ BOSA",
+        "malla": 105
+      },
+      {
+        "barrio": "LA PAZ BOSA",
+        "malla": 107
+      },
+      {
+        "barrio": "LA PAZ BOSA",
+        "malla": 60
+      },
+      {
+        "barrio": "LA PAZ BOSA",
+        "malla": 181
+      },
+      {
+        "barrio": "LA PENA",
+        "malla": 132
+      },
+      {
+        "barrio": "LA PENA",
+        "malla": 129
+      },
+      {
+        "barrio": "LA PERSEVERANCIA",
+        "malla": 134
+      },
+      {
+        "barrio": "LA PERSEVERANCIA",
+        "malla": 125
+      },
+      {
+        "barrio": "LA PERSEVERANCIA",
+        "malla": 140
+      },
+      {
+        "barrio": "LA PICOTA",
+        "malla": 121
+      },
+      {
+        "barrio": "LA PRADERA",
+        "malla": 170
+      },
+      {
+        "barrio": "LA PRADERA",
+        "malla": 158
+      },
+      {
+        "barrio": "LA PRADERA NORTE",
+        "malla": 170
+      },
+      {
+        "barrio": "LA PRIMAVERA II",
+        "malla": 107
+      },
+      {
+        "barrio": "LA REFORMA",
+        "malla": 164
+      },
+      {
+        "barrio": "LA RESURRECCION",
+        "malla": 122
+      },
+      {
+        "barrio": "LA RIVIERA",
+        "malla": 176
+      },
+      {
+        "barrio": "LA SERENA",
+        "malla": 149
+      },
+      {
+        "barrio": "LA SERENA",
+        "malla": 146
+      },
+      {
+        "barrio": "LA SOLEDAD",
+        "malla": 140
+      },
+      {
+        "barrio": "LA TOSCANA",
+        "malla": 154
+      },
+      {
+        "barrio": "LA TOSCANA",
+        "malla": 177
+      },
+      {
+        "barrio": "LA TRINIDAD",
+        "malla": 116
+      },
+      {
+        "barrio": "LA URIBE",
+        "malla": 166
+      },
+      {
+        "barrio": "LA URIBIA",
+        "malla": 166
+      },
+      {
+        "barrio": "LA VERACRUZ",
+        "malla": 140
+      },
+      {
+        "barrio": "LA VERACRUZ",
+        "malla": 155
+      },
+      {
+        "barrio": "LA VERACRUZ",
+        "malla": 132
+      },
+      {
+        "barrio": "LA VERACRUZ",
+        "malla": 131
+      },
+      {
+        "barrio": "LA VEREDITA",
+        "malla": 107
+      },
+      {
+        "barrio": "LA VICTORIA",
+        "malla": 126
+      },
+      {
+        "barrio": "LAGO GAITAN",
+        "malla": 144
+      },
+      {
+        "barrio": "LAGO GAITNA",
+        "malla": 144
+      },
+      {
+        "barrio": "LAGUNITAS URBANO",
+        "malla": 178
+      },
+      {
+        "barrio": "LAS  PALMITAS",
+        "malla": 183
+      },
+      {
+        "barrio": "LAS ACACIA",
+        "malla": 113
+      },
+      {
+        "barrio": "LAS ACACIAS",
+        "malla": 161
+      },
+      {
+        "barrio": "LAS ACACIAS",
+        "malla": 183
+      },
+      {
+        "barrio": "LAS AGUAS",
+        "malla": 132
+      },
+      {
+        "barrio": "LAS CRUCES",
+        "malla": 130
+      },
+      {
+        "barrio": "LAS CRUCES",
+        "malla": 164
+      },
+      {
+        "barrio": "LAS DELICIAS",
+        "malla": 111
+      },
+      {
+        "barrio": "LAS FERIAS",
+        "malla": 142
+      },
+      {
+        "barrio": "LAS FERIAS",
+        "malla": 141
+      },
+      {
+        "barrio": "LAS FLORES",
+        "malla": 181
+      },
+      {
+        "barrio": "LAS FLORES",
+        "malla": 153
+      },
+      {
+        "barrio": "LAS FLORES",
+        "malla": 189
+      },
+      {
+        "barrio": "LAS FLORES",
+        "malla": 123
+      },
+      {
+        "barrio": "LAS GUACAMAYAS I",
+        "malla": 126
+      },
+      {
+        "barrio": "LAS LOMAS",
+        "malla": 125
+      },
+      {
+        "barrio": "LAS MANAS",
+        "malla": 157
+      },
+      {
+        "barrio": "LAS MARGARITAS",
+        "malla": 137
+      },
+      {
+        "barrio": "LAS MARGARITAS",
+        "malla": 152
+      },
+      {
+        "barrio": "LAS MERCEDEA",
+        "malla": 129
+      },
+      {
+        "barrio": "LAS MERCEDES",
+        "malla": 123
+      },
+      {
+        "barrio": "LAS MERCEDES",
+        "malla": 126
+      },
+      {
+        "barrio": "LAS MERCEDES",
+        "malla": 159
+      },
+      {
+        "barrio": "LAS MERCEDES",
+        "malla": 129
+      },
+      {
+        "barrio": "LAS MERCEDES",
+        "malla": 164
+      },
+      {
+        "barrio": "LAS ORQUIDEAS",
+        "malla": 152
+      },
+      {
+        "barrio": "LAS PALMITAS",
+        "malla": 183
+      },
+      {
+        "barrio": "LAS VILLAS",
+        "malla": 149
+      },
+      {
+        "barrio": "LECH WALESA",
+        "malla": 148
+      },
+      {
+        "barrio": "LEON XIII",
+        "malla": 114
+      },
+      {
+        "barrio": "LEON XIII",
+        "malla": 132
+      },
+      {
+        "barrio": "LEON XIII",
+        "malla": 204
+      },
+      {
+        "barrio": "LIBERTADORES",
+        "malla": 159
+      },
+      {
+        "barrio": "LISBA",
+        "malla": 177
+      },
+      {
+        "barrio": "LISBOA",
+        "malla": 177
+      },
+      {
+        "barrio": "LISBOA",
+        "malla": 179
+      },
+      {
+        "barrio": "LISBOA",
+        "malla": 163
+      },
+      {
+        "barrio": "LOBARDIA",
+        "malla": 154
+      },
+      {
+        "barrio": "LOMAS",
+        "malla": 122
+      },
+      {
+        "barrio": "LOMAS",
+        "malla": 125
+      },
+      {
+        "barrio": "LOS  ARRAYANES",
+        "malla": 127
+      },
+      {
+        "barrio": "LOS ALAMOS",
+        "malla": 139
+      },
+      {
+        "barrio": "LOS ALAMOS",
+        "malla": 103
+      },
+      {
+        "barrio": "LOS ALMENDROS",
+        "malla": 183
+      },
+      {
+        "barrio": "LOS ALPES",
+        "malla": 123
+      },
+      {
+        "barrio": "LOS ALPES",
+        "malla": 105
+      },
+      {
+        "barrio": "LOS ANGELES",
+        "malla": 167
+      },
+      {
+        "barrio": "LOS ANGELES",
+        "malla": 139
+      },
+      {
+        "barrio": "LOS AYUELOS",
+        "malla": 188
+      },
+      {
+        "barrio": "LOS CEDROS",
+        "malla": 152
+      },
+      {
+        "barrio": "LOS CENTAUROS",
+        "malla": 185
+      },
+      {
+        "barrio": "LOS CENTAUROS",
+        "malla": 105
+      },
+      {
+        "barrio": "LOS CENTAUROS",
+        "malla": 181
+      },
+      {
+        "barrio": "LOS CENTAUROS",
+        "malla": 171
+      },
+      {
+        "barrio": "LOS CEREZOS",
+        "malla": 146
+      },
+      {
+        "barrio": "LOS EJIDOS",
+        "malla": 128
+      },
+      {
+        "barrio": "LOS HAYUELOS",
+        "malla": 188
+      },
+      {
+        "barrio": "LOS ISRAELITAS",
+        "malla": 160
+      },
+      {
+        "barrio": "LOS ISRAELITAS",
+        "malla": 180
+      },
+      {
+        "barrio": "LOS JARDINES",
+        "malla": 180
+      },
+      {
+        "barrio": "LOS LACHES",
+        "malla": 130
+      },
+      {
+        "barrio": "LOS LAGARTOS",
+        "malla": 149
+      },
+      {
+        "barrio": "LOS LAURELES I",
+        "malla": 129
+      },
+      {
+        "barrio": "LOS MONJES",
+        "malla": 139
+      },
+      {
+        "barrio": "LOS NARANJOS",
+        "malla": 148
+      },
+      {
+        "barrio": "LOS PIJAOS",
+        "malla": 125
+      },
+      {
+        "barrio": "LOS ROSALES",
+        "malla": 144
+      },
+      {
+        "barrio": "LOS SAUCES",
+        "malla": 180
+      },
+      {
+        "barrio": "LOS SOCHES",
+        "malla": 127
+      },
+      {
+        "barrio": "LOS TIGRES",
+        "malla": 107
+      },
+      {
+        "barrio": "LOS TRES REYES",
+        "malla": 107
+      },
+      {
+        "barrio": "LOS TRES REYES I",
+        "malla": 107
+      },
+      {
+        "barrio": "LUCERO",
+        "malla": 120
+      },
+      {
+        "barrio": "LUCERO",
+        "malla": 178
+      },
+      {
+        "barrio": "LUNA PARK",
+        "malla": 124
+      },
+      {
+        "barrio": "LUNA PARK",
+        "malla": 164
+      },
+      {
+        "barrio": "LUNA PARK",
+        "malla": 129
+      },
+      {
+        "barrio": "LUNA PARK",
+        "malla": 120
+      },
+      {
+        "barrio": "MADELENA",
+        "malla": 194
+      },
+      {
+        "barrio": "MAGDALENA",
+        "malla": 134
+      },
+      {
+        "barrio": "MAGDALENA",
+        "malla": 140
+      },
+      {
+        "barrio": "MAGDALENA",
+        "malla": 132
+      },
+      {
+        "barrio": "MALIBU",
+        "malla": 150
+      },
+      {
+        "barrio": "MALIBU",
+        "malla": 148
+      },
+      {
+        "barrio": "MALIBU",
+        "malla": 197
+      },
+      {
+        "barrio": "MALIBU",
+        "malla": 143
+      },
+      {
+        "barrio": "MANUELA BELTRAN",
+        "malla": 109
+      },
+      {
+        "barrio": "MANUELA BELTRAN",
+        "malla": 157
+      },
+      {
+        "barrio": "MARANDU",
+        "malla": 167
+      },
+      {
+        "barrio": "MARATU",
+        "malla": 139
+      },
+      {
+        "barrio": "MARATU",
+        "malla": 181
+      },
+      {
+        "barrio": "MARATU",
+        "malla": 180
+      },
+      {
+        "barrio": "MARCELLA",
+        "malla": 104
+      },
+      {
+        "barrio": "MARCO FIDEL SUAREZ",
+        "malla": 122
+      },
+      {
+        "barrio": "MARGARITAS",
+        "malla": 171
+      },
+      {
+        "barrio": "MARICHUELA",
+        "malla": 157
+      },
+      {
+        "barrio": "MARICHUELA",
+        "malla": 112
+      },
+      {
+        "barrio": "MARICHUELA",
+        "malla": 105
+      },
+      {
+        "barrio": "MARICHUELA",
+        "malla": 178
+      },
+      {
+        "barrio": "MARICHUELA",
+        "malla": 181
+      },
+      {
+        "barrio": "MARICHUELA",
+        "malla": 163
+      },
+      {
+        "barrio": "MARICHUELA",
+        "malla": 164
+      },
+      {
+        "barrio": "MARICHUELA",
+        "malla": 154
+      },
+      {
+        "barrio": "MARLY",
+        "malla": 155
+      },
+      {
+        "barrio": "MARRUECOS",
+        "malla": 158
+      },
+      {
+        "barrio": "MARRUECOS",
+        "malla": 121
+      },
+      {
+        "barrio": "MARRUECOS",
+        "malla": 122
+      },
+      {
+        "barrio": "MARSELLA",
+        "malla": 104
+      },
+      {
+        "barrio": "MAZDA",
+        "malla": 187
+      },
+      {
+        "barrio": "MAZDA",
+        "malla": 198
+      },
+      {
+        "barrio": "MAZUREN",
+        "malla": 153
+      },
+      {
+        "barrio": "MAZUREN",
+        "malla": 145
+      },
+      {
+        "barrio": "MAZUREN",
+        "malla": 160
+      },
+      {
+        "barrio": "MAZUREN",
+        "malla": 105
+      },
+      {
+        "barrio": "MAZUREN",
+        "malla": 150
+      },
+      {
+        "barrio": "MAZUREN",
+        "malla": 177
+      },
+      {
+        "barrio": "MEISSEN",
+        "malla": 120
+      },
+      {
+        "barrio": "METROPOLIS",
+        "malla": 142
+      },
+      {
+        "barrio": "METROPOLIS",
+        "malla": 141
+      },
+      {
+        "barrio": "MEXICO",
+        "malla": 153
+      },
+      {
+        "barrio": "MEXICO",
+        "malla": 120
+      },
+      {
+        "barrio": "MIRANDELA",
+        "malla": 165
+      },
+      {
+        "barrio": "MOBALDA",
+        "malla": 123
+      },
+      {
+        "barrio": "MODELIA",
+        "malla": 188
+      },
+      {
+        "barrio": "MOLINOS DEL SUR",
+        "malla": 158
+      },
+      {
+        "barrio": "MOLINOS DUR",
+        "malla": 158
+      },
+      {
+        "barrio": "MOLINOS SUR",
+        "malla": 122
+      },
+      {
+        "barrio": "MOLINOS SUR",
+        "malla": 164
+      },
+      {
+        "barrio": "MOLINOS SUR",
+        "malla": 158
+      },
+      {
+        "barrio": "MONTE ARROYO",
+        "malla": 169
+      },
+      {
+        "barrio": "MONTE BELLO",
+        "malla": 178
+      },
+      {
+        "barrio": "MONTE BELLO",
+        "malla": 129
+      },
+      {
+        "barrio": "MONTE BELLO",
+        "malla": 126
+      },
+      {
+        "barrio": "MONTE BLANCO",
+        "malla": 163
+      },
+      {
+        "barrio": "MONTE BLANCO",
+        "malla": 164
+      },
+      {
+        "barrio": "MONTE BLANO",
+        "malla": 164
+      },
+      {
+        "barrio": "MONTE LANCO",
+        "malla": 164
+      },
+      {
+        "barrio": "MONTEBLANCO",
+        "malla": 164
+      },
+      {
+        "barrio": "MONTEVIDEO",
+        "malla": 103
+      },
+      {
+        "barrio": "MORALBA",
+        "malla": 123
+      },
+      {
+        "barrio": "MOTELES",
+        "malla": 102
+      },
+      {
+        "barrio": "MULTF ARCADIA",
+        "malla": 188
+      },
+      {
+        "barrio": "MULTIF. LA BAHIA",
+        "malla": 188
+      },
+      {
+        "barrio": "MULTIF. SAINT MICHEL",
+        "malla": 166
+      },
+      {
+        "barrio": "MUNDO AVENTURA",
+        "malla": 111
+      },
+      {
+        "barrio": "MURILLO TORO",
+        "malla": 159
+      },
+      {
+        "barrio": "MURILLO TORO",
+        "malla": 119
+      },
+      {
+        "barrio": "MUZU",
+        "malla": 114
+      },
+      {
+        "barrio": "NACIONES UNIDAS",
+        "malla": 178
+      },
+      {
+        "barrio": "NARIÃ‘O SUR",
+        "malla": 130
+      },
+      {
+        "barrio": "NAVARRA",
+        "malla": 168
+      },
+      {
+        "barrio": "NICOLAS DE  FEDERMAN",
+        "malla": 135
+      },
+      {
+        "barrio": "NICOLAS DE FEDERMAN",
+        "malla": 135
+      },
+      {
+        "barrio": "NIZA",
+        "malla": 149
+      },
+      {
+        "barrio": "NIZA IX",
+        "malla": 150
+      },
+      {
+        "barrio": "NIZA NORTE",
+        "malla": 149
+      },
+      {
+        "barrio": "NIZA NORTE",
+        "malla": 109
+      },
+      {
+        "barrio": "NIZA NORTE",
+        "malla": 150
+      },
+      {
+        "barrio": "NIZA SUBA",
+        "malla": 149
+      },
+      {
+        "barrio": "NIZA XI",
+        "malla": 150
+      },
+      {
+        "barrio": "NORMANDIA",
+        "malla": 137
+      },
+      {
+        "barrio": "NORMANDIA",
+        "malla": 138
+      },
+      {
+        "barrio": "NORMANDIA OCCIDENTAL",
+        "malla": 137
+      },
+      {
+        "barrio": "NORMANDIA OCCIDENTAL",
+        "malla": 138
+      },
+      {
+        "barrio": "NOVO CANDELARIA II",
+        "malla": 130
+      },
+      {
+        "barrio": "NUEVA CASTILLA",
+        "malla": 182
+      },
+      {
+        "barrio": "NUEVA CASTILLA",
+        "malla": 172
+      },
+      {
+        "barrio": "NUEVA CASTILLA",
+        "malla": 151
+      },
+      {
+        "barrio": "NUEVA CASTILLA",
+        "malla": 164
+      },
+      {
+        "barrio": "NUEVA DELHI",
+        "malla": 127
+      },
+      {
+        "barrio": "NUEVA GLORIA",
+        "malla": 123
+      },
+      {
+        "barrio": "NUEVA GRANADA",
+        "malla": 155
+      },
+      {
+        "barrio": "NUEVA GRANADA",
+        "malla": 160
+      },
+      {
+        "barrio": "NUEVA GRANADA",
+        "malla": 106
+      },
+      {
+        "barrio": "NUEVA GRANADA",
+        "malla": 157
+      },
+      {
+        "barrio": "NUEVA GRANADA",
+        "malla": 137
+      },
+      {
+        "barrio": "NUEVA MADELENA",
+        "malla": 181
+      },
+      {
+        "barrio": "NUEVA MADELENA",
+        "malla": 107
+      },
+      {
+        "barrio": "NUEVA MADELENA",
+        "malla": 194
+      },
+      {
+        "barrio": "NUEVA ROMA",
+        "malla": 111
+      },
+      {
+        "barrio": "NUEVA ROMA",
+        "malla": 105
+      },
+      {
+        "barrio": "NUEVA ROPA",
+        "malla": 105
+      },
+      {
+        "barrio": "NUEVA TIBABUYES",
+        "malla": 177
+      },
+      {
+        "barrio": "NUEVA ZELANDIA",
+        "malla": 165
+      },
+      {
+        "barrio": "NUEVO COUNTRY",
+        "malla": 152
+      },
+      {
+        "barrio": "NUEVO COUNTRY",
+        "malla": 169
+      },
+      {
+        "barrio": "NUEVO COUNTRY",
+        "malla": 176
+      },
+      {
+        "barrio": "NUEVO HORIZONTE",
+        "malla": 181
+      },
+      {
+        "barrio": "NUEVO KENNEDY",
+        "malla": 105
+      },
+      {
+        "barrio": "NUTIBARA",
+        "malla": 113
+      },
+      {
+        "barrio": "NUTIBARA",
+        "malla": 178
+      },
+      {
+        "barrio": "NUTIBARA",
+        "malla": 120
+      },
+      {
+        "barrio": "NUTIBARA",
+        "malla": 179
+      },
+      {
+        "barrio": "NUVA ROMA",
+        "malla": 105
+      },
+      {
+        "barrio": "OLARTE",
+        "malla": 108
+      },
+      {
+        "barrio": "OLAYA",
+        "malla": 118
+      },
+      {
+        "barrio": "OLAYA",
+        "malla": 163
+      },
+      {
+        "barrio": "ORQUIDEAS",
+        "malla": 152
+      },
+      {
+        "barrio": "ORQUIDEAS",
+        "malla": 170
+      },
+      {
+        "barrio": "ORTEZAL",
+        "malla": 173
+      },
+      {
+        "barrio": "OSORIO II",
+        "malla": 182
+      },
+      {
+        "barrio": "OSPINA PEREZ",
+        "malla": 106
+      },
+      {
+        "barrio": "OSPINA PEREZ",
+        "malla": 115
+      },
+      {
+        "barrio": "OSPINA PEREZ",
+        "malla": 119
+      },
+      {
+        "barrio": "PABLO VI",
+        "malla": 135
+      },
+      {
+        "barrio": "PABLO VI",
+        "malla": 138
+      },
+      {
+        "barrio": "PALEMOR SUR",
+        "malla": 121
+      },
+      {
+        "barrio": "PALERMO",
+        "malla": 121
+      },
+      {
+        "barrio": "PALERMO SUR",
+        "malla": 120
+      },
+      {
+        "barrio": "PALERMO SUR",
+        "malla": 124
+      },
+      {
+        "barrio": "PALERMO SUR",
+        "malla": 181
+      },
+      {
+        "barrio": "PALERMO SUR",
+        "malla": 127
+      },
+      {
+        "barrio": "PALERMO SUR",
+        "malla": 121
+      },
+      {
+        "barrio": "PALERMO SUR",
+        "malla": 123
+      },
+      {
+        "barrio": "PALERMOS SUR",
+        "malla": 121
+      },
+      {
+        "barrio": "PALESTINA",
+        "malla": 106
+      },
+      {
+        "barrio": "PALESTINA",
+        "malla": 181
+      },
+      {
+        "barrio": "PALESTINA",
+        "malla": 155
+      },
+      {
+        "barrio": "PALOQUEMAO",
+        "malla": 118
+      },
+      {
+        "barrio": "PALOQUEMAO",
+        "malla": 131
+      },
+      {
+        "barrio": "PARAISO",
+        "malla": 179
+      },
+      {
+        "barrio": "PARAISO QUIBA",
+        "malla": 179
+      },
+      {
+        "barrio": "PARIS GAITAN",
+        "malla": 146
+      },
+      {
+        "barrio": "PARK LIVING",
+        "malla": 150
+      },
+      {
+        "barrio": "PARQEU CENTRAL BAVARIA",
+        "malla": 134
+      },
+      {
+        "barrio": "PARQUE CENTRAL BAVAR",
+        "malla": 134
+      },
+      {
+        "barrio": "PARQUE CENTRAL BAVARIA",
+        "malla": 125
+      },
+      {
+        "barrio": "PARQUE CENTRAL BAVARIA",
+        "malla": 134
+      },
+      {
+        "barrio": "PARQUE DE LA ROCA",
+        "malla": 178
+      },
+      {
+        "barrio": "PARQUE DE LA ROCA",
+        "malla": 126
+      },
+      {
+        "barrio": "PARQUE DE LA ROCA",
+        "malla": 129
+      },
+      {
+        "barrio": "PARQUE DE LA ROCA",
+        "malla": 130
+      },
+      {
+        "barrio": "PARQUE IND MONTANA",
+        "malla": 131
+      },
+      {
+        "barrio": "PARQUE METROPOLITANO",
+        "malla": 129
+      },
+      {
+        "barrio": "PARQUE METROPOLITANO",
+        "malla": 130
+      },
+      {
+        "barrio": "PARQUE METROPOLITANO",
+        "malla": 132
+      },
+      {
+        "barrio": "PARQUE NACIONAL",
+        "malla": 134
+      },
+      {
+        "barrio": "PARQUE SALITRE",
+        "malla": 142
+      },
+      {
+        "barrio": "PARQUE SALITRE",
+        "malla": 137
+      },
+      {
+        "barrio": "PARQUES DE LA ROCA",
+        "malla": 129
+      },
+      {
+        "barrio": "PASADENA",
+        "malla": 197
+      },
+      {
+        "barrio": "PASO ANCHO",
+        "malla": 106
+      },
+      {
+        "barrio": "PASTRANA",
+        "malla": 109
+      },
+      {
+        "barrio": "PASTRANA",
+        "malla": 105
+      },
+      {
+        "barrio": "PATIO BONITA",
+        "malla": 161
+      },
+      {
+        "barrio": "PATIO BONITO",
+        "malla": 189
+      },
+      {
+        "barrio": "PATIO BONITO",
+        "malla": 161
+      },
+      {
+        "barrio": "PATIO BONITO",
+        "malla": 183
+      },
+      {
+        "barrio": "PENSILVANIA",
+        "malla": 128
+      },
+      {
+        "barrio": "PERDOMO ALTO",
+        "malla": 107
+      },
+      {
+        "barrio": "PERDOMO ALTO",
+        "malla": 138
+      },
+      {
+        "barrio": "PERDOMO ALTO",
+        "malla": 112
+      },
+      {
+        "barrio": "PERDOMO ALTO",
+        "malla": 106
+      },
+      {
+        "barrio": "PESEBRE",
+        "malla": 181
+      },
+      {
+        "barrio": "PESEBRE",
+        "malla": 128
+      },
+      {
+        "barrio": "PESEBRE",
+        "malla": 122
+      },
+      {
+        "barrio": "POLO CLUB",
+        "malla": 197
+      },
+      {
+        "barrio": "POLO CLUB",
+        "malla": 143
+      },
+      {
+        "barrio": "POPULAR MODELO",
+        "malla": 142
+      },
+      {
+        "barrio": "PORCIUNCULA",
+        "malla": 144
+      },
+      {
+        "barrio": "PORTALES DEL NORTE",
+        "malla": 153
+      },
+      {
+        "barrio": "PORVENIR",
+        "malla": 127
+      },
+      {
+        "barrio": "POTOSI",
+        "malla": 157
+      },
+      {
+        "barrio": "POTOSI",
+        "malla": 197
+      },
+      {
+        "barrio": "PRADO PINZON",
+        "malla": 150
+      },
+      {
+        "barrio": "PRADO VERANIEGO",
+        "malla": 150
+      },
+      {
+        "barrio": "PRADO VERANIEGO NORTE",
+        "malla": 150
+      },
+      {
+        "barrio": "PRIMAVERA",
+        "malla": 146
+      },
+      {
+        "barrio": "PRIMAVERA",
+        "malla": 116
+      },
+      {
+        "barrio": "PRIMAVERA",
+        "malla": 117
+      },
+      {
+        "barrio": "PRIMAVERA II",
+        "malla": 107
+      },
+      {
+        "barrio": "PROTECHO",
+        "malla": 119
+      },
+      {
+        "barrio": "PROTECHO",
+        "malla": 113
+      },
+      {
+        "barrio": "PROVIVIENDA",
+        "malla": 183
+      },
+      {
+        "barrio": "PROVIVIENDA",
+        "malla": 161
+      },
+      {
+        "barrio": "PROVIVIENDA",
+        "malla": 171
+      },
+      {
+        "barrio": "PROVIVIENDA OCCIDENT",
+        "malla": 110
+      },
+      {
+        "barrio": "PROVIVIENDA ORIENTAL",
+        "malla": 111
+      },
+      {
+        "barrio": "PUENTE ARANDA",
+        "malla": 133
+      },
+      {
+        "barrio": "PUENTE COLORADO",
+        "malla": 123
+      },
+      {
+        "barrio": "PUENTE GRANDE",
+        "malla": 184
+      },
+      {
+        "barrio": "PUENTE LARGO",
+        "malla": 167
+      },
+      {
+        "barrio": "PUENTE LARGO",
+        "malla": 197
+      },
+      {
+        "barrio": "PUERTA AL LLANO",
+        "malla": 164
+      },
+      {
+        "barrio": "PUERTA DE TEJA",
+        "malla": 102
+      },
+      {
+        "barrio": "PUERTA DEL LLANO",
+        "malla": 164
+      },
+      {
+        "barrio": "PUERTA DEL SOL",
+        "malla": 154
+      },
+      {
+        "barrio": "PUERTA DELSOL",
+        "malla": 154
+      },
+      {
+        "barrio": "PUERTA EL SOL",
+        "malla": 154
+      },
+      {
+        "barrio": "PUERTO DEL LLANO",
+        "malla": 164
+      },
+      {
+        "barrio": "PUERTO DEL SOL",
+        "malla": 154
+      },
+      {
+        "barrio": "PUESTA DEL LLANO",
+        "malla": 164
+      },
+      {
+        "barrio": "QUIBA BAJA",
+        "malla": 179
+      },
+      {
+        "barrio": "QUIBA BAJO",
+        "malla": 179
+      },
+      {
+        "barrio": "QUINDIO",
+        "malla": 123
+      },
+      {
+        "barrio": "QUINDIO",
+        "malla": 121
+      },
+      {
+        "barrio": "QUINTA CAMACHO",
+        "malla": 155
+      },
+      {
+        "barrio": "QUINTA PAREDES",
+        "malla": 173
+      },
+      {
+        "barrio": "QUINTA PAREDES",
+        "malla": 195
+      },
+      {
+        "barrio": "QUIRIGUA",
+        "malla": 148
+      },
+      {
+        "barrio": "QUIRIGUA",
+        "malla": 146
+      },
+      {
+        "barrio": "QUIROGA CENTRAL",
+        "malla": 159
+      },
+      {
+        "barrio": "QUIROGA SUR",
+        "malla": 119
+      },
+      {
+        "barrio": "QUIROGA SUR",
+        "malla": 140
+      },
+      {
+        "barrio": "RAFAEL NUNEZ",
+        "malla": 135
+      },
+      {
+        "barrio": "RAFAEL URIBE",
+        "malla": 143
+      },
+      {
+        "barrio": "RAMIREZ",
+        "malla": 130
+      },
+      {
+        "barrio": "RECODO DE PUNTALOMA",
+        "malla": 196
+      },
+      {
+        "barrio": "RECODO DE PUNTALOMA",
+        "malla": 193
+      },
+      {
+        "barrio": "REPUBLICA DE VENEZUE",
+        "malla": 178
+      },
+      {
+        "barrio": "REPUBLICA DE VENEZUELA",
+        "malla": 129
+      },
+      {
+        "barrio": "REPUBLICA DE VENEZUELA",
+        "malla": 130
+      },
+      {
+        "barrio": "REPUBLICA DE VENEZUELA",
+        "malla": 163
+      },
+      {
+        "barrio": "REPUBLICA DE VENEZUELA",
+        "malla": 178
+      },
+      {
+        "barrio": "REPUEBLICA DE VENEZUELA",
+        "malla": 178
+      },
+      {
+        "barrio": "RESTREPO",
+        "malla": 118
+      },
+      {
+        "barrio": "RESTREPO",
+        "malla": 131
+      },
+      {
+        "barrio": "RESTREPO OCCIDENTAL",
+        "malla": 118
+      },
+      {
+        "barrio": "RESTREPO OCCIDENTAL",
+        "malla": 169
+      },
+      {
+        "barrio": "RESTREPO OCCIDIENTAL",
+        "malla": 118
+      },
+      {
+        "barrio": "RICAURTE",
+        "malla": 132
+      },
+      {
+        "barrio": "RICAURTE",
+        "malla": 131
+      },
+      {
+        "barrio": "RICAURTE",
+        "malla": 128
+      },
+      {
+        "barrio": "RICAURTE",
+        "malla": 105
+      },
+      {
+        "barrio": "RINCON DE LOS ANGELES",
+        "malla": 154
+      },
+      {
+        "barrio": "RINCON DE LOS ANGELES",
+        "malla": 174
+      },
+      {
+        "barrio": "RINCON DE LOS ANGELES",
+        "malla": 111
+      },
+      {
+        "barrio": "RINCON DE LOS ANGERLES",
+        "malla": 174
+      },
+      {
+        "barrio": "RINCON DE MODELIA",
+        "malla": 188
+      },
+      {
+        "barrio": "RINCON DE MODELIA",
+        "malla": 109
+      },
+      {
+        "barrio": "RINCON DE MODELIA",
+        "malla": 110
+      },
+      {
+        "barrio": "RINCON DE SUBA",
+        "malla": 148
+      },
+      {
+        "barrio": "RINCON DE VENECIA",
+        "malla": 111
+      },
+      {
+        "barrio": "RINCON DE VENECIA",
+        "malla": 112
+      },
+      {
+        "barrio": "RINCON DEL CHICO",
+        "malla": 151
+      },
+      {
+        "barrio": "RINCON DEL NORTE",
+        "malla": 148
+      },
+      {
+        "barrio": "RINCON NORTE",
+        "malla": 148
+      },
+      {
+        "barrio": "RIO NEGRO",
+        "malla": 145
+      },
+      {
+        "barrio": "RIO NEGRO",
+        "malla": 163
+      },
+      {
+        "barrio": "RIO NEGRO",
+        "malla": 197
+      },
+      {
+        "barrio": "RIONEGRO",
+        "malla": 145
+      },
+      {
+        "barrio": "RNCON DE SUBA",
+        "malla": 148
+      },
+      {
+        "barrio": "RURAL",
+        "malla": 111
+      },
+      {
+        "barrio": "RURAL",
+        "malla": 162
+      },
+      {
+        "barrio": "SABANA DE TIBABUYES NORTE",
+        "malla": 177
+      },
+      {
+        "barrio": "SABANA DEL DORADO",
+        "malla": 176
+      },
+      {
+        "barrio": "SABANA GRANDE",
+        "malla": 172
+      },
+      {
+        "barrio": "SAGRADO CORAZON",
+        "malla": 134
+      },
+      {
+        "barrio": "SALAZAR GOMEZ",
+        "malla": 196
+      },
+      {
+        "barrio": "SALAZAR GOMEZ",
+        "malla": 166
+      },
+      {
+        "barrio": "SALAZAR GOMEZ",
+        "malla": 116
+      },
+      {
+        "barrio": "SALITRE",
+        "malla": 191
+      },
+      {
+        "barrio": "SALITRE ESTE",
+        "malla": 106
+      },
+      {
+        "barrio": "SALITRE ESTE",
+        "malla": 115
+      },
+      {
+        "barrio": "SALITRE ESTE",
+        "malla": 192
+      },
+      {
+        "barrio": "SALITRE ESTE",
+        "malla": 150
+      },
+      {
+        "barrio": "SALITRE SUBA",
+        "malla": 189
+      },
+      {
+        "barrio": "SAM FELIPE",
+        "malla": 143
+      },
+      {
+        "barrio": "SAMORE",
+        "malla": 114
+      },
+      {
+        "barrio": "SAMPER MENDOZA",
+        "malla": 121
+      },
+      {
+        "barrio": "SAMPER MENDOZA",
+        "malla": 132
+      },
+      {
+        "barrio": "SAMPER MENDOZA",
+        "malla": 118
+      },
+      {
+        "barrio": "SAMPER MENDOZA",
+        "malla": 131
+      },
+      {
+        "barrio": "SAN AGUSTIN",
+        "malla": 121
+      },
+      {
+        "barrio": "SAN ANTONIO",
+        "malla": 166
+      },
+      {
+        "barrio": "SAN ANTONIO",
+        "malla": 124
+      },
+      {
+        "barrio": "SAN ANTONIO DORADO",
+        "malla": 167
+      },
+      {
+        "barrio": "SAN ANTONIO NOROCCIDENTAL",
+        "malla": 166
+      },
+      {
+        "barrio": "SAN ANTONIO NORTE",
+        "malla": 166
+      },
+      {
+        "barrio": "SAN BENITO",
+        "malla": 158
+      },
+      {
+        "barrio": "SAN BENITO",
+        "malla": 127
+      },
+      {
+        "barrio": "SAN BERNARDINO POTRERITOS",
+        "malla": 181
+      },
+      {
+        "barrio": "SAN BERNARDO",
+        "malla": 130
+      },
+      {
+        "barrio": "SAN BERNARDO",
+        "malla": 124
+      },
+      {
+        "barrio": "SAN BLAS",
+        "malla": 129
+      },
+      {
+        "barrio": "SAN CARLOS",
+        "malla": 158
+      },
+      {
+        "barrio": "SAN CARLOS DE SUBA",
+        "malla": 177
+      },
+      {
+        "barrio": "SAN CRISTOBAL",
+        "malla": 170
+      },
+      {
+        "barrio": "SAN CRISTOBAL",
+        "malla": 152
+      },
+      {
+        "barrio": "SAN CRISTOBAL",
+        "malla": 153
+      },
+      {
+        "barrio": "SAN CRISTOBAL",
+        "malla": 129
+      },
+      {
+        "barrio": "SAN CRISTOBAL NORTE",
+        "malla": 170
+      },
+      {
+        "barrio": "SAN CRISTOBAL SUR",
+        "malla": 129
+      },
+      {
+        "barrio": "SAN DIEGO BOSA",
+        "malla": 180
+      },
+      {
+        "barrio": "SAN DIEGO-BOSA",
+        "malla": 180
+      },
+      {
+        "barrio": "SAN EUGENIO",
+        "malla": 125
+      },
+      {
+        "barrio": "SAN EUGENIO",
+        "malla": 180
+      },
+      {
+        "barrio": "SAN FELIPE",
+        "malla": 143
+      },
+      {
+        "barrio": "SAN FELIPE DE USME",
+        "malla": 164
+      },
+      {
+        "barrio": "SAN FERNANDO",
+        "malla": 142
+      },
+      {
+        "barrio": "SAN FERNANDO",
+        "malla": 137
+      },
+      {
+        "barrio": "SAN FERNANDO OCCIDENTAL",
+        "malla": 142
+      },
+      {
+        "barrio": "SAN FRANCISCO",
+        "malla": 116
+      },
+      {
+        "barrio": "SAN FRANCISCO",
+        "malla": 113
+      },
+      {
+        "barrio": "SAN FRANCISCO",
+        "malla": 120
+      },
+      {
+        "barrio": "SAN FRANCISCO",
+        "malla": 117
+      },
+      {
+        "barrio": "SAN HELENA",
+        "malla": 150
+      },
+      {
+        "barrio": "SAN IGNACIO",
+        "malla": 138
+      },
+      {
+        "barrio": "SAN IGNACIO",
+        "malla": 206
+      },
+      {
+        "barrio": "SAN ISIDRIO",
+        "malla": 125
+      },
+      {
+        "barrio": "SAN ISIDRO",
+        "malla": 125
+      },
+      {
+        "barrio": "SAN JAVIER",
+        "malla": 129
+      },
+      {
+        "barrio": "SAN JOAQUIN",
+        "malla": 137
+      },
+      {
+        "barrio": "SAN JONSE",
+        "malla": 125
+      },
+      {
+        "barrio": "SAN JORGE",
+        "malla": 122
+      },
+      {
+        "barrio": "SAN JORGE",
+        "malla": 158
+      },
+      {
+        "barrio": "SAN JORGE",
+        "malla": 119
+      },
+      {
+        "barrio": "SAN JORGE SUR",
+        "malla": 122
+      },
+      {
+        "barrio": "SAN JOSE",
+        "malla": 125
+      },
+      {
+        "barrio": "SAN JOSE",
+        "malla": 129
+      },
+      {
+        "barrio": "SAN JOSE",
+        "malla": 118
+      },
+      {
+        "barrio": "SAN JOSE",
+        "malla": 188
+      },
+      {
+        "barrio": "SAN JOSE DE BAVARIA",
+        "malla": 165
+      },
+      {
+        "barrio": "SAN JOSE DE FONTIBON",
+        "malla": 102
+      },
+      {
+        "barrio": "SAN JOSE DE MERYLAND",
+        "malla": 180
+      },
+      {
+        "barrio": "SAN JOSE DEL PRADO",
+        "malla": 150
+      },
+      {
+        "barrio": "SAN JOSE SPRING",
+        "malla": 150
+      },
+      {
+        "barrio": "SAN JOSE SPRING",
+        "malla": 152
+      },
+      {
+        "barrio": "SAN LUIS",
+        "malla": 172
+      },
+      {
+        "barrio": "SAN LUIS",
+        "malla": 157
+      },
+      {
+        "barrio": "SAN LUIS",
+        "malla": 136
+      },
+      {
+        "barrio": "SAN MARTIN",
+        "malla": 121
+      },
+      {
+        "barrio": "SAN MARTIN SUR",
+        "malla": 126
+      },
+      {
+        "barrio": "SAN MIGUEL",
+        "malla": 142
+      },
+      {
+        "barrio": "SAN PABLO",
+        "malla": 114
+      },
+      {
+        "barrio": "SAN PABLO",
+        "malla": 106
+      },
+      {
+        "barrio": "SAN PABLO BOSA",
+        "malla": 106
+      },
+      {
+        "barrio": "SAN PABLO JERICO",
+        "malla": 184
+      },
+      {
+        "barrio": "SAN PATRICIO",
+        "malla": 168
+      },
+      {
+        "barrio": "SAN PEDRO",
+        "malla": 177
+      },
+      {
+        "barrio": "SAN PEDRO SUR",
+        "malla": 127
+      },
+      {
+        "barrio": "SAN RAFAEL",
+        "malla": 116
+      },
+      {
+        "barrio": "SAN SIMON",
+        "malla": 187
+      },
+      {
+        "barrio": "SAN VICENTE",
+        "malla": 123
+      },
+      {
+        "barrio": "SAN VICENTE",
+        "malla": 126
+      },
+      {
+        "barrio": "SAN VICENTE",
+        "malla": 129
+      },
+      {
+        "barrio": "SAN VICENTE FERRER",
+        "malla": 114
+      },
+      {
+        "barrio": "SAN VICTORINO",
+        "malla": 131
+      },
+      {
+        "barrio": "SANTA ANA",
+        "malla": 151
+      },
+      {
+        "barrio": "SANTA BARBARA",
+        "malla": 168
+      },
+      {
+        "barrio": "SANTA BARBARA",
+        "malla": 151
+      },
+      {
+        "barrio": "SANTA BARBARA",
+        "malla": 122
+      },
+      {
+        "barrio": "SANTA BARBARA",
+        "malla": 130
+      },
+      {
+        "barrio": "SANTA BARBARA CENTRA",
+        "malla": 151
+      },
+      {
+        "barrio": "SANTA BARBARA CENTRAL",
+        "malla": 151
+      },
+      {
+        "barrio": "SANTA BARBARA OCCIDE",
+        "malla": 168
+      },
+      {
+        "barrio": "SANTA BARBARA OCCIDENTAL",
+        "malla": 178
+      },
+      {
+        "barrio": "SANTA BARBARA OCCIDENTAL",
+        "malla": 168
+      },
+      {
+        "barrio": "SANTA BARBARA OCCIDENTAL",
+        "malla": 110
+      },
+      {
+        "barrio": "SANTA BARBARA ORIENTAL",
+        "malla": 151
+      },
+      {
+        "barrio": "SANTA CECILIA",
+        "malla": 170
+      },
+      {
+        "barrio": "SANTA CECILIA",
+        "malla": 188
+      },
+      {
+        "barrio": "SANTA CECILIA",
+        "malla": 177
+      },
+      {
+        "barrio": "SANTA ELENA",
+        "malla": 150
+      },
+      {
+        "barrio": "SANTA FE DE BOSA",
+        "malla": 185
+      },
+      {
+        "barrio": "SANTA HELENA",
+        "malla": 150
+      },
+      {
+        "barrio": "SANTA HELENITA",
+        "malla": 180
+      },
+      {
+        "barrio": "SANTA HELENITA",
+        "malla": 139
+      },
+      {
+        "barrio": "SANTA HELENITA",
+        "malla": 138
+      },
+      {
+        "barrio": "SANTA INES",
+        "malla": 126
+      },
+      {
+        "barrio": "SANTA INES",
+        "malla": 158
+      },
+      {
+        "barrio": "SANTA ISABEL",
+        "malla": 177
+      },
+      {
+        "barrio": "SANTA ISABEL",
+        "malla": 124
+      },
+      {
+        "barrio": "SANTA ISABEL",
+        "malla": 117
+      },
+      {
+        "barrio": "SANTA LIBRADA",
+        "malla": 121
+      },
+      {
+        "barrio": "SANTA LIBRADA",
+        "malla": 125
+      },
+      {
+        "barrio": "SANTA LIBRADA",
+        "malla": 163
+      },
+      {
+        "barrio": "SANTA LUCIA",
+        "malla": 119
+      },
+      {
+        "barrio": "SANTA LUCIA",
+        "malla": 158
+      },
+      {
+        "barrio": "SANTA MARIA",
+        "malla": 141
+      },
+      {
+        "barrio": "SANTA MARIA DEL LAGO",
+        "malla": 141
+      },
+      {
+        "barrio": "SANTA MARTA",
+        "malla": 163
+      },
+      {
+        "barrio": "SANTA MARTA",
+        "malla": 127
+      },
+      {
+        "barrio": "SANTA MATILDE",
+        "malla": 117
+      },
+      {
+        "barrio": "SANTA PAULA",
+        "malla": 168
+      },
+      {
+        "barrio": "SANTA PAULA",
+        "malla": 151
+      },
+      {
+        "barrio": "SANTA ROSA",
+        "malla": 197
+      },
+      {
+        "barrio": "SANTA ROSA",
+        "malla": 145
+      },
+      {
+        "barrio": "SANTA ROSITA",
+        "malla": 137
+      },
+      {
+        "barrio": "SANTA ROSITA",
+        "malla": 139
+      },
+      {
+        "barrio": "SANTA RUTA DE SUBA",
+        "malla": 177
+      },
+      {
+        "barrio": "SANTA VIVIANA",
+        "malla": 157
+      },
+      {
+        "barrio": "SANTA VIVIANA",
+        "malla": 180
+      },
+      {
+        "barrio": "SANTADER",
+        "malla": 118
+      },
+      {
+        "barrio": "SANTAFE DE BOSA",
+        "malla": 185
+      },
+      {
+        "barrio": "SANTANDER",
+        "malla": 118
+      },
+      {
+        "barrio": "SANTANDER",
+        "malla": 159
+      },
+      {
+        "barrio": "SANTANDER",
+        "malla": 164
+      },
+      {
+        "barrio": "SANTANDER SUR",
+        "malla": 118
+      },
+      {
+        "barrio": "SANTO DOMINGO",
+        "malla": 107
+      },
+      {
+        "barrio": "SATURNO",
+        "malla": 172
+      },
+      {
+        "barrio": "SATURNO",
+        "malla": 102
+      },
+      {
+        "barrio": "SERANIAS",
+        "malla": 164
+      },
+      {
+        "barrio": "SIBERIA",
+        "malla": 155
+      },
+      {
+        "barrio": "SIBERIA RURAL",
+        "malla": 155
+      },
+      {
+        "barrio": "SIENA",
+        "malla": 163
+      },
+      {
+        "barrio": "SIERRA MORENA",
+        "malla": 137
+      },
+      {
+        "barrio": "SIERRA MORENA",
+        "malla": 156
+      },
+      {
+        "barrio": "SIERRA MORENA",
+        "malla": 157
+      },
+      {
+        "barrio": "SIERRA MORENA",
+        "malla": 160
+      },
+      {
+        "barrio": "SIERRA MORENA",
+        "malla": 107
+      },
+      {
+        "barrio": "SIERRAS",
+        "malla": 127
+      },
+      {
+        "barrio": "SIETE DE AGOSTO",
+        "malla": 142
+      },
+      {
+        "barrio": "SIETE DE AGOSTO",
+        "malla": 145
+      },
+      {
+        "barrio": "SIETE DE AGOSTO",
+        "malla": 143
+      },
+      {
+        "barrio": "SOLEDAD",
+        "malla": 133
+      },
+      {
+        "barrio": "SOLEDAD",
+        "malla": 140
+      },
+      {
+        "barrio": "SOLEDAD NORTE",
+        "malla": 141
+      },
+      {
+        "barrio": "SORATAMA",
+        "malla": 166
+      },
+      {
+        "barrio": "SORATAMA",
+        "malla": 170
+      },
+      {
+        "barrio": "SOSIEGO",
+        "malla": 125
+      },
+      {
+        "barrio": "SOSIEGO",
+        "malla": 164
+      },
+      {
+        "barrio": "SOSIEGO",
+        "malla": 129
+      },
+      {
+        "barrio": "SOSIEGO SUR",
+        "malla": 125
+      },
+      {
+        "barrio": "SUBA",
+        "malla": 165
+      },
+      {
+        "barrio": "SUBA",
+        "malla": 190
+      },
+      {
+        "barrio": "SUBA CERROS",
+        "malla": 189
+      },
+      {
+        "barrio": "SUCRE",
+        "malla": 164
+      },
+      {
+        "barrio": "SUMAPAZ",
+        "malla": 120
+      },
+      {
+        "barrio": "TABORA",
+        "malla": 141
+      },
+      {
+        "barrio": "TABORA",
+        "malla": 122
+      },
+      {
+        "barrio": "TANQUE LAGUNA",
+        "malla": 127
+      },
+      {
+        "barrio": "TANQUE LAGUNA",
+        "malla": 157
+      },
+      {
+        "barrio": "TECHO",
+        "malla": 122
+      },
+      {
+        "barrio": "TECHO",
+        "malla": 174
+      },
+      {
+        "barrio": "TECHO",
+        "malla": 109
+      },
+      {
+        "barrio": "TECHO",
+        "malla": 110
+      },
+      {
+        "barrio": "TEJARES DEL NORTE",
+        "malla": 165
+      },
+      {
+        "barrio": "TERREROS",
+        "malla": 160
+      },
+      {
+        "barrio": "TERREROS",
+        "malla": 146
+      },
+      {
+        "barrio": "TERREROS",
+        "malla": 180
+      },
+      {
+        "barrio": "TEUSAQUILLO",
+        "malla": 140
+      },
+      {
+        "barrio": "TEUSAQUILLO",
+        "malla": 188
+      },
+      {
+        "barrio": "TEUSAQUILLO",
+        "malla": 118
+      },
+      {
+        "barrio": "TIBABITA",
+        "malla": 166
+      },
+      {
+        "barrio": "TIBABITA RURAL I",
+        "malla": 166
+      },
+      {
+        "barrio": "TIBABUYAS",
+        "malla": 177
+      },
+      {
+        "barrio": "TIBABUYES",
+        "malla": 189
+      },
+      {
+        "barrio": "TIBABUYES",
+        "malla": 126
+      },
+      {
+        "barrio": "TIBABUYES",
+        "malla": 154
+      },
+      {
+        "barrio": "TIBABUYES",
+        "malla": 177
+      },
+      {
+        "barrio": "TIBABUYES",
+        "malla": 157
+      },
+      {
+        "barrio": "TIBABUYES II",
+        "malla": 177
+      },
+      {
+        "barrio": "TIBABUYES OCCIDENTAL",
+        "malla": 177
+      },
+      {
+        "barrio": "TIERRA LINDA",
+        "malla": 150
+      },
+      {
+        "barrio": "TIERRA LINDA",
+        "malla": 149
+      },
+      {
+        "barrio": "TIHUAQUE",
+        "malla": 127
+      },
+      {
+        "barrio": "TIMIZA",
+        "malla": 109
+      },
+      {
+        "barrio": "TINTAL",
+        "malla": 188
+      },
+      {
+        "barrio": "TINTALA",
+        "malla": 161
+      },
+      {
+        "barrio": "TINTALA",
+        "malla": 182
+      },
+      {
+        "barrio": "TINTALA",
+        "malla": 180
+      },
+      {
+        "barrio": "TINTALITO",
+        "malla": 183
+      },
+      {
+        "barrio": "TINTALITO",
+        "malla": 161
+      },
+      {
+        "barrio": "TOBERIN",
+        "malla": 152
+      },
+      {
+        "barrio": "TOCAIMA ORIENTAL I",
+        "malla": 164
+      },
+      {
+        "barrio": "TOCAREMA",
+        "malla": 183
+      },
+      {
+        "barrio": "TORRE MOLINOS",
+        "malla": 115
+      },
+      {
+        "barrio": "TORREMOLINOS",
+        "malla": 115
+      },
+      {
+        "barrio": "TORREMOLINOS",
+        "malla": 116
+      },
+      {
+        "barrio": "TORREMOLINOS",
+        "malla": 159
+      },
+      {
+        "barrio": "TRINIDAD",
+        "malla": 182
+      },
+      {
+        "barrio": "TRINIDAD",
+        "malla": 116
+      },
+      {
+        "barrio": "TUNA ALTA",
+        "malla": 189
+      },
+      {
+        "barrio": "TUNABAJA DE SUBA",
+        "malla": 146
+      },
+      {
+        "barrio": "TUNABAJA DE SUBA",
+        "malla": 167
+      },
+      {
+        "barrio": "TUNABAJA DE SUBA",
+        "malla": 154
+      },
+      {
+        "barrio": "TUNAL",
+        "malla": 114
+      },
+      {
+        "barrio": "TUNJA BAJA",
+        "malla": 189
+      },
+      {
+        "barrio": "TUNJUELITO",
+        "malla": 120
+      },
+      {
+        "barrio": "TUNJUELITO",
+        "malla": 158
+      },
+      {
+        "barrio": "UNIVERSIDAD NACIONAL",
+        "malla": 135
+      },
+      {
+        "barrio": "USAQUEN",
+        "malla": 151
+      },
+      {
+        "barrio": "USME",
+        "malla": 162
+      },
+      {
+        "barrio": "USME",
+        "malla": 127
+      },
+      {
+        "barrio": "USME",
+        "malla": 178
+      },
+      {
+        "barrio": "USME",
+        "malla": 121
+      },
+      {
+        "barrio": "USME",
+        "malla": 130
+      },
+      {
+        "barrio": "USME",
+        "malla": 129
+      },
+      {
+        "barrio": "USMINIA",
+        "malla": 164
+      },
+      {
+        "barrio": "USQUEN",
+        "malla": 151
+      },
+      {
+        "barrio": "VALLADOLID",
+        "malla": 174
+      },
+      {
+        "barrio": "VEBENAL",
+        "malla": 166
+      },
+      {
+        "barrio": "VEINTE DE JULIO",
+        "malla": 125
+      },
+      {
+        "barrio": "VENECIA",
+        "malla": 119
+      },
+      {
+        "barrio": "VENECIA",
+        "malla": 159
+      },
+      {
+        "barrio": "VENECIA",
+        "malla": 148
+      },
+      {
+        "barrio": "VENECIA",
+        "malla": 145
+      },
+      {
+        "barrio": "VENECIA",
+        "malla": 114
+      },
+      {
+        "barrio": "VERAGUAS",
+        "malla": 124
+      },
+      {
+        "barrio": "VERBENAL",
+        "malla": 166
+      },
+      {
+        "barrio": "VERBENAL",
+        "malla": 170
+      },
+      {
+        "barrio": "VERBENAL SAN ANTONIO",
+        "malla": 166
+      },
+      {
+        "barrio": "VERSALLES",
+        "malla": 102
+      },
+      {
+        "barrio": "VERSALLES FONTIBON",
+        "malla": 102
+      },
+      {
+        "barrio": "VICENTE  FERRER",
+        "malla": 114
+      },
+      {
+        "barrio": "VICENTE FERRER",
+        "malla": 114
+      },
+      {
+        "barrio": "VICENTE FERRER",
+        "malla": 177
+      },
+      {
+        "barrio": "VILLA  MARIA",
+        "malla": 148
+      },
+      {
+        "barrio": "VILLA  MAYOR",
+        "malla": 159
+      },
+      {
+        "barrio": "VILLA ALSACIA",
+        "malla": 174
+      },
+      {
+        "barrio": "VILLA ALSACIA",
+        "malla": 187
+      },
+      {
+        "barrio": "VILLA ARANJUEZ",
+        "malla": 153
+      },
+      {
+        "barrio": "VILLA CANDELARIA",
+        "malla": 157
+      },
+      {
+        "barrio": "VILLA CARMENSA",
+        "malla": 102
+      },
+      {
+        "barrio": "VILLA CARMENZA",
+        "malla": 102
+      },
+      {
+        "barrio": "VILLA CELINA",
+        "malla": 181
+      },
+      {
+        "barrio": "VILLA CLAUDIA",
+        "malla": 125
+      },
+      {
+        "barrio": "VILLA CLAUDIA",
+        "malla": 111
+      },
+      {
+        "barrio": "VILLA CLAUDIA",
+        "malla": 110
+      },
+      {
+        "barrio": "VILLA DE ALCALA",
+        "malla": 167
+      },
+      {
+        "barrio": "VILLA DE ARANJUEZ",
+        "malla": 153
+      },
+      {
+        "barrio": "VILLA DE LOS ALPES",
+        "malla": 126
+      },
+      {
+        "barrio": "VILLA DEL CERRO",
+        "malla": 155
+      },
+      {
+        "barrio": "VILLA DEL DORADO",
+        "malla": 167
+      },
+      {
+        "barrio": "VILLA DEL MAR",
+        "malla": 167
+      },
+      {
+        "barrio": "VILLA DEL PRADO",
+        "malla": 165
+      },
+      {
+        "barrio": "VILLA DEL RIO",
+        "malla": 108
+      },
+      {
+        "barrio": "VILLA DEL RIO",
+        "malla": 169
+      },
+      {
+        "barrio": "VILLA DIANA",
+        "malla": 166
+      },
+      {
+        "barrio": "VILLA DIANA",
+        "malla": 164
+      },
+      {
+        "barrio": "VILLA DIANA",
+        "malla": 127
+      },
+      {
+        "barrio": "VILLA DIANA",
+        "malla": 105
+      },
+      {
+        "barrio": "VILLA DIANA",
+        "malla": 170
+      },
+      {
+        "barrio": "VILLA DIANA",
+        "malla": 163
+      },
+      {
+        "barrio": "VILLA DORADO",
+        "malla": 167
+      },
+      {
+        "barrio": "VILLA ELISA",
+        "malla": 148
+      },
+      {
+        "barrio": "VILLA FLOR",
+        "malla": 178
+      },
+      {
+        "barrio": "VILLA FLOR",
+        "malla": 179
+      },
+      {
+        "barrio": "VILLA GLORIA",
+        "malla": 179
+      },
+      {
+        "barrio": "VILLA LUZ",
+        "malla": 138
+      },
+      {
+        "barrio": "VILLA LUZ",
+        "malla": 163
+      },
+      {
+        "barrio": "VILLA MARIA",
+        "malla": 177
+      },
+      {
+        "barrio": "VILLA MARIA",
+        "malla": 148
+      },
+      {
+        "barrio": "VILLA MARIA",
+        "malla": 154
+      },
+      {
+        "barrio": "VILLA MAYOR",
+        "malla": 119
+      },
+      {
+        "barrio": "VILLA MAYOR",
+        "malla": 129
+      },
+      {
+        "barrio": "VILLA MAYOR",
+        "malla": 159
+      },
+      {
+        "barrio": "VILLA NUEVA",
+        "malla": 127
+      },
+      {
+        "barrio": "VILLA ROSARIO",
+        "malla": 159
+      },
+      {
+        "barrio": "VILLA XIMENA",
+        "malla": 114
+      },
+      {
+        "barrio": "VILLABOSA",
+        "malla": 160
+      },
+      {
+        "barrio": "VILLAS DE ALCALA",
+        "malla": 167
+      },
+      {
+        "barrio": "VILLAS DE GRANADA",
+        "malla": 167
+      },
+      {
+        "barrio": "VILLAS DE GRANADA 1",
+        "malla": 167
+      },
+      {
+        "barrio": "VILLAS DE GRANADA I",
+        "malla": 166
+      },
+      {
+        "barrio": "VILLAS DE GRANADA I",
+        "malla": 167
+      },
+      {
+        "barrio": "VILLAS DE GRANADA I",
+        "malla": 162
+      },
+      {
+        "barrio": "VILLAS DE GRANADA L",
+        "malla": 167
+      },
+      {
+        "barrio": "VILLAS DE VIZCAYA",
+        "malla": 186
+      },
+      {
+        "barrio": "VILLAS DE VIZCAYA",
+        "malla": 181
+      },
+      {
+        "barrio": "VILLAS DEL PRADO",
+        "malla": 165
+      },
+      {
+        "barrio": "VILLAS DEL PROGRESO",
+        "malla": 160
+      },
+      {
+        "barrio": "VILLAS DEL PROGRESO",
+        "malla": 181
+      },
+      {
+        "barrio": "VILLAS DELPROGRESO",
+        "malla": 181
+      },
+      {
+        "barrio": "VILLAS EL DIAMANTE",
+        "malla": 179
+      },
+      {
+        "barrio": "VILLAVEL",
+        "malla": 121
+      },
+      {
+        "barrio": "VILLAVEL",
+        "malla": 123
+      },
+      {
+        "barrio": "VILLEMAR",
+        "malla": 102
+      },
+      {
+        "barrio": "VISION",
+        "malla": 174
+      },
+      {
+        "barrio": "VISION COLOMBIA",
+        "malla": 174
+      },
+      {
+        "barrio": "VISTA  HERMOSA",
+        "malla": 120
+      },
+      {
+        "barrio": "VISTA HERMOSA",
+        "malla": 120
+      },
+      {
+        "barrio": "VISTA HERMOSA",
+        "malla": 179
+      },
+      {
+        "barrio": "VLLAS DE ALCALA",
+        "malla": 167
+      },
+      {
+        "barrio": "VOTO NACIONAL",
+        "malla": 128
+      },
+      {
+        "barrio": "VOTO NACIONAL",
+        "malla": 144
+      },
+      {
+        "barrio": "VOTO NACIONAL",
+        "malla": 106
+      },
+      {
+        "barrio": "VOTO NACIONAL",
+        "malla": 131
+      },
+      {
+        "barrio": "YOMASA",
+        "malla": 127
+      },
+      {
+        "barrio": "ZONA FRANCA",
+        "malla": 172
+      },
+      {
+        "barrio": "ZONA INDUSTRIAL",
+        "malla": 112
+      }
+    ],
+    "BUCARAMANGA": [
+      {
+        "barrio": "CAMPESTRE",
+        "malla": 306
+      },
+      {
+        "barrio": "CIUDADELA",
+        "malla": 305
+      },
+      {
+        "barrio": "SAN FRANCISCO",
+        "malla": 303
+      }
+    ],
+    "CAJICA": [
+      {
+        "barrio": "EL BOHIO",
+        "malla": 2
+      },
+      {
+        "barrio": "EL PRADO",
+        "malla": 2
+      },
+      {
+        "barrio": "LA ESTACION",
+        "malla": 2
+      },
+      {
+        "barrio": "ZONA INDUSTRIAL",
+        "malla": 2
+      }
+    ],
+    "CALDAS": [
+      {
+        "barrio": "CALDAS",
+        "malla": 977
+      }
+    ],
+    "CARTAGENA DE INDIAS, DISTRITO TURISTICO": [
+      {
+        "barrio": "AV EL MALECON",
+        "malla": 963
+      },
+      {
+        "barrio": "CARTAGENA DE INDIAS,",
+        "malla": 963
+      },
+      {
+        "barrio": "EL LAGUITO",
+        "malla": 963
+      }
+    ],
+    "CHIA": [
+      {
+        "barrio": "EL CACIQUE",
+        "malla": 1
+      },
+      {
+        "barrio": "ELÃ‰CAIRO",
+        "malla": 1
+      },
+      {
+        "barrio": "PRADOS DEL RIO",
+        "malla": 1
+      },
+      {
+        "barrio": "RINCON SANTO",
+        "malla": 1
+      },
+      {
+        "barrio": "SANTA ANA DE CHIA",
+        "malla": 1
+      }
+    ],
+    "CHIQUINQUIRA": [
+      {
+        "barrio": "BOYACA",
+        "malla": 56
+      },
+      {
+        "barrio": "CENTRO",
+        "malla": 56
+      },
+      {
+        "barrio": "JARDIN NORTE",
+        "malla": 56
+      }
+    ],
+    "CIENAGA": [
+      {
+        "barrio": "SAN ANTONIO",
+        "malla": 967
+      }
+    ],
+    "COGUA": [
+      {
+        "barrio": "COGUA",
+        "malla": 12
+      },
+      {
+        "barrio": "COGUA",
+        "malla": 4
+      }
+    ],
+    "COMBITA": [
+      {
+        "barrio": "COMBITA",
+        "malla": 57
+      }
+    ],
+    "COTA": [
+      {
+        "barrio": "COTA",
+        "malla": 3
+      },
+      {
+        "barrio": "UNIABÃ€STOS",
+        "malla": 3
+      },
+      {
+        "barrio": "UNIABASTOS",
+        "malla": 3
+      }
+    ],
+    "DOSQUEBRADAS": [
+      {
+        "barrio": "DOSQUEBRADAS",
+        "malla": 970
+      }
+    ],
+    "DUITAMA": [
+      {
+        "barrio": "CENTRO",
+        "malla": 59
+      },
+      {
+        "barrio": "LAS LAJAS",
+        "malla": 59
+      },
+      {
+        "barrio": "LAS MILAGROSAS",
+        "malla": 59
+      }
+    ],
+    "EL COLEGIO": [
+      {
+        "barrio": "EL COLEGIO",
+        "malla": 236
+      },
+      {
+        "barrio": "EL TRINUNFO",
+        "malla": 236
+      },
+      {
+        "barrio": "EL TRIUNFO",
+        "malla": 236
+      },
+      {
+        "barrio": "EL TRIUNFO|",
+        "malla": 236
+      }
+    ],
+    "EL PORVENIR": [
+      {
+        "barrio": "EL PORVENIR",
+        "malla": 976
+      }
+    ],
+    "EL ROSAL": [
+      {
+        "barrio": "EL ROSAL",
+        "malla": 95
+      }
+    ],
+    "ENVIGADO": [
+      {
+        "barrio": "ENVIGADO",
+        "malla": 979
+      }
+    ],
+    "FACATATIVA": [
+      {
+        "barrio": "CHAPINERO CENTRO",
+        "malla": 19
+      },
+      {
+        "barrio": "JARDIN",
+        "malla": 19
+      },
+      {
+        "barrio": "SANTA RITA",
+        "malla": 19
+      }
+    ],
+    "FLORIDABLANCA": [
+      {
+        "barrio": "ASD1",
+        "malla": 310
+      }
+    ],
+    "FUNZA": [
+      {
+        "barrio": "EL CENTRO",
+        "malla": 20
+      },
+      {
+        "barrio": "ELÃ‰CENTRO",
+        "malla": 20
+      },
+      {
+        "barrio": "MEXICO",
+        "malla": 20
+      }
+    ],
+    "GACHANCIPA": [
+      {
+        "barrio": "GACHANCIPA",
+        "malla": 13
+      }
+    ],
+    "GIRARDOT": [
+      {
+        "barrio": "GIRARDOT",
+        "malla": 10
+      }
+    ],
+    "GIRARDOTA": [
+      {
+        "barrio": "GIRARDOTA",
+        "malla": 978
+      }
+    ],
+    "GUADALAJARA DE BUGA": [
+      {
+        "barrio": "SAN ANTONIO",
+        "malla": 973
+      }
+    ],
+    "LA CALERA": [
+      {
+        "barrio": "BARRIO HORIZONTE",
+        "malla": 166
+      },
+      {
+        "barrio": "BARRIO HORIZONTE",
+        "malla": 92
+      },
+      {
+        "barrio": "LA CALERA",
+        "malla": 92
+      },
+      {
+        "barrio": "VDA SAN RAFAEL",
+        "malla": 92
+      }
+    ],
+    "LA ESTRELLA": [
+      {
+        "barrio": "LA ESTRELLA",
+        "malla": 980
+      }
+    ],
+    "LA MESA": [
+      {
+        "barrio": "LA MESA",
+        "malla": 230
+      }
+    ],
+    "MADRID": [
+      {
+        "barrio": "EL CENTRO",
+        "malla": 21
+      },
+      {
+        "barrio": "ELÃ‰CENTRO",
+        "malla": 21
+      },
+      {
+        "barrio": "MADRID",
+        "malla": 21
+      }
+    ],
+    "MANIZALES": [
+      {
+        "barrio": "MANIZALES",
+        "malla": 964
+      }
+    ],
+    "MEDELLIN": [
+      {
+        "barrio": "ITAGUI",
+        "malla": 982
+      },
+      {
+        "barrio": "MEDELLIN",
+        "malla": 982
+      }
+    ],
+    "MIRAFLORES": [
+      {
+        "barrio": "SAN ANTONIO",
+        "malla": 802
+      }
+    ],
+    "MOSQUERA": [
+      {
+        "barrio": "CENTRO",
+        "malla": 22
+      },
+      {
+        "barrio": "EL PORVENIR",
+        "malla": 22
+      },
+      {
+        "barrio": "SERREZUELA",
+        "malla": 22
+      },
+      {
+        "barrio": "SERREZUELITA",
+        "malla": 22
+      }
+    ],
+    "NAZARETH": [
+      {
+        "barrio": "NAZARETH",
+        "malla": 80
+      }
+    ],
+    "NEIVA": [
+      {
+        "barrio": "NEIVA",
+        "malla": 966
+      },
+      {
+        "barrio": "SAN ANTONIO",
+        "malla": 966
+      }
+    ],
+    "NEMOCON": [
+      {
+        "barrio": "NEMOCON",
+        "malla": 23
+      }
+    ],
+    "NOBSA": [
+      {
+        "barrio": "CENTRO",
+        "malla": 52
+      }
+    ],
+    "PAEZ": [
+      {
+        "barrio": "SAN ANTONIO",
+        "malla": 997
+      }
+    ],
+    "PAIPA": [
+      {
+        "barrio": "CENTRO",
+        "malla": 65
+      }
+    ],
+    "PUERTO BOYACA": [
+      {
+        "barrio": "SAN ANTONIO",
+        "malla": 998
+      }
+    ],
+    "PUERTO SALGAR": [
+      {
+        "barrio": "PUERO SALGAR",
+        "malla": 967
+      }
+    ],
+    "S. ROSA DE VITERBO": [
+      {
+        "barrio": "SANTA ROSA DE VITERBO",
+        "malla": 72
+      }
+    ],
+    "SABANETA": [
+      {
+        "barrio": "SABANETA",
+        "malla": 981
+      }
+    ],
+    "SABOYA": [
+      {
+        "barrio": "SABOYA",
+        "malla": 983
+      }
+    ],
+    "SAMACA": [
+      {
+        "barrio": "SAMACA",
+        "malla": 68
+      }
+    ],
+    "SAN GIL": [
+      {
+        "barrio": "SAN GIL",
+        "malla": 996
+      }
+    ],
+    "SAN JOSE DE CUCUTA": [
+      {
+        "barrio": "SAN ANTONIO",
+        "malla": 969
+      }
+    ],
+    "SANTIAGO DE CALI, DISTRITO ESPECIAL, D E": [
+      {
+        "barrio": "SANTIAGO DE CALI, DI",
+        "malla": 975
+      }
+    ],
+    "SESQUILE": [
+      {
+        "barrio": "SESQUILE",
+        "malla": 240
+      }
+    ],
+    "SIBATE": [
+      {
+        "barrio": "BARRIO SAN JORGE",
+        "malla": 90
+      },
+      {
+        "barrio": "BARRIO SAN JOSE",
+        "malla": 90
+      },
+      {
+        "barrio": "CENTRO",
+        "malla": 90
+      },
+      {
+        "barrio": "EL COLEGIO",
+        "malla": 236
+      },
+      {
+        "barrio": "LA PAZ",
+        "malla": 90
+      },
+      {
+        "barrio": "LA PERSEVERANCIA",
+        "malla": 90
+      },
+      {
+        "barrio": "PABLO NERUDA",
+        "malla": 90
+      },
+      {
+        "barrio": "SAN MARTIN",
+        "malla": 90
+      },
+      {
+        "barrio": "SANTA ANA",
+        "malla": 90
+      },
+      {
+        "barrio": "SIBATE",
+        "malla": 90
+      }
+    ],
+    "SIMIJACA": [
+      {
+        "barrio": "SIMIJACA",
+        "malla": 7
+      }
+    ],
+    "SOACHA": [
+      {
+        "barrio": "ALTOS CAZUCA",
+        "malla": 205
+      },
+      {
+        "barrio": "ALTOS DE CAZUCA",
+        "malla": 207
+      },
+      {
+        "barrio": "ALTOS DE CAZUCA",
+        "malla": 202
+      },
+      {
+        "barrio": "ALTOS DE CAZUCA",
+        "malla": 205
+      },
+      {
+        "barrio": "ALTOS DE CAZUCA",
+        "malla": 203
+      },
+      {
+        "barrio": "ALTOS DE CAZUCA",
+        "malla": 204
+      },
+      {
+        "barrio": "ALTOS DE CAZUCAR",
+        "malla": 205
+      },
+      {
+        "barrio": "ALTOS DE LA FLORIDA I",
+        "malla": 202
+      },
+      {
+        "barrio": "ALTOS DE LA FLORIDA II",
+        "malla": 202
+      },
+      {
+        "barrio": "ALTOS DE PORTALEGRE",
+        "malla": 201
+      },
+      {
+        "barrio": "ALTOS DEL  PINO",
+        "malla": 207
+      },
+      {
+        "barrio": "ALTOS DEL PINO",
+        "malla": 207
+      },
+      {
+        "barrio": "ANTONIO JOSE SUCRE",
+        "malla": 201
+      },
+      {
+        "barrio": "ASD",
+        "malla": 203
+      },
+      {
+        "barrio": "BELLA VISTA",
+        "malla": 207
+      },
+      {
+        "barrio": "BELLA VISTA ALTA",
+        "malla": 207
+      },
+      {
+        "barrio": "BOGOTA",
+        "malla": 207
+      },
+      {
+        "barrio": "BOSQUE DE SAN MATEO",
+        "malla": 206
+      },
+      {
+        "barrio": "BOSQUE SAN MATEO",
+        "malla": 206
+      },
+      {
+        "barrio": "BUENOS AIRES",
+        "malla": 203
+      },
+      {
+        "barrio": "BUENOS AIRES",
+        "malla": 207
+      },
+      {
+        "barrio": "CAMILO TORRES",
+        "malla": 204
+      },
+      {
+        "barrio": "CAMILO TORRES",
+        "malla": 201
+      },
+      {
+        "barrio": "CASOLOMA",
+        "malla": 205
+      },
+      {
+        "barrio": "CENTRO",
+        "malla": 204
+      },
+      {
+        "barrio": "CENTRO",
+        "malla": 90
+      },
+      {
+        "barrio": "CENTRO",
+        "malla": 201
+      },
+      {
+        "barrio": "CENTRO",
+        "malla": 202
+      },
+      {
+        "barrio": "CENTRO",
+        "malla": 208
+      },
+      {
+        "barrio": "CENTRO",
+        "malla": 205
+      },
+      {
+        "barrio": "CENTRO",
+        "malla": 203
+      },
+      {
+        "barrio": "CHARQUITO",
+        "malla": 203
+      },
+      {
+        "barrio": "CIUDAD DE QUITO",
+        "malla": 203
+      },
+      {
+        "barrio": "CIUDAD LATINA",
+        "malla": 201
+      },
+      {
+        "barrio": "CIUDAD LATINA",
+        "malla": 207
+      },
+      {
+        "barrio": "CIUDAD LATINA",
+        "malla": 205
+      },
+      {
+        "barrio": "CIUDAD LATINA",
+        "malla": 204
+      },
+      {
+        "barrio": "CIUDAD LATINA",
+        "malla": 203
+      },
+      {
+        "barrio": "CIUDAD LATINA",
+        "malla": 202
+      },
+      {
+        "barrio": "CIUDAD LATINA I",
+        "malla": 203
+      },
+      {
+        "barrio": "CIUDAD LATINA II",
+        "malla": 203
+      },
+      {
+        "barrio": "CIUDAD VERDA",
+        "malla": 208
+      },
+      {
+        "barrio": "CIUDAD VERDE",
+        "malla": 201
+      },
+      {
+        "barrio": "CIUDAD VERDE",
+        "malla": 203
+      },
+      {
+        "barrio": "CIUDAD VERDE",
+        "malla": 208
+      },
+      {
+        "barrio": "CIUDADEL SUCRE",
+        "malla": 207
+      },
+      {
+        "barrio": "CIUDADELA",
+        "malla": 207
+      },
+      {
+        "barrio": "CIUDADELA SUCRE",
+        "malla": 203
+      },
+      {
+        "barrio": "CIUDADELA SUCRE",
+        "malla": 207
+      },
+      {
+        "barrio": "CIUDADELA SUFRE",
+        "malla": 207
+      },
+      {
+        "barrio": "CIUDADELA SUVRE",
+        "malla": 207
+      },
+      {
+        "barrio": "COMPARTIR",
+        "malla": 201
+      },
+      {
+        "barrio": "COMPARTIR",
+        "malla": 203
+      },
+      {
+        "barrio": "COMPARTIR",
+        "malla": 204
+      },
+      {
+        "barrio": "COMPARTIR",
+        "malla": 205
+      },
+      {
+        "barrio": "CUIDAD LATINA",
+        "malla": 203
+      },
+      {
+        "barrio": "CUIDADELA SUCRE",
+        "malla": 207
+      },
+      {
+        "barrio": "CUIUDADELA SUCRE",
+        "malla": 207
+      },
+      {
+        "barrio": "CUMBRES",
+        "malla": 202
+      },
+      {
+        "barrio": "CUMBRES DE SOACHA",
+        "malla": 202
+      },
+      {
+        "barrio": "DELICIAS",
+        "malla": 205
+      },
+      {
+        "barrio": "EK TRIUNFO",
+        "malla": 202
+      },
+      {
+        "barrio": "EL DANUBIO",
+        "malla": 201
+      },
+      {
+        "barrio": "EL DENUBIO",
+        "malla": 201
+      },
+      {
+        "barrio": "EL DIVINO NINO PARTE ALTA",
+        "malla": 202
+      },
+      {
+        "barrio": "EL FUTURO",
+        "malla": 202
+      },
+      {
+        "barrio": "EL PARAISO",
+        "malla": 202
+      },
+      {
+        "barrio": "EL TRIUNFO",
+        "malla": 206
+      },
+      {
+        "barrio": "EL TRIUNFO",
+        "malla": 203
+      },
+      {
+        "barrio": "EL TRIUNFO",
+        "malla": 202
+      },
+      {
+        "barrio": "EL TRIUNFO",
+        "malla": 207
+      },
+      {
+        "barrio": "FATIMA",
+        "malla": 207
+      },
+      {
+        "barrio": "FLORIDA",
+        "malla": 202
+      },
+      {
+        "barrio": "GIRARDOT",
+        "malla": 130
+      },
+      {
+        "barrio": "JAIME GARZON",
+        "malla": 207
+      },
+      {
+        "barrio": "JULIO RINCON",
+        "malla": 205
+      },
+      {
+        "barrio": "JULIO RINCON",
+        "malla": 204
+      },
+      {
+        "barrio": "JULIO RINCON",
+        "malla": 207
+      },
+      {
+        "barrio": "JULIO RINCON",
+        "malla": 202
+      },
+      {
+        "barrio": "JULIO RINCON II",
+        "malla": 205
+      },
+      {
+        "barrio": "KR 34A 37",
+        "malla": 208
+      },
+      {
+        "barrio": "LA CATEDRAL",
+        "malla": 205
+      },
+      {
+        "barrio": "LA CATEDRAL",
+        "malla": 201
+      },
+      {
+        "barrio": "LA CATEDRAL",
+        "malla": 204
+      },
+      {
+        "barrio": "LA CATEDRAL",
+        "malla": 202
+      },
+      {
+        "barrio": "LA DESPENSA",
+        "malla": 106
+      },
+      {
+        "barrio": "LA DESPENSA",
+        "malla": 204
+      },
+      {
+        "barrio": "LA FONTANA II",
+        "malla": 203
+      },
+      {
+        "barrio": "LA ISLA",
+        "malla": 207
+      },
+      {
+        "barrio": "LA MESETA",
+        "malla": 205
+      },
+      {
+        "barrio": "LA VEDERITA",
+        "malla": 201
+      },
+      {
+        "barrio": "LA VERACRUZ",
+        "malla": 204
+      },
+      {
+        "barrio": "LA VEREDITA",
+        "malla": 204
+      },
+      {
+        "barrio": "LA VEREDITA",
+        "malla": 201
+      },
+      {
+        "barrio": "LA VEREDITA",
+        "malla": 203
+      },
+      {
+        "barrio": "LAGUNA NEUTA",
+        "malla": 205
+      },
+      {
+        "barrio": "LAGUNA NEUTA",
+        "malla": 203
+      },
+      {
+        "barrio": "LAS CRUCES",
+        "malla": 204
+      },
+      {
+        "barrio": "LAS HUERTAS",
+        "malla": 201
+      },
+      {
+        "barrio": "LAS MARGARITAS",
+        "malla": 207
+      },
+      {
+        "barrio": "LAS QUINTAS II",
+        "malla": 205
+      },
+      {
+        "barrio": "LEON XIII",
+        "malla": 201
+      },
+      {
+        "barrio": "LEON XIII",
+        "malla": 204
+      },
+      {
+        "barrio": "LEON XIII",
+        "malla": 205
+      },
+      {
+        "barrio": "LEON XIII",
+        "malla": 203
+      },
+      {
+        "barrio": "LEON XIII SEGUNDO SECTOR",
+        "malla": 204
+      },
+      {
+        "barrio": "LEONXIII",
+        "malla": 204
+      },
+      {
+        "barrio": "LOS LACHES",
+        "malla": 202
+      },
+      {
+        "barrio": "LOS OCALES",
+        "malla": 204
+      },
+      {
+        "barrio": "LOS OLIVOS",
+        "malla": 207
+      },
+      {
+        "barrio": "LOS OLIVOS",
+        "malla": 203
+      },
+      {
+        "barrio": "LOS OLIVOS",
+        "malla": 201
+      },
+      {
+        "barrio": "LOS OLIVOS",
+        "malla": 204
+      },
+      {
+        "barrio": "LOS PINOS",
+        "malla": 207
+      },
+      {
+        "barrio": "LUIS CARLOS GALAN",
+        "malla": 207
+      },
+      {
+        "barrio": "LUIS CARLOS GALAN II",
+        "malla": 205
+      },
+      {
+        "barrio": "MINUTO DE DIOS",
+        "malla": 205
+      },
+      {
+        "barrio": "MIRADOR DE SAN IGNACIO II",
+        "malla": 206
+      },
+      {
+        "barrio": "NUEVA GRANADA",
+        "malla": 160
+      },
+      {
+        "barrio": "NUEVA GRANADA",
+        "malla": 204
+      },
+      {
+        "barrio": "NUEVO COLON",
+        "malla": 205
+      },
+      {
+        "barrio": "PABLO NERUDA",
+        "malla": 202
+      },
+      {
+        "barrio": "PABLO NERUDA",
+        "malla": 90
+      },
+      {
+        "barrio": "PABLO NERUDA",
+        "malla": 205
+      },
+      {
+        "barrio": "PALESTINA",
+        "malla": 204
+      },
+      {
+        "barrio": "PARAISO",
+        "malla": 203
+      },
+      {
+        "barrio": "PARAISO",
+        "malla": 205
+      },
+      {
+        "barrio": "PARAISO",
+        "malla": 202
+      },
+      {
+        "barrio": "PARAISO",
+        "malla": 201
+      },
+      {
+        "barrio": "PARAISO",
+        "malla": 207
+      },
+      {
+        "barrio": "PARQUES DEL SOL I",
+        "malla": 202
+      },
+      {
+        "barrio": "PERDOMO ALTO",
+        "malla": 107
+      },
+      {
+        "barrio": "PORTAL DE LA HACIENDA",
+        "malla": 204
+      },
+      {
+        "barrio": "PRADO DE LOS ROSALES",
+        "malla": 204
+      },
+      {
+        "barrio": "PRIMAVERA",
+        "malla": 204
+      },
+      {
+        "barrio": "PRIMAVERA",
+        "malla": 205
+      },
+      {
+        "barrio": "PRIMAVERA",
+        "malla": 201
+      },
+      {
+        "barrio": "QUINTAS DE LA LAGUNA",
+        "malla": 205
+      },
+      {
+        "barrio": "QUINTAS DE LA LAGUNA",
+        "malla": 201
+      },
+      {
+        "barrio": "QUINTAS DE LA LAGUNA",
+        "malla": 202
+      },
+      {
+        "barrio": "RICAURTE",
+        "malla": 202
+      },
+      {
+        "barrio": "RICAURTE",
+        "malla": 206
+      },
+      {
+        "barrio": "RINCON DE SANTAFE",
+        "malla": 204
+      },
+      {
+        "barrio": "RINCON DE STAFE",
+        "malla": 203
+      },
+      {
+        "barrio": "RINCON DE STAFE",
+        "malla": 204
+      },
+      {
+        "barrio": "RINCON DEL LAGO",
+        "malla": 207
+      },
+      {
+        "barrio": "SAMARIA",
+        "malla": 202
+      },
+      {
+        "barrio": "SAN IGNACIO",
+        "malla": 203
+      },
+      {
+        "barrio": "SAN IGNACIO",
+        "malla": 206
+      },
+      {
+        "barrio": "SAN IGNACIO",
+        "malla": 207
+      },
+      {
+        "barrio": "SAN JOSE",
+        "malla": 202
+      },
+      {
+        "barrio": "SAN JUAN",
+        "malla": 202
+      },
+      {
+        "barrio": "SAN MATEO",
+        "malla": 209
+      },
+      {
+        "barrio": "SAN MATEO",
+        "malla": 206
+      },
+      {
+        "barrio": "SAN MATEO",
+        "malla": 202
+      },
+      {
+        "barrio": "SAN NICOLAS",
+        "malla": 203
+      },
+      {
+        "barrio": "SAN RAFAEL",
+        "malla": 207
+      },
+      {
+        "barrio": "SANAT ANA",
+        "malla": 203
+      },
+      {
+        "barrio": "SANTA ANA",
+        "malla": 201
+      },
+      {
+        "barrio": "SANTA ANA",
+        "malla": 205
+      },
+      {
+        "barrio": "SANTA ANA",
+        "malla": 204
+      },
+      {
+        "barrio": "SANTA ANA",
+        "malla": 207
+      },
+      {
+        "barrio": "SANTA ANA",
+        "malla": 203
+      },
+      {
+        "barrio": "SANTA ANA",
+        "malla": 202
+      },
+      {
+        "barrio": "SANTA ANA",
+        "malla": 90
+      },
+      {
+        "barrio": "SANTA INES",
+        "malla": 206
+      },
+      {
+        "barrio": "SANTO DOMINGO",
+        "malla": 205
+      },
+      {
+        "barrio": "SECTOR OSPINAS",
+        "malla": 206
+      },
+      {
+        "barrio": "SOACHA",
+        "malla": 203
+      },
+      {
+        "barrio": "SOACHA",
+        "malla": 204
+      },
+      {
+        "barrio": "SOACHA",
+        "malla": 207
+      },
+      {
+        "barrio": "SOACHA",
+        "malla": 205
+      },
+      {
+        "barrio": "SOACHA",
+        "malla": 202
+      },
+      {
+        "barrio": "SOACHA",
+        "malla": 206
+      },
+      {
+        "barrio": "SOACHA",
+        "malla": 201
+      },
+      {
+        "barrio": "TERRENOS",
+        "malla": 207
+      },
+      {
+        "barrio": "TERREROS",
+        "malla": 202
+      },
+      {
+        "barrio": "TERREROS",
+        "malla": 206
+      },
+      {
+        "barrio": "TERREROS",
+        "malla": 204
+      },
+      {
+        "barrio": "TERREROS",
+        "malla": 207
+      },
+      {
+        "barrio": "TEUSAQUILLO",
+        "malla": 206
+      },
+      {
+        "barrio": "URB TERREROS",
+        "malla": 206
+      },
+      {
+        "barrio": "URBANIZACION QUINTANARES",
+        "malla": 205
+      },
+      {
+        "barrio": "URBANIZACION QUINTANARES",
+        "malla": 201
+      },
+      {
+        "barrio": "URBANIZACION QUINTANARES",
+        "malla": 204
+      },
+      {
+        "barrio": "VILLA DE LOS ALPES",
+        "malla": 203
+      },
+      {
+        "barrio": "VILLA MERCEDES I",
+        "malla": 205
+      },
+      {
+        "barrio": "VILLA SANDRA",
+        "malla": 207
+      },
+      {
+        "barrio": "VILLA SOFIA II",
+        "malla": 203
+      },
+      {
+        "barrio": "VILLAS DE CASALOMA",
+        "malla": 205
+      },
+      {
+        "barrio": "VINCULO MAZUERA",
+        "malla": 209
+      },
+      {
+        "barrio": "ZONA  INDUSTRIAL  DE",
+        "malla": 205
+      },
+      {
+        "barrio": "ZONA DE CANTERA",
+        "malla": 207
+      },
+      {
+        "barrio": "ZONA INDUSTRIAL DE C",
+        "malla": 205
+      },
+      {
+        "barrio": "ZONA VERDE",
+        "malla": 206
+      }
+    ],
+    "SOGAMOSO": [
+      {
+        "barrio": "CENTRO",
+        "malla": 70
+      },
+      {
+        "barrio": "EL LIBERTADOR",
+        "malla": 70
+      },
+      {
+        "barrio": "LA ESMERALDA",
+        "malla": 70
+      },
+      {
+        "barrio": "UNIVERSITARIO",
+        "malla": 70
+      }
+    ],
+    "SOPO": [
+      {
+        "barrio": "BRICENO",
+        "malla": 8
+      },
+      {
+        "barrio": "BRICEÑO",
+        "malla": 8
+      },
+      {
+        "barrio": "NEUSA",
+        "malla": 8
+      },
+      {
+        "barrio": "SOPO",
+        "malla": 8
+      }
+    ],
+    "SOTAQUIRA": [
+      {
+        "barrio": "VEREDA BOSIGA",
+        "malla": 970
+      }
+    ],
+    "SUBACHOQUE": [
+      {
+        "barrio": "SUBACHOQUE",
+        "malla": 89
+      }
+    ],
+    "TABIO": [
+      {
+        "barrio": "EL OCAL   JUAICA",
+        "malla": 83
+      },
+      {
+        "barrio": "TABIO",
+        "malla": 83
+      }
+    ],
+    "TAURAMENA": [
+      {
+        "barrio": "TAURAMENA",
+        "malla": 972
+      }
+    ],
+    "TENJO": [
+      {
+        "barrio": "BIMBO",
+        "malla": 86
+      },
+      {
+        "barrio": "EL OCAL",
+        "malla": 84
+      }
+    ],
+    "TIBASOSA": [
+      {
+        "barrio": "TIBASOSA",
+        "malla": 74
+      }
+    ],
+    "TOCANCIPA": [
+      {
+        "barrio": "RENANIA",
+        "malla": 10
+      },
+      {
+        "barrio": "TOCANCIPA",
+        "malla": 10
+      }
+    ],
+    "TOPAGA": [
+      {
+        "barrio": "TOPAGA",
+        "malla": 70
+      }
+    ],
+    "TUNJA": [
+      {
+        "barrio": "BELLO HORIZONTE",
+        "malla": 76
+      },
+      {
+        "barrio": "CENTRO",
+        "malla": 76
+      },
+      {
+        "barrio": "EL CARMEN",
+        "malla": 76
+      },
+      {
+        "barrio": "LOS TRIGALES",
+        "malla": 76
+      },
+      {
+        "barrio": "MESOPOTAMIA",
+        "malla": 76
+      },
+      {
+        "barrio": "SAN ANTONIO",
+        "malla": 76
+      }
+    ],
+    "TUTA": [
+      {
+        "barrio": "TUTA",
+        "malla": 78
+      }
+    ],
+    "UBATE": [
+      {
+        "barrio": "SIMON BOLIVAR",
+        "malla": 11
+      }
+    ],
+    "VILLA DE LEYVA": [
+      {
+        "barrio": "VILLA DE LEYVA",
+        "malla": 79
+      }
+    ],
+    "VILLAVICENCIO": [
+      {
+        "barrio": "VILLAVICENCIO",
+        "malla": 968
+      }
+    ],
+    "VIOTA": [
+      {
+        "barrio": "LA CATEDRAL",
+        "malla": 132
+      },
+      {
+        "barrio": "VIOTA",
+        "malla": 237
+      }
+    ],
+    "YOPAL": [
+      {
+        "barrio": "YOPAL",
+        "malla": 965
+      }
+    ],
+    "YUMBO": [
+      {
+        "barrio": "SAN ANTONIO",
+        "malla": 974
+      },
+      {
+        "barrio": "YUMBO",
+        "malla": 972
+      }
+    ],
+    "ZIPAQUIRA": [
+      {
+        "barrio": "ALGARRA",
+        "malla": 12
+      },
+      {
+        "barrio": "EL CENTRO",
+        "malla": 12
+      },
+      {
+        "barrio": "EL PRADO",
+        "malla": 12
+      },
+      {
+        "barrio": "LA PAZ",
+        "malla": 12
+      },
+      {
+        "barrio": "LINDARAJA",
+        "malla": 2
+      }
+    ]
+  }
+}
