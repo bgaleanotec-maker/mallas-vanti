@@ -5,6 +5,18 @@ const fs = require('fs');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+// ── Diagnostico de archivos ──────────────────────────────────────────────
+const publicDir = path.join(__dirname, 'public');
+const indexPath = path.join(publicDir, 'index.html');
+console.log('📁 __dirname:', __dirname);
+console.log('📁 public dir:', publicDir);
+console.log('📁 public exists:', fs.existsSync(publicDir));
+console.log('📁 index.html exists:', fs.existsSync(indexPath));
+if (fs.existsSync(publicDir)) {
+  console.log('📁 public contents:', fs.readdirSync(publicDir));
+}
+console.log('📁 root contents:', fs.readdirSync(__dirname).filter(f => !f.startsWith('node_modules') && !f.startsWith('.')));
+
 // ── Cargar datos pre-procesados ──────────────────────────────────────────
 let DATA = {};
 try {
@@ -17,7 +29,7 @@ try {
 }
 
 // ── Rutas ─────────────────────────────────────────────────────────────────
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(publicDir));
 
 app.get('/api/data', (_req, res) => {
   res.set('Cache-Control', 'public, max-age=3600');
@@ -31,7 +43,12 @@ app.get('/health', (_req, res) => {
 });
 
 app.get('*', (_req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+  res.sendFile(indexPath, (err) => {
+    if (err) {
+      console.error('Error sendFile:', err.message);
+      res.status(404).send('index.html not found');
+    }
+  });
 });
 
 app.listen(PORT, () => {
